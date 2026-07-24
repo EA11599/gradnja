@@ -1,4 +1,3 @@
-@'
 #!/usr/bin/env python3
 """
 Automatski dohvaća broj zgrada u Gradu Zagrebu kroz vrijeme s ohsome API-ja
@@ -18,14 +17,18 @@ import requests
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 OHSOME_URL = "https://api.ohsome.org/v1/elements/count"
 
+# Ako Nominatim ne pronađe granicu ili vrati krivu (poznati rizik s upitima po imenu),
+# ovdje se može zalijepiti ručno preuzeti GeoJSON poligon granice Grada Zagreba kao fallback.
 FALLBACK_GEOJSON_PATH = Path(__file__).parent / "zagreb_boundary_fallback.geojson"
+
 OUTPUT_PATH = Path(__file__).parent.parent / "data" / "buildings_timeseries.json"
 
 START_DATE = "2012-01-01"
-INTERVAL = "P3M"
+INTERVAL = "P3M"  # tromjesečno; promijeniti u P1M za mjesečnu granularnost
 
 
 def get_zagreb_boundary() -> dict:
+    """Dohvaća granicu Grada Zagreba preko Nominatim API-ja."""
     if FALLBACK_GEOJSON_PATH.exists():
         with open(FALLBACK_GEOJSON_PATH, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -52,6 +55,7 @@ def get_zagreb_boundary() -> dict:
 
 
 def fetch_building_timeseries(boundary_geojson: dict) -> list:
+    """Poziva ohsome API za kumulativan broj entiteta s tagom building=* kroz vrijeme."""
     end_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     feature_collection = {
         "type": "FeatureCollection",
@@ -95,7 +99,7 @@ def main() -> int:
         "last_updated": datetime.now(timezone.utc).isoformat(),
         "source": "ohsome API (api.ohsome.org)",
         "area": "Grad Zagreb",
-        "series": series,
+        "series": series,  # lista {timestamp, value}
     }
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
@@ -108,4 +112,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-'@ | Out-File -Encoding utf8 "scripts\fetch_data.py"
