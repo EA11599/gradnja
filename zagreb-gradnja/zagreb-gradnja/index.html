@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Izvještaj gradnje — Grad Zagreb</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0E2238;
+    --bg-panel:#14304C;
+    --bg-panel-2:#183a5c;
+    --line:#8FD3E8;
+    --line-dim:rgba(143,211,232,0.18);
+    --accent:#E8871E;
+    --text:#EAF2F8;
+    --text-muted:#8FA9C2;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:
+      repeating-linear-gradient(0deg, var(--line-dim) 0px, var(--line-dim) 1px, transparent 1px, transparent 40px),
+      repeating-linear-gradient(90deg, var(--line-dim) 0px, var(--line-dim) 1px, transparent 1px, transparent 40px),
+      var(--bg);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    padding: 32px 20px 80px;
+  }
+  .wrap{ max-width: 980px; margin: 0 auto; }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    color:var(--accent);
+    letter-spacing:.14em;
+    font-size:12px;
+    text-transform:uppercase;
+    display:flex; align-items:center; gap:10px;
+  }
+  .eyebrow::before{ content:""; width:18px; height:1px; background:var(--accent); display:inline-block; }
+  h1{
+    font-family:'Space Grotesk', sans-serif;
+    font-weight:700;
+    font-size:clamp(32px, 5vw, 52px);
+    margin: 10px 0 6px;
+    letter-spacing:-0.01em;
+  }
+  .sub{ color:var(--text-muted); font-size:15px; max-width:60ch; }
+
+  .hero{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:16px;
+    margin: 36px 0;
+  }
+  .stat{
+    background:var(--bg-panel);
+    border:1px solid var(--line-dim);
+    border-radius:2px;
+    padding:20px 22px;
+    position:relative;
+  }
+  .stat::before{
+    content: attr(data-tag);
+    position:absolute; top:-9px; left:16px;
+    background:var(--bg);
+    padding:0 6px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:10px;
+    color:var(--line);
+    letter-spacing:.08em;
+  }
+  .stat .num{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:clamp(24px, 3.4vw, 34px);
+    font-weight:600;
+    color:var(--text);
+  }
+  .stat .lbl{ color:var(--text-muted); font-size:13px; margin-top:6px; }
+  .stat.accent .num{ color:var(--accent); }
+
+  .panel{
+    background:var(--bg-panel);
+    border:1px solid var(--line-dim);
+    border-radius:2px;
+    padding:24px;
+    margin-bottom:20px;
+  }
+  .panel h2{
+    font-family:'Space Grotesk', sans-serif;
+    font-size:18px;
+    margin:0 0 4px;
+  }
+  .panel .desc{ color:var(--text-muted); font-size:13px; margin-bottom:18px; }
+  canvas{ max-height: 360px; }
+
+  table{ width:100%; border-collapse:collapse; font-family:'IBM Plex Mono', monospace; font-size:13px; }
+  th, td{ text-align:left; padding:8px 10px; border-bottom:1px solid var(--line-dim); }
+  th{ color:var(--line); font-weight:500; text-transform:uppercase; font-size:11px; letter-spacing:.06em; }
+  td.delta-pos{ color:var(--accent); }
+
+  .foot{
+    color:var(--text-muted);
+    font-size:12px;
+    display:flex; justify-content:space-between; align-items:center;
+    margin-top: 8px;
+  }
+  .badge{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    border:1px dashed var(--line);
+    color:var(--line);
+    padding:2px 8px;
+    border-radius:20px;
+  }
+  .empty{
+    color:var(--text-muted);
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    padding: 30px 0;
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="eyebrow">OSM · ohsome API · Grad Zagreb</div>
+  <h1>Izvještaj gradnje</h1>
+  <p class="sub">Kumulativan rast broja zgrada u Gradu Zagrebu prema OpenStreetMap podacima. Podaci se dohvaćaju automatski, bez ručne intervencije.</p>
+
+  <div class="hero">
+    <div class="stat accent" data-tag="TRENUTNO">
+      <div class="num" id="stat-total">—</div>
+      <div class="lbl">ukupno zgrada u OSM-u</div>
+    </div>
+    <div class="stat" data-tag="RAST">
+      <div class="num" id="stat-growth">—</div>
+      <div class="lbl">novih zgrada od početka praćenja</div>
+    </div>
+    <div class="stat" data-tag="AŽURIRANO">
+      <div class="num" id="stat-updated" style="font-size:16px;">—</div>
+      <div class="lbl">zadnje automatsko osvježavanje</div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>Kumulativni rast</h2>
+    <div class="desc">Ukupan broj zgrada s tagom building=* kroz vrijeme.</div>
+    <canvas id="cumulativeChart"></canvas>
+  </div>
+
+  <div class="panel">
+    <h2>Nove zgrade po periodu</h2>
+    <div class="desc">Razlika u odnosu na prethodnu točku — pokazuje ubrzava li ili usporava dinamika unosa.</div>
+    <canvas id="deltaChart"></canvas>
+  </div>
+
+  <div class="panel">
+    <h2>Log iteracija</h2>
+    <div class="desc">Transparentnost izvora — svaka točka koja ulazi u graf iznad.</div>
+    <div id="tableWrap"><div class="empty">Podaci se učitavaju…</div></div>
+  </div>
+
+  <div class="foot">
+    <span>Izvor: ohsome API (OSM History Analytics, Sveučilište u Heidelbergu)</span>
+    <span class="badge" id="statusBadge">● povlačim podatke</span>
+  </div>
+
+</div>
+
+<script>
+async function loadData(){
+  const badge = document.getElementById('statusBadge');
+  try{
+    const res = await fetch('./data/buildings_timeseries.json', {cache:'no-store'});
+    const json = await res.json();
+    if(!json.series || json.series.length === 0){
+      badge.textContent = '● nema podataka još';
+      document.getElementById('tableWrap').innerHTML = '<div class="empty">Automatski fetch još nije pokrenut. Pokreni GitHub Action ručno (workflow_dispatch) za prvi unos podataka.</div>';
+      return;
+    }
+    render(json);
+    badge.textContent = '● live';
+  }catch(e){
+    badge.textContent = '● greška pri učitavanju';
+    console.error(e);
+  }
+}
+
+function render(json){
+  const series = json.series;
+  const labels = series.map(p => p.timestamp.slice(0,10));
+  const values = series.map(p => p.value);
+  const deltas = values.map((v,i) => i === 0 ? 0 : v - values[i-1]);
+
+  document.getElementById('stat-total').textContent = values[values.length-1].toLocaleString('hr-HR');
+  document.getElementById('stat-growth').textContent = '+' + (values[values.length-1] - values[0]).toLocaleString('hr-HR');
+  document.getElementById('stat-updated').textContent = json.last_updated ? new Date(json.last_updated).toLocaleString('hr-HR') : '—';
+
+  new Chart(document.getElementById('cumulativeChart'), {
+    type: 'line',
+    data: { labels, datasets: [{
+      data: values,
+      borderColor: '#8FD3E8',
+      backgroundColor: 'rgba(143,211,232,0.08)',
+      borderWidth: 2,
+      pointRadius: 0,
+      fill: true,
+      tension: 0.15
+    }]},
+    options: {
+      plugins:{ legend:{display:false} },
+      scales:{
+        x:{ ticks:{ color:'#8FA9C2', maxTicksLimit: 8 }, grid:{ color:'rgba(143,211,232,0.08)' } },
+        y:{ ticks:{ color:'#8FA9C2' }, grid:{ color:'rgba(143,211,232,0.08)' } }
+      }
+    }
+  });
+
+  new Chart(document.getElementById('deltaChart'), {
+    type: 'bar',
+    data: { labels, datasets: [{
+      data: deltas,
+      backgroundColor: '#E8871E'
+    }]},
+    options: {
+      plugins:{ legend:{display:false} },
+      scales:{
+        x:{ ticks:{ color:'#8FA9C2', maxTicksLimit: 8 }, grid:{ display:false } },
+        y:{ ticks:{ color:'#8FA9C2' }, grid:{ color:'rgba(143,211,232,0.08)' } }
+      }
+    }
+  });
+
+  const rows = series.slice().reverse().slice(0, 20).map((p, idx, arr) => {
+    const i = series.length - 1 - idx;
+    const d = i === 0 ? 0 : series[i].value - series[i-1].value;
+    return `<tr><td>${p.timestamp.slice(0,10)}</td><td>${p.value.toLocaleString('hr-HR')}</td><td class="delta-pos">${d>0?'+':''}${d.toLocaleString('hr-HR')}</td></tr>`;
+  }).join('');
+  document.getElementById('tableWrap').innerHTML = `
+    <table>
+      <thead><tr><th>Datum</th><th>Ukupno zgrada</th><th>Δ</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>`;
+}
+
+loadData();
+</script>
+</body>
+</html>

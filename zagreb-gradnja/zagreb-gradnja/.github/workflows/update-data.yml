@@ -1,0 +1,36 @@
+name: Ažuriraj podatke o gradnji u Zagrebu
+
+on:
+  schedule:
+    # Svaki ponedjeljak u 03:00 UTC — mijenjaj po potrebi
+    - cron: "0 3 * * 1"
+  workflow_dispatch: {}  # omogućuje i ručno pokretanje s GitHub sučelja, za testiranje
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Preuzmi repozitorij
+        uses: actions/checkout@v4
+
+      - name: Postavi Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instaliraj ovisnosti
+        run: pip install requests
+
+      - name: Dohvati nove podatke
+        run: python scripts/fetch_data.py
+
+      - name: Commitaj promjene ako ih ima
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/buildings_timeseries.json
+          git diff --staged --quiet || git commit -m "Automatsko ažuriranje podataka $(date -u +%Y-%m-%d)"
+          git push
