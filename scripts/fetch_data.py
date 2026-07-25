@@ -174,7 +174,11 @@ def load_new_log() -> list:
         return []
 
 
-def osm_url(osm_type: str, numeric_id: int) -> str:
+def osm_url(osm_type: str, numeric_id: int, lat, lon) -> str:
+    # Link na kartu centriranu na lokaciju (s markerom) — ovo uvijek radi.
+    # Ako postoje koordinate, koristi njih; inače kao rezervu link na sam element.
+    if lat is not None and lon is not None:
+        return f"https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}"
     return f"https://www.openstreetmap.org/{osm_type}/{numeric_id}"
 
 
@@ -225,7 +229,7 @@ def main() -> int:
                 "id": element_id,
                 "osm_type": b["osm_type"],
                 "osm_numeric_id": b["osm_numeric_id"],
-                "osm_url": osm_url(b["osm_type"], b["osm_numeric_id"]),
+                "osm_url": osm_url(b["osm_type"], b["osm_numeric_id"], b["lat"], b["lon"]),
                 "category": b["category"],
                 "lat": b["lat"],
                 "lon": b["lon"],
