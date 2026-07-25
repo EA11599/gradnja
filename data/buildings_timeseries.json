@@ -1,6 +1,18 @@
 {
-  "last_updated": null,
-  "source": "ohsome API (api.ohsome.org)",
-  "area": "Grad Zagreb",
-  "series": []
+  "last_updated": "2026-07-25T12:19:43.107603+00:00",
+  "source": "Overpass API (overpass-api.de i mirroru)",
+  "area_bbox": [
+    45.75,
+    15.8,
+    45.9,
+    16.15
+  ],
+  "note": "Pratimo promjene od početka praćenja, ne punu povijest OSM-a.",
+  "series": [
+    {
+      "timestamp": "2026-07-25T12:19:43.107603+00:00",
+      "total": 118882,
+      "new_since_last": 0
+    }
+  ]
 }
