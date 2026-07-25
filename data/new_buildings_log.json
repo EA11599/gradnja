@@ -1,5 +1,31 @@
 {
-  "last_updated": null,
-  "category_labels": {},
-  "entries": []
+  "last_updated": "2026-07-25T00:00:00+00:00",
+  "category_labels": {
+    "stambene": "Stambene zgrade",
+    "kuce": "Kuće",
+    "garaze": "Garaže",
+    "poslovno": "Poslovni objekti",
+    "ostalo": "Ostalo (poznat tip)",
+    "stambene_procjena": "Vjerojatno stambene (procjena po broju etaža)",
+    "kuce_procjena": "Vjerojatno kuće (procjena po broju etaža)",
+    "nepoznato": "Nepoznato (bez dovoljno podataka za procjenu)"
+  },
+  "entries": [
+    {
+      "detected_at": "2026-07-25T00:00:00+00:00",
+      "id": "way/999999999",
+      "osm_type": "way",
+      "osm_numeric_id": 999999999,
+      "osm_url": "https://www.openstreetmap.org/way/999999999",
+      "category": "kuce",
+      "lat": 45.8081,
+      "lon": 15.9678,
+      "tags": {
+        "building": "house",
+        "addr:street": "Jaruščica",
+        "addr:housenumber": "5",
+        "note": "TESTNI ZAPIS - izmisljen radi provjere dashboarda, ne postoji na OSM-u"
+      }
+    }
+  ]
 }
