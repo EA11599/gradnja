@@ -158,6 +158,12 @@
   </div>
 
   <div class="panel">
+    <h2>Raspodjela po tipu zgrade</h2>
+    <div class="desc">Trenutno stanje i koliko je novo od zadnjeg pokretanja, po kategoriji.</div>
+    <div id="categoryWrap"><div class="empty">Podaci se učitavaju…</div></div>
+  </div>
+
+  <div class="panel">
     <h2>Log iteracija</h2>
     <div class="desc">Transparentnost izvora — svaka točka koja ulazi u graf iznad.</div>
     <div id="tableWrap"><div class="empty">Podaci se učitavaju…</div></div>
@@ -242,6 +248,23 @@ function render(json){
     <table>
       <thead><tr><th>Datum</th><th>Ukupno zgrada</th><th>Δ</th></tr></thead>
       <tbody>${rows}</tbody>
+    </table>`;
+
+  const latest = series[series.length - 1];
+  const labels_map = json.category_labels || {};
+  const byCat = latest.by_category || {};
+  const newByCat = latest.new_by_category || {};
+  const catOrder = ['stambene','kuce','garaze','poslovno','ostalo','nepoznato'];
+  const catRows = catOrder
+    .filter(c => byCat[c] !== undefined)
+    .map(c => {
+      const d = newByCat[c] || 0;
+      return `<tr><td>${labels_map[c] || c}</td><td>${(byCat[c]||0).toLocaleString('hr-HR')}</td><td class="delta-pos">${d>0?'+':''}${d.toLocaleString('hr-HR')}</td></tr>`;
+    }).join('');
+  document.getElementById('categoryWrap').innerHTML = `
+    <table>
+      <thead><tr><th>Tip zgrade</th><th>Ukupno</th><th>Novo od zadnjeg pokretanja</th></tr></thead>
+      <tbody>${catRows}</tbody>
     </table>`;
 }
 
