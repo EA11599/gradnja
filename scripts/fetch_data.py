@@ -9,10 +9,40 @@ Ova skripta se pokreće automatski putem GitHub Actionsa (vidi
 
 import json
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+
+MAX_RETRIES = 3
+BACKOFF_SECONDS = [10, 30, 90]  # pauza prije 2., 3. i 4. pokušaja
+
+
+def call_with_retry(description: str, func, *args, **kwargs):
+    """Poziva func s ponovnim pokušajima kod privremenih grešaka (5xx, timeout, mrežne greške).
+    Ako su svi pokušaji neuspješni, diže zadnju iznimku dalje."""
+    last_exc = None
+    for attempt in range(1, MAX_RETRIES + 2):  # ukupno do 4 pokušaja
+        try:
+            return func(*args, **kwargs)
+        except requests.exceptions.HTTPError as exc:
+            status = exc.response.status_code if exc.response is not None else None
+            last_exc = exc
+            # 4xx (osim 429) su trajne greške u našem upitu — nema smisla ponavljati
+            if status is not None and 400 <= status < 500 and status != 429:
+                raise
+            print(f"[{description}] pokušaj {attempt} neuspješan (HTTP {status}).", file=sys.stderr)
+        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as exc:
+            last_exc = exc
+            print(f"[{description}] pokušaj {attempt} neuspješan ({exc.__class__.__name__}).", file=sys.stderr)
+
+        if attempt <= MAX_RETRIES:
+            pause = BACKOFF_SECONDS[attempt - 1]
+            print(f"[{description}] čekam {pause}s prije ponovnog pokušaja...", file=sys.stderr)
+            time.sleep(pause)
+
+    raise last_exc
 
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 OHSOME_URL = "https://api.ohsome.org/v1/elements/count"
@@ -85,15 +115,23 @@ def fetch_building_timeseries(boundary_geojson: dict) -> list:
 
 def main() -> int:
     try:
-        boundary = get_zagreb_boundary()
-        series = fetch_building_timeseries(boundary)
+        boundary = call_with_retry("Nominatim", get_zagreb_boundary)
+        series = call_with_retry("ohsome API", fetch_building_timeseries, boundary)
     except Exception as exc:
-        print(f"GREŠKA prilikom dohvaćanja podataka: {exc}", file=sys.stderr)
-        return 1
+        # Nakon svih pokušaja i dalje neuspješno — vjerojatno je vanjski servis
+        # trenutno nedostupan. Ne diramo postojeće podatke i tiho izlazimo
+        # (exit 0) da GitHub Action ne prijavi "failure" svaki put kad servis
+        # privremeno padne; idući zakazani run će jednostavno probati ponovno.
+        print(
+            f"Vanjski servis nedostupan nakon {MAX_RETRIES + 1} pokušaja, "
+            f"preskačem ovaj ciklus: {exc}",
+            file=sys.stderr,
+        )
+        return 0
 
     if not series:
-        print("Upozorenje: ohsome API vratio je prazan rezultat.", file=sys.stderr)
-        return 1
+        print("Upozorenje: ohsome API vratio je prazan rezultat, preskačem ovaj ciklus.", file=sys.stderr)
+        return 0
 
     output = {
         "last_updated": datetime.now(timezone.utc).isoformat(),
