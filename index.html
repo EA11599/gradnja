@@ -114,6 +114,15 @@
     padding:2px 8px;
     border-radius:20px;
   }
+  .nb-row{ cursor:pointer; }
+  .nb-row:hover{ background:rgba(143,211,232,0.05); }
+  .nb-loc-link{ color:var(--line); text-decoration:none; }
+  .nb-loc-link:hover{ text-decoration:underline; }
+  .nb-details{ display:none; background:rgba(0,0,0,0.15); }
+  .nb-details.open{ display:table-row; }
+  .nb-tags{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--text-muted); padding:10px 14px; }
+  .nb-tags div{ margin-bottom:3px; }
+  .nb-tags span{ color:var(--line); }
   .empty{
     color:var(--text-muted);
     font-family:'IBM Plex Mono', monospace;
@@ -161,6 +170,12 @@
     <h2>Raspodjela po tipu zgrade</h2>
     <div class="desc">Trenutno stanje i koliko je novo od zadnjeg pokretanja, po kategoriji.</div>
     <div id="categoryWrap"><div class="empty">Podaci se učitavaju…</div></div>
+  </div>
+
+  <div class="panel">
+    <h2>Nove zgrade</h2>
+    <div class="desc">Svaka pojedinačno otkrivena nova zgrada. Klik na lokaciju otvara OpenStreetMap; klik na red prikazuje sve poznate podatke.</div>
+    <div id="newBuildingsWrap"><div class="empty">Podaci se učitavaju…</div></div>
   </div>
 
   <div class="panel">
@@ -268,7 +283,42 @@ function render(json){
     </table>`;
 }
 
+async function loadNewBuildings(){
+  const wrap = document.getElementById('newBuildingsWrap');
+  try{
+    const res = await fetch('./data/new_buildings_log.json', {cache:'no-store'});
+    const json = await res.json();
+    const entries = json.entries || [];
+    if(entries.length === 0){
+      wrap.innerHTML = '<div class="empty">Još nema zabilježenih novih zgrada — pojavit će se nakon što se otkrije razlika između dva pokretanja.</div>';
+      return;
+    }
+    const labels = json.category_labels || {};
+    const rows = entries.slice().reverse().slice(0, 100).map((e, idx) => {
+      const tagsHtml = Object.entries(e.tags || {}).map(([k,v]) => `<div><span>${k}</span> = ${v}</div>`).join('') || '<div>(nema dodatnih tagova)</div>';
+      const loc = (e.lat && e.lon) ? `${e.lat.toFixed(5)}, ${e.lon.toFixed(5)}` : '—';
+      return `
+        <tr class="nb-row" onclick="document.getElementById('nb-${idx}').classList.toggle('open')">
+          <td>${e.detected_at.slice(0,10)}</td>
+          <td>${labels[e.category] || e.category}</td>
+          <td><a class="nb-loc-link" href="${e.osm_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${loc} ↗</a></td>
+        </tr>
+        <tr class="nb-details" id="nb-${idx}"><td colspan="3"><div class="nb-tags">${tagsHtml}</div></td></tr>
+      `;
+    }).join('');
+    wrap.innerHTML = `
+      <table>
+        <thead><tr><th>Otkriveno</th><th>Tip</th><th>Lokacija</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }catch(e){
+    wrap.innerHTML = '<div class="empty">Greška pri učitavanju dnevnika novih zgrada.</div>';
+    console.error(e);
+  }
+}
+
 loadData();
+loadNewBuildings();
 </script>
 </body>
 </html>
