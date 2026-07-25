@@ -254,7 +254,7 @@ function render(json){
   const labels_map = json.category_labels || {};
   const byCat = latest.by_category || {};
   const newByCat = latest.new_by_category || {};
-  const catOrder = ['stambene','kuce','garaze','poslovno','ostalo','nepoznato'];
+  const catOrder = ['stambene','kuce','garaze','poslovno','ostalo','stambene_procjena','kuce_procjena','nepoznato'];
   const catRows = catOrder
     .filter(c => byCat[c] !== undefined)
     .map(c => {

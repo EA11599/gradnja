@@ -69,14 +69,36 @@ CATEGORY_LABELS = {
     "garaze": "Garaže",
     "poslovno": "Poslovni objekti",
     "ostalo": "Ostalo (poznat tip)",
-    "nepoznato": "Nepoznato / generičko (building=yes)",
+    "stambene_procjena": "Vjerojatno stambene (procjena po broju etaža)",
+    "kuce_procjena": "Vjerojatno kuće (procjena po broju etaža)",
+    "nepoznato": "Nepoznato (bez dovoljno podataka za procjenu)",
 }
 
 
-def classify(building_tag_value: str) -> str:
-    if building_tag_value == "yes":
+def parse_levels(value: str):
+    """Pokušava izvući broj etaža iz building:levels vrijednosti (npr. '3', '2.5', '1;2')."""
+    if not value:
+        return None
+    # Neki unosi imaju raspone ili više vrijednosti odvojene s ';' — uzmi prvu.
+    first = value.split(";")[0].strip()
+    try:
+        return float(first)
+    except ValueError:
+        return None
+
+
+def classify(tags: dict) -> str:
+    building_value = tags.get("building", "yes")
+    if building_value != "yes":
+        return CATEGORY_MAP.get(building_value, "ostalo")
+
+    # building=yes (generičko) — probaj procjenu preko broja etaža.
+    levels = parse_levels(tags.get("building:levels", ""))
+    if levels is None:
         return "nepoznato"
-    return CATEGORY_MAP.get(building_tag_value, "ostalo")
+    if levels <= 2:
+        return "kuce_procjena"
+    return "stambene_procjena"
 
 
 def build_query() -> str:
@@ -112,8 +134,7 @@ def fetch_buildings() -> dict:
                     if el.get("type") not in ("way", "relation"):
                         continue
                     element_id = f"{el['type']}/{el['id']}"
-                    building_value = el.get("tags", {}).get("building", "yes")
-                    result[element_id] = classify(building_value)
+                    result[element_id] = classify(el.get("tags", {}))
                 if not result:
                     raise RuntimeError("Overpass je vratio prazan skup elemenata.")
                 return result
