@@ -1,0 +1,7 @@
+[out:json][timeout:60];
+area["name"="Grad Zagreb"]["boundary"="administrative"]->.a;
+(
+  way["building"](area.a);
+  relation["building"](area.a);
+);
+out count;

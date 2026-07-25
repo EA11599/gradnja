@@ -1,0 +1,6 @@
+[out:json][timeout:25][date:"2020-01-01T00:00:00Z"];
+(
+  way["building"](45.75,15.8,45.9,16.15);
+  relation["building"](45.75,15.8,45.9,16.15);
+);
+out count;

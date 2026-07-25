@@ -192,11 +192,11 @@ async function loadData(){
 function render(json){
   const series = json.series;
   const labels = series.map(p => p.timestamp.slice(0,10));
-  const values = series.map(p => p.value);
-  const deltas = values.map((v,i) => i === 0 ? 0 : v - values[i-1]);
+  const values = series.map(p => p.total);
+  const deltas = series.map(p => p.new_since_last || 0);
 
   document.getElementById('stat-total').textContent = values[values.length-1].toLocaleString('hr-HR');
-  document.getElementById('stat-growth').textContent = '+' + (values[values.length-1] - values[0]).toLocaleString('hr-HR');
+  document.getElementById('stat-growth').textContent = '+' + deltas.reduce((a,b)=>a+b,0).toLocaleString('hr-HR');
   document.getElementById('stat-updated').textContent = json.last_updated ? new Date(json.last_updated).toLocaleString('hr-HR') : '—';
 
   new Chart(document.getElementById('cumulativeChart'), {
@@ -234,10 +234,9 @@ function render(json){
     }
   });
 
-  const rows = series.slice().reverse().slice(0, 20).map((p, idx, arr) => {
-    const i = series.length - 1 - idx;
-    const d = i === 0 ? 0 : series[i].value - series[i-1].value;
-    return `<tr><td>${p.timestamp.slice(0,10)}</td><td>${p.value.toLocaleString('hr-HR')}</td><td class="delta-pos">${d>0?'+':''}${d.toLocaleString('hr-HR')}</td></tr>`;
+  const rows = series.slice().reverse().slice(0, 20).map(p => {
+    const d = p.new_since_last || 0;
+    return `<tr><td>${p.timestamp.slice(0,10)}</td><td>${p.total.toLocaleString('hr-HR')}</td><td class="delta-pos">${d>0?'+':''}${d.toLocaleString('hr-HR')}</td></tr>`;
   }).join('');
   document.getElementById('tableWrap').innerHTML = `
     <table>

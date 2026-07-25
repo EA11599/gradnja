@@ -1,0 +1,6 @@
+[out:json][timeout:25];
+(
+  way["building"](45.75,15.8,45.9,16.15);
+  relation["building"](45.75,15.8,45.9,16.15);
+);
+out count;

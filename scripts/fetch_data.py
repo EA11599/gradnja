@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
 """
-Automatski dohvaća broj zgrada u Gradu Zagrebu kroz vrijeme s ohsome API-ja
-(OSM History Analytics, Sveučilište u Heidelbergu) i sprema rezultat kao JSON.
+Prati NOVE zgrade u Gradu Zagrebu preko Overpass API-ja.
 
-Ova skripta se pokreće automatski putem GitHub Actionsa (vidi
-.github/workflows/update-data.yml) — nema ručnih koraka.
+Pristup (namjerno jednostavan i pouzdan, umjesto povijesne rekonstrukcije
+koja se pokazala preskupom za javne Overpass servere):
+
+1. Svako pokretanje dohvati ID-jeve SVIH trenutnih zgrada (way + relation
+   s tagom building=*) unutar bounding boxa Grada Zagreba.
+2. Usporedi taj popis s popisom iz prošlog pokretanja (spremljenim lokalno).
+3. Nove zgrade = ID-jevi koji su sad prisutni, a prije nisu bili.
+4. Doda jednu točku u kumulativnu vremensku seriju (ukupno + koliko je
+   novo od zadnjeg pokretanja), i sprema trenutni popis ID-jeva za
+   sljedeću usporedbu.
+
+Nema ručnih koraka — pokreće se automatski putem GitHub Actionsa
+(.github/workflows/update-data.yml).
 """
 
 import json
@@ -15,136 +25,142 @@ from pathlib import Path
 
 import requests
 
-MAX_RETRIES = 3
-BACKOFF_SECONDS = [10, 30, 90]  # pauza prije 2., 3. i 4. pokušaja
+# Nekoliko javnih Overpass instanci — ako je jedna zauzeta, probamo sljedeću.
+OVERPASS_MIRRORS = [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://overpass.openstreetmap.ru/api/interpreter",
+]
+
+# Bounding box Grada Zagreba (min_lat, min_lon, max_lat, max_lon).
+# Namjerno jednostavan i brz pristup koji je potvrđeno pouzdan (za razliku
+# od area["name"=...] pretrage, koja izaziva timeout na javnim serverima).
+ZAGREB_BBOX = (45.75, 15.8, 45.9, 16.15)
+
+TIMESERIES_PATH = Path(__file__).parent.parent / "data" / "buildings_timeseries.json"
+SNAPSHOT_IDS_PATH = Path(__file__).parent.parent / "data" / "buildings_snapshot_ids.json"
+
+MAX_RETRIES = 2  # po mirroru
+BACKOFF_SECONDS = [15, 45]
 
 
-def call_with_retry(description: str, func, *args, **kwargs):
-    """Poziva func s ponovnim pokušajima kod privremenih grešaka (5xx, timeout, mrežne greške).
-    Ako su svi pokušaji neuspješni, diže zadnju iznimku dalje."""
+def build_query() -> str:
+    lat1, lon1, lat2, lon2 = ZAGREB_BBOX
+    return (
+        f'[out:json][timeout:120];'
+        f'(way["building"]({lat1},{lon1},{lat2},{lon2});'
+        f'relation["building"]({lat1},{lon1},{lat2},{lon2}););'
+        f'out ids;'
+    )
+
+
+def fetch_building_ids() -> set:
+    """Dohvaća skup ID-jeva svih zgrada u bboxu, probajući više mirrora s retry logikom."""
+    query = build_query()
+    headers = {
+        "User-Agent": "zagreb-gradnja-izvjestaj/1.0 (github actions bot; automated report)",
+    }
     last_exc = None
-    for attempt in range(1, MAX_RETRIES + 2):  # ukupno do 4 pokušaja
-        try:
-            return func(*args, **kwargs)
-        except requests.exceptions.HTTPError as exc:
-            status = exc.response.status_code if exc.response is not None else None
-            last_exc = exc
-            # 4xx (osim 429) su trajne greške u našem upitu — nema smisla ponavljati
-            if status is not None and 400 <= status < 500 and status != 429:
-                raise
-            print(f"[{description}] pokušaj {attempt} neuspješan (HTTP {status}).", file=sys.stderr)
-        except (requests.exceptions.ConnectionError, requests.exceptions.Timeout) as exc:
-            last_exc = exc
-            print(f"[{description}] pokušaj {attempt} neuspješan ({exc.__class__.__name__}).", file=sys.stderr)
 
-        if attempt <= MAX_RETRIES:
-            pause = BACKOFF_SECONDS[attempt - 1]
-            print(f"[{description}] čekam {pause}s prije ponovnog pokušaja...", file=sys.stderr)
-            time.sleep(pause)
+    for mirror in OVERPASS_MIRRORS:
+        for attempt in range(1, MAX_RETRIES + 2):
+            try:
+                resp = requests.post(
+                    mirror, data={"data": query}, headers=headers, timeout=150
+                )
+                resp.raise_for_status()
+                body = resp.json()
+                if "remark" in body:
+                    # Overpass ponekad vrati HTTP 200 s ugniježđenom greškom (npr. timeout)
+                    raise RuntimeError(f"Overpass remark: {body['remark']}")
+                ids = {
+                    f"{el['type']}/{el['id']}"
+                    for el in body.get("elements", [])
+                    if el.get("type") in ("way", "relation")
+                }
+                if not ids:
+                    raise RuntimeError("Overpass je vratio prazan skup elemenata.")
+                return ids
+            except Exception as exc:
+                last_exc = exc
+                print(f"[{mirror}] pokušaj {attempt} neuspješan: {exc}", file=sys.stderr)
+                if attempt <= MAX_RETRIES:
+                    pause = BACKOFF_SECONDS[attempt - 1]
+                    print(f"[{mirror}] čekam {pause}s prije ponovnog pokušaja...", file=sys.stderr)
+                    time.sleep(pause)
 
-    raise last_exc
-
-NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-OHSOME_URL = "https://api.ohsome.org/v1/elements/count"
-
-# Ako Nominatim ne pronađe granicu ili vrati krivu (poznati rizik s upitima po imenu),
-# ovdje se može zalijepiti ručno preuzeti GeoJSON poligon granice Grada Zagreba kao fallback.
-FALLBACK_GEOJSON_PATH = Path(__file__).parent / "zagreb_boundary_fallback.geojson"
-
-OUTPUT_PATH = Path(__file__).parent.parent / "data" / "buildings_timeseries.json"
-
-START_DATE = "2012-01-01"
-INTERVAL = "P3M"  # tromjesečno; promijeniti u P1M za mjesečnu granularnost
+    raise last_exc if last_exc else RuntimeError("Nepoznata greška prilikom dohvaćanja podataka.")
 
 
-def get_zagreb_boundary() -> dict:
-    """Dohvaća granicu Grada Zagreba preko Nominatim API-ja."""
-    if FALLBACK_GEOJSON_PATH.exists():
-        with open(FALLBACK_GEOJSON_PATH, "r", encoding="utf-8") as f:
-            return json.load(f)
-
-    params = {
-        "q": "Grad Zagreb, Hrvatska",
-        "format": "json",
-        "polygon_geojson": 1,
-        "limit": 1,
-    }
-    headers = {
-        "User-Agent": "zagreb-gradnja-izvjestaj/1.0 (github actions bot; automated report)",
-        "Accept": "application/json",
-    }
-    resp = requests.get(NOMINATIM_URL, params=params, headers=headers, timeout=30)
-    resp.raise_for_status()
-    results = resp.json()
-    if not results:
-        raise RuntimeError(
-            "Nominatim nije pronašao granicu Grada Zagreba. "
-            "Ubaci ručno preuzet GeoJSON u scripts/zagreb_boundary_fallback.geojson"
-        )
-    return results[0]["geojson"]
+def load_previous_ids() -> set:
+    if not SNAPSHOT_IDS_PATH.exists():
+        return set()
+    try:
+        with open(SNAPSHOT_IDS_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return set(data.get("ids", []))
+    except Exception:
+        return set()
 
 
-def fetch_building_timeseries(boundary_geojson: dict) -> list:
-    """Poziva ohsome API za kumulativan broj entiteta s tagom building=* kroz vrijeme."""
-    end_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    feature_collection = {
-        "type": "FeatureCollection",
-        "features": [
-            {
-                "type": "Feature",
-                "properties": {"id": "zagreb"},
-                "geometry": boundary_geojson,
-            }
-        ],
-    }
-    payload = {
-        "bpolys": json.dumps(feature_collection),
-        "filter": "building=* and (type:way or type:relation)",
-        "time": f"{START_DATE}/{end_date}/{INTERVAL}",
-        "format": "json",
-    }
-    headers = {
-        "User-Agent": "zagreb-gradnja-izvjestaj/1.0 (github actions bot; automated report)",
-        "Accept": "application/json",
-    }
-    resp = requests.post(OHSOME_URL, data=payload, headers=headers, timeout=180)
-    resp.raise_for_status()
-    body = resp.json()
-    return body.get("result", [])
+def load_timeseries() -> list:
+    if not TIMESERIES_PATH.exists():
+        return []
+    try:
+        with open(TIMESERIES_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data.get("series", [])
+    except Exception:
+        return []
 
 
 def main() -> int:
     try:
-        boundary = call_with_retry("Nominatim", get_zagreb_boundary)
-        series = call_with_retry("ohsome API", fetch_building_timeseries, boundary)
+        current_ids = fetch_building_ids()
     except Exception as exc:
-        # Nakon svih pokušaja i dalje neuspješno — vjerojatno je vanjski servis
-        # trenutno nedostupan. Ne diramo postojeće podatke i tiho izlazimo
-        # (exit 0) da GitHub Action ne prijavi "failure" svaki put kad servis
-        # privremeno padne; idući zakazani run će jednostavno probati ponovno.
-        print(
-            f"Vanjski servis nedostupan nakon {MAX_RETRIES + 1} pokušaja, "
-            f"preskačem ovaj ciklus: {exc}",
-            file=sys.stderr,
+        # Vanjski servis nedostupan nakon svih pokušaja na svim mirrorima —
+        # tiho preskačemo ovaj ciklus (exit 0), ne diramo postojeće podatke.
+        # Idući zakazani run će jednostavno probati ponovno.
+        print(f"Overpass nedostupan nakon svih pokušaja, preskačem ovaj ciklus: {exc}", file=sys.stderr)
+        return 0
+
+    previous_ids = load_previous_ids()
+    is_first_run = len(previous_ids) == 0
+
+    new_ids = current_ids - previous_ids if not is_first_run else set()
+    now = datetime.now(timezone.utc).isoformat()
+
+    series = load_timeseries()
+    series.append(
+        {
+            "timestamp": now,
+            "total": len(current_ids),
+            "new_since_last": len(new_ids) if not is_first_run else 0,
+        }
+    )
+
+    TIMESERIES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(TIMESERIES_PATH, "w", encoding="utf-8") as f:
+        json.dump(
+            {
+                "last_updated": now,
+                "source": "Overpass API (overpass-api.de i mirroru)",
+                "area_bbox": list(ZAGREB_BBOX),
+                "note": "Pratimo promjene od početka praćenja, ne punu povijest OSM-a.",
+                "series": series,
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
         )
-        return 0
 
-    if not series:
-        print("Upozorenje: ohsome API vratio je prazan rezultat, preskačem ovaj ciklus.", file=sys.stderr)
-        return 0
+    with open(SNAPSHOT_IDS_PATH, "w", encoding="utf-8") as f:
+        json.dump({"last_updated": now, "ids": sorted(current_ids)}, f)
 
-    output = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "source": "ohsome API (api.ohsome.org)",
-        "area": "Grad Zagreb",
-        "series": series,  # lista {timestamp, value}
-    }
-
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(f"Spremljeno {len(series)} točaka u {OUTPUT_PATH}")
+    if is_first_run:
+        print(f"Prvo pokretanje: zabilježeno {len(current_ids)} zgrada kao početna točka.")
+    else:
+        print(f"Ukupno {len(current_ids)} zgrada, {len(new_ids)} novih od zadnjeg pokretanja.")
     return 0
 
 

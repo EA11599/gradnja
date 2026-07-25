@@ -2,8 +2,8 @@ name: Ažuriraj podatke o gradnji u Zagrebu
 
 on:
   schedule:
-    # Svaki ponedjeljak u 03:00 UTC — mijenjaj po potrebi
-    - cron: "0 3 * * 1"
+    # Svaki dan u 03:00 UTC — mijenjaj po potrebi
+    - cron: "0 3 * * *"
   workflow_dispatch: {}  # omogućuje i ručno pokretanje s GitHub sučelja, za testiranje
 
 permissions:
@@ -31,6 +31,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/buildings_timeseries.json
+          git add data/buildings_timeseries.json data/buildings_snapshot_ids.json
           git diff --staged --quiet || git commit -m "Automatsko ažuriranje podataka $(date -u +%Y-%m-%d)"
           git push
