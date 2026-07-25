@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T12:19:43.107603+00:00",
+  "last_updated": "2026-07-25T13:13:14.550763+00:00",
   "source": "Overpass API (overpass-api.de i mirroru)",
   "area_bbox": [
     45.75,
@@ -8,11 +8,33 @@
     16.15
   ],
   "note": "Pratimo promjene od početka praćenja, ne punu povijest OSM-a.",
+  "category_labels": {
+    "stambene": "Stambene zgrade",
+    "kuce": "Kuće",
+    "garaze": "Garaže",
+    "poslovno": "Poslovni objekti",
+    "ostalo": "Ostalo (poznat tip)",
+    "nepoznato": "Nepoznato / generičko (building=yes)"
+  },
   "series": [
     {
       "timestamp": "2026-07-25T12:19:43.107603+00:00",
       "total": 118882,
       "new_since_last": 0
+    },
+    {
+      "timestamp": "2026-07-25T13:13:14.550763+00:00",
+      "total": 118882,
+      "new_since_last": 0,
+      "by_category": {
+        "ostalo": 8740,
+        "nepoznato": 77318,
+        "poslovno": 1498,
+        "stambene": 5459,
+        "kuce": 25090,
+        "garaze": 777
+      },
+      "new_by_category": {}
     }
   ]
 }
