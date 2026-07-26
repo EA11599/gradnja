@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T00:00:00+00:00",
+  "last_updated": "2026-07-26T05:58:55.891938+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -25,6 +25,169 @@
         "addr:street": "Jaruščica",
         "addr:housenumber": "5",
         "note": "TESTNI ZAPIS - izmisljen radi provjere dashboarda, ne postoji na OSM-u"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544660660",
+      "osm_type": "way",
+      "osm_numeric_id": 1544660660,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7979966&mlon=15.9440053#map=19/45.7979966/15.9440053",
+      "category": "stambene",
+      "lat": 45.7979966,
+      "lon": 15.9440053,
+      "tags": {
+        "building": "apartments",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544675169",
+      "osm_type": "way",
+      "osm_numeric_id": 1544675169,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.791621&mlon=15.9910853#map=19/45.791621/15.9910853",
+      "category": "nepoznato",
+      "lat": 45.791621,
+      "lon": 15.9910853,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "17/1",
+        "addr:postcode": "10000",
+        "addr:street": "Križna cesta",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22134702",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544675170",
+      "osm_type": "way",
+      "osm_numeric_id": 1544675170,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7915677&mlon=15.9911123#map=19/45.7915677/15.9911123",
+      "category": "nepoznato",
+      "lat": 45.7915677,
+      "lon": 15.9911123,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "17/2",
+        "addr:postcode": "10000",
+        "addr:street": "Križna cesta",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22134703",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544675171",
+      "osm_type": "way",
+      "osm_numeric_id": 1544675171,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7917747&mlon=15.9908734#map=19/45.7917747/15.9908734",
+      "category": "nepoznato",
+      "lat": 45.7917747,
+      "lon": 15.9908734,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "15A",
+        "addr:postcode": "10000",
+        "addr:street": "Križna cesta",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22103877",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544675172",
+      "osm_type": "way",
+      "osm_numeric_id": 1544675172,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.791656&mlon=15.9913613#map=19/45.791656/15.9913613",
+      "category": "nepoznato",
+      "lat": 45.791656,
+      "lon": 15.9913613,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "75",
+        "addr:postcode": "10000",
+        "addr:street": "Trnjanski nasip",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22104528",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544675173",
+      "osm_type": "way",
+      "osm_numeric_id": 1544675173,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.791689&mlon=15.9914687#map=19/45.791689/15.9914687",
+      "category": "nepoznato",
+      "lat": 45.791689,
+      "lon": 15.9914687,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "77",
+        "addr:postcode": "10000",
+        "addr:street": "Trnjanski nasip",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22104529",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544682825",
+      "osm_type": "way",
+      "osm_numeric_id": 1544682825,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.792142&mlon=15.9872119#map=19/45.792142/15.9872119",
+      "category": "nepoznato",
+      "lat": 45.792142,
+      "lon": 15.9872119,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544685120",
+      "osm_type": "way",
+      "osm_numeric_id": 1544685120,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7915261&mlon=15.988708#map=19/45.7915261/15.988708",
+      "category": "kuce",
+      "lat": 45.7915261,
+      "lon": 15.988708,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "5A",
+        "addr:postcode": "10000",
+        "addr:street": "Trnjanski nasip IV.",
+        "building": "house",
+        "ref:HR:kucni_broj": "22117671"
+      }
+    },
+    {
+      "detected_at": "2026-07-26T05:58:55.891938+00:00",
+      "id": "way/1544685121",
+      "osm_type": "way",
+      "osm_numeric_id": 1544685121,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7916288&mlon=15.9887497#map=19/45.7916288/15.9887497",
+      "category": "kuce",
+      "lat": 45.7916288,
+      "lon": 15.9887497,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "7/1",
+        "addr:postcode": "10000",
+        "addr:street": "Trnjanski nasip IV.",
+        "building": "house",
+        "ref:HR:kucni_broj": "22134174"
       }
     }
   ]
