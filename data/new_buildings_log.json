@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-26T05:58:55.891938+00:00",
+  "last_updated": "2026-07-27T06:27:36.367795+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -188,6 +188,311 @@
         "addr:street": "Trnjanski nasip IV.",
         "building": "house",
         "ref:HR:kucni_broj": "22134174"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1182216724",
+      "osm_type": "way",
+      "osm_numeric_id": 1182216724,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7979177&mlon=15.9844887#map=19/45.7979177/15.9844887",
+      "category": "ostalo",
+      "lat": 45.7979177,
+      "lon": 15.9844887,
+      "tags": {
+        "building": "bleachers",
+        "leisure": "bleachers",
+        "name": "Tribina istok",
+        "panoramax": "6d3c22f6-37a7-4a06-aec1-85cdd4a4e76e"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544753632",
+      "osm_type": "way",
+      "osm_numeric_id": 1544753632,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8004545&mlon=16.0188899#map=19/45.8004545/16.0188899",
+      "category": "stambene",
+      "lat": 45.8004545,
+      "lon": 16.0188899,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544753633",
+      "osm_type": "way",
+      "osm_numeric_id": 1544753633,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8007428&mlon=16.0174093#map=19/45.8007428/16.0174093",
+      "category": "stambene",
+      "lat": 45.8007428,
+      "lon": 16.0174093,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544753634",
+      "osm_type": "way",
+      "osm_numeric_id": 1544753634,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8007664&mlon=16.0180072#map=19/45.8007664/16.0180072",
+      "category": "stambene",
+      "lat": 45.8007664,
+      "lon": 16.0180072,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544753635",
+      "osm_type": "way",
+      "osm_numeric_id": 1544753635,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8007985&mlon=16.0185514#map=19/45.8007985/16.0185514",
+      "category": "stambene",
+      "lat": 45.8007985,
+      "lon": 16.0185514,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544753636",
+      "osm_type": "way",
+      "osm_numeric_id": 1544753636,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8008122&mlon=16.0191175#map=19/45.8008122/16.0191175",
+      "category": "stambene",
+      "lat": 45.8008122,
+      "lon": 16.0191175,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544753637",
+      "osm_type": "way",
+      "osm_numeric_id": 1544753637,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8005705&mlon=16.019952#map=19/45.8005705/16.019952",
+      "category": "stambene",
+      "lat": 45.8005705,
+      "lon": 16.019952,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544754278",
+      "osm_type": "way",
+      "osm_numeric_id": 1544754278,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8003851&mlon=16.017527#map=19/45.8003851/16.017527",
+      "category": "stambene",
+      "lat": 45.8003851,
+      "lon": 16.017527,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "1D",
+        "addr:postcode": "10000",
+        "addr:street": "Lovinčićeva ulica",
+        "building": "apartments",
+        "building:levels": "9"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544828177",
+      "osm_type": "way",
+      "osm_numeric_id": 1544828177,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.797296&mlon=15.9840826#map=19/45.797296/15.9840826",
+      "category": "ostalo",
+      "lat": 45.797296,
+      "lon": 15.9840826,
+      "tags": {
+        "building": "shed"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544828178",
+      "osm_type": "way",
+      "osm_numeric_id": 1544828178,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7973067&mlon=15.9842284#map=19/45.7973067/15.9842284",
+      "category": "nepoznato",
+      "lat": 45.7973067,
+      "lon": 15.9842284,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544829003",
+      "osm_type": "way",
+      "osm_numeric_id": 1544829003,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975282&mlon=15.9845631#map=19/45.7975282/15.9845631",
+      "category": "ostalo",
+      "lat": 45.7975282,
+      "lon": 15.9845631,
+      "tags": {
+        "building": "roof"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544829005",
+      "osm_type": "way",
+      "osm_numeric_id": 1544829005,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7974065&mlon=15.9846367#map=19/45.7974065/15.9846367",
+      "category": "ostalo",
+      "lat": 45.7974065,
+      "lon": 15.9846367,
+      "tags": {
+        "building": "container"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544829006",
+      "osm_type": "way",
+      "osm_numeric_id": 1544829006,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7973923&mlon=15.9845777#map=19/45.7973923/15.9845777",
+      "category": "ostalo",
+      "lat": 45.7973923,
+      "lon": 15.9845777,
+      "tags": {
+        "building": "container"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544829822",
+      "osm_type": "way",
+      "osm_numeric_id": 1544829822,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7974547&mlon=15.9846546#map=19/45.7974547/15.9846546",
+      "category": "ostalo",
+      "lat": 45.7974547,
+      "lon": 15.9846546,
+      "tags": {
+        "building": "container"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544829823",
+      "osm_type": "way",
+      "osm_numeric_id": 1544829823,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7974363&mlon=15.9845977#map=19/45.7974363/15.9845977",
+      "category": "ostalo",
+      "lat": 45.7974363,
+      "lon": 15.9845977,
+      "tags": {
+        "building": "container"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544906422",
+      "osm_type": "way",
+      "osm_numeric_id": 1544906422,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7641092&mlon=15.9762026#map=19/45.7641092/15.9762026",
+      "category": "nepoznato",
+      "lat": 45.7641092,
+      "lon": 15.9762026,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "29C",
+        "addr:postcode": "10010",
+        "addr:street": "Horvatova ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544906423",
+      "osm_type": "way",
+      "osm_numeric_id": 1544906423,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7640442&mlon=15.9765461#map=19/45.7640442/15.9765461",
+      "category": "nepoznato",
+      "lat": 45.7640442,
+      "lon": 15.9765461,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "29B",
+        "addr:postcode": "10010",
+        "addr:street": "Horvatova ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544906424",
+      "osm_type": "way",
+      "osm_numeric_id": 1544906424,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7559102&mlon=15.9796691#map=19/45.7559102/15.9796691",
+      "category": "nepoznato",
+      "lat": 45.7559102,
+      "lon": 15.9796691,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "3/1",
+        "addr:postcode": "10010",
+        "addr:street": "Zelengorska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544906425",
+      "osm_type": "way",
+      "osm_numeric_id": 1544906425,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7558428&mlon=15.979967#map=19/45.7558428/15.979967",
+      "category": "nepoznato",
+      "lat": 45.7558428,
+      "lon": 15.979967,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "4A",
+        "addr:postcode": "10010",
+        "addr:street": "Zelengorska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544906426",
+      "osm_type": "way",
+      "osm_numeric_id": 1544906426,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7581769&mlon=15.9776334#map=19/45.7581769/15.9776334",
+      "category": "nepoznato",
+      "lat": 45.7581769,
+      "lon": 15.9776334,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "1",
+        "addr:postcode": "10020",
+        "addr:street": "Mrkšina ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-27T06:27:36.367795+00:00",
+      "id": "way/1544906427",
+      "osm_type": "way",
+      "osm_numeric_id": 1544906427,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7634486&mlon=15.9732135#map=19/45.7634486/15.9732135",
+      "category": "nepoznato",
+      "lat": 45.7634486,
+      "lon": 15.9732135,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "65",
+        "addr:postcode": "10010",
+        "addr:street": "Horvatova ulica",
+        "building": "yes"
       }
     }
   ]
