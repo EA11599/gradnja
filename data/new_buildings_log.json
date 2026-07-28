@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-27T06:27:36.367795+00:00",
+  "last_updated": "2026-07-28T05:44:27.223628+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -493,6 +493,78 @@
         "addr:postcode": "10010",
         "addr:street": "Horvatova ulica",
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-28T05:44:27.223628+00:00",
+      "id": "way/1545056566",
+      "osm_type": "way",
+      "osm_numeric_id": 1545056566,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8543974&mlon=15.8019764#map=19/45.8543974/15.8019764",
+      "category": "stambene",
+      "lat": 45.8543974,
+      "lon": 15.8019764,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-28T05:44:27.223628+00:00",
+      "id": "way/1545056567",
+      "osm_type": "way",
+      "osm_numeric_id": 1545056567,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8545324&mlon=15.8021528#map=19/45.8545324/15.8021528",
+      "category": "stambene",
+      "lat": 45.8545324,
+      "lon": 15.8021528,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-07-28T05:44:27.223628+00:00",
+      "id": "way/1545056568",
+      "osm_type": "way",
+      "osm_numeric_id": 1545056568,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8538423&mlon=15.8027363#map=19/45.8538423/15.8027363",
+      "category": "kuce",
+      "lat": 45.8538423,
+      "lon": 15.8027363,
+      "tags": {
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-07-28T05:44:27.223628+00:00",
+      "id": "way/1545127500",
+      "osm_type": "way",
+      "osm_numeric_id": 1545127500,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8021239&mlon=15.960544#map=19/45.8021239/15.960544",
+      "category": "stambene",
+      "lat": 45.8021239,
+      "lon": 15.960544,
+      "tags": {
+        "building": "apartments",
+        "panoramax": "048c7c20-36f7-4b8a-ab4e-49d51c17edbe"
+      }
+    },
+    {
+      "detected_at": "2026-07-28T05:44:27.223628+00:00",
+      "id": "way/411109205",
+      "osm_type": "way",
+      "osm_numeric_id": 411109205,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8558845&mlon=15.7999026#map=19/45.8558845/15.7999026",
+      "category": "nepoznato",
+      "lat": 45.8558845,
+      "lon": 15.7999026,
+      "tags": {
+        "addr:city": "Zaprešić",
+        "addr:housenumber": "20",
+        "addr:postcode": "10290",
+        "addr:street": "Josipa Malekovića",
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       }
     }
   ]
