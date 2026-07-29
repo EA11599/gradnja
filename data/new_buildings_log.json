@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T05:44:27.223628+00:00",
+  "last_updated": "2026-07-29T05:49:44.439099+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -565,6 +565,101 @@
         "building": "yes",
         "roof:material": "roof_tiles",
         "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-07-29T05:49:44.439099+00:00",
+      "id": "way/1545322372",
+      "osm_type": "way",
+      "osm_numeric_id": 1545322372,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8541831&mlon=15.8036893#map=19/45.8541831/15.8036893",
+      "category": "poslovno",
+      "lat": 45.8541831,
+      "lon": 15.8036893,
+      "tags": {
+        "building": "industrial",
+        "power": "substation",
+        "substation": "minor_distribution"
+      }
+    },
+    {
+      "detected_at": "2026-07-29T05:49:44.439099+00:00",
+      "id": "way/1545357910",
+      "osm_type": "way",
+      "osm_numeric_id": 1545357910,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.856794&mlon=15.8061274#map=19/45.856794/15.8061274",
+      "category": "garaze",
+      "lat": 45.856794,
+      "lon": 15.8061274,
+      "tags": {
+        "building": "garages"
+      }
+    },
+    {
+      "detected_at": "2026-07-29T05:49:44.439099+00:00",
+      "id": "way/1545357914",
+      "osm_type": "way",
+      "osm_numeric_id": 1545357914,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8566707&mlon=15.8055762#map=19/45.8566707/15.8055762",
+      "category": "poslovno",
+      "lat": 45.8566707,
+      "lon": 15.8055762,
+      "tags": {
+        "building": "retail"
+      }
+    },
+    {
+      "detected_at": "2026-07-29T05:49:44.439099+00:00",
+      "id": "way/1545357915",
+      "osm_type": "way",
+      "osm_numeric_id": 1545357915,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8566823&mlon=15.8056882#map=19/45.8566823/15.8056882",
+      "category": "garaze",
+      "lat": 45.8566823,
+      "lon": 15.8056882,
+      "tags": {
+        "building": "garages"
+      }
+    },
+    {
+      "detected_at": "2026-07-29T05:49:44.439099+00:00",
+      "id": "way/1545397179",
+      "osm_type": "way",
+      "osm_numeric_id": 1545397179,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8583395&mlon=15.8051129#map=19/45.8583395/15.8051129",
+      "category": "poslovno",
+      "lat": 45.8583395,
+      "lon": 15.8051129,
+      "tags": {
+        "building": "industrial",
+        "power": "substation",
+        "substation": "minor_distribution"
+      }
+    },
+    {
+      "detected_at": "2026-07-29T05:49:44.439099+00:00",
+      "id": "way/1545434494",
+      "osm_type": "way",
+      "osm_numeric_id": 1545434494,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8072641&mlon=15.9298663#map=19/45.8072641/15.9298663",
+      "category": "nepoznato",
+      "lat": 45.8072641,
+      "lon": 15.9298663,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-29T05:49:44.439099+00:00",
+      "id": "way/684026174",
+      "osm_type": "way",
+      "osm_numeric_id": 684026174,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8012631&mlon=15.9906275#map=19/45.8012631/15.9906275",
+      "category": "ostalo",
+      "lat": 45.8012631,
+      "lon": 15.9906275,
+      "tags": {
+        "building": "container"
       }
     }
   ]
