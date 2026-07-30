@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-29T05:49:44.439099+00:00",
+  "last_updated": "2026-07-30T05:38:02.221226+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -660,6 +660,37 @@
       "lon": 15.9906275,
       "tags": {
         "building": "container"
+      }
+    },
+    {
+      "detected_at": "2026-07-30T05:38:02.221226+00:00",
+      "id": "way/1545752851",
+      "osm_type": "way",
+      "osm_numeric_id": 1545752851,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7973003&mlon=15.992112#map=19/45.7973003/15.992112",
+      "category": "nepoznato",
+      "lat": 45.7973003,
+      "lon": 15.992112,
+      "tags": {
+        "building": "yes",
+        "noaddress": "yes",
+        "panoramax": "93ef3504-632e-460c-9b66-d036ee66c739"
+      }
+    },
+    {
+      "detected_at": "2026-07-30T05:38:02.221226+00:00",
+      "id": "way/1545752852",
+      "osm_type": "way",
+      "osm_numeric_id": 1545752852,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7970287&mlon=15.9920882#map=19/45.7970287/15.9920882",
+      "category": "kuce",
+      "lat": 45.7970287,
+      "lon": 15.9920882,
+      "tags": {
+        "addr:housenumber": "42",
+        "addr:street": "Pile III.",
+        "building": "house",
+        "ref:HR:kucni_broj": "22083646"
       }
     }
   ]
