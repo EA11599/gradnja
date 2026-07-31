@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T05:38:02.221226+00:00",
+  "last_updated": "2026-07-31T06:10:27.713966+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -691,6 +691,77 @@
         "addr:street": "Pile III.",
         "building": "house",
         "ref:HR:kucni_broj": "22083646"
+      }
+    },
+    {
+      "detected_at": "2026-07-31T06:10:27.713966+00:00",
+      "id": "way/1545958258",
+      "osm_type": "way",
+      "osm_numeric_id": 1545958258,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8082537&mlon=15.9288947#map=19/45.8082537/15.9288947",
+      "category": "nepoznato",
+      "lat": 45.8082537,
+      "lon": 15.9288947,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-31T06:10:27.713966+00:00",
+      "id": "way/1546056921",
+      "osm_type": "way",
+      "osm_numeric_id": 1546056921,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8019271&mlon=15.9610014#map=19/45.8019271/15.9610014",
+      "category": "kuce",
+      "lat": 45.8019271,
+      "lon": 15.9610014,
+      "tags": {
+        "addr:housenumber": "27/2",
+        "addr:street": "Tratinska ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-07-31T06:10:27.713966+00:00",
+      "id": "way/1546056923",
+      "osm_type": "way",
+      "osm_numeric_id": 1546056923,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8020397&mlon=15.9608714#map=19/45.8020397/15.9608714",
+      "category": "nepoznato",
+      "lat": 45.8020397,
+      "lon": 15.9608714,
+      "tags": {
+        "addr:housenumber": "27/1",
+        "addr:street": "Tratinska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-07-31T06:10:27.713966+00:00",
+      "id": "way/1546057196",
+      "osm_type": "way",
+      "osm_numeric_id": 1546057196,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8021188&mlon=15.9609622#map=19/45.8021188/15.9609622",
+      "category": "garaze",
+      "lat": 45.8021188,
+      "lon": 15.9609622,
+      "tags": {
+        "building": "carport"
+      }
+    },
+    {
+      "detected_at": "2026-07-31T06:10:27.713966+00:00",
+      "id": "way/1546124722",
+      "osm_type": "way",
+      "osm_numeric_id": 1546124722,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8116992&mlon=15.9410875#map=19/45.8116992/15.9410875",
+      "category": "nepoznato",
+      "lat": 45.8116992,
+      "lon": 15.9410875,
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
