@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T06:10:27.713966+00:00",
+  "last_updated": "2026-08-04T05:44:48.297672+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -760,6 +760,57 @@
       "lon": 15.9410875,
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "detected_at": "2026-08-04T05:44:48.297672+00:00",
+      "id": "way/1546942106",
+      "osm_type": "way",
+      "osm_numeric_id": 1546942106,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8581881&mlon=15.8021951#map=19/45.8581881/15.8021951",
+      "category": "nepoznato",
+      "lat": 45.8581881,
+      "lon": 15.8021951,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "detected_at": "2026-08-04T05:44:48.297672+00:00",
+      "id": "way/1546942107",
+      "osm_type": "way",
+      "osm_numeric_id": 1546942107,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8576183&mlon=15.8028055#map=19/45.8576183/15.8028055",
+      "category": "nepoznato",
+      "lat": 45.8576183,
+      "lon": 15.8028055,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "detected_at": "2026-08-04T05:44:48.297672+00:00",
+      "id": "way/1546942113",
+      "osm_type": "way",
+      "osm_numeric_id": 1546942113,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8693677&mlon=15.800423#map=19/45.8693677/15.800423",
+      "category": "nepoznato",
+      "lat": 45.8693677,
+      "lon": 15.800423,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
         "building": "yes",
         "shelter_type": "public_transport"
       }
