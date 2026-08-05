@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T05:44:48.297672+00:00",
+  "last_updated": "2026-08-05T05:43:30.180164+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -813,6 +813,88 @@
         "bin": "yes",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "detected_at": "2026-08-05T05:43:30.180164+00:00",
+      "id": "way/1547239405",
+      "osm_type": "way",
+      "osm_numeric_id": 1547239405,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7946585&mlon=15.9362632#map=19/45.7946585/15.9362632",
+      "category": "nepoznato",
+      "lat": 45.7946585,
+      "lon": 15.9362632,
+      "tags": {
+        "addr:housenumber": "82/1",
+        "addr:street": "Fallerovo šetalište",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2155964905"
+      }
+    },
+    {
+      "detected_at": "2026-08-05T05:43:30.180164+00:00",
+      "id": "way/1547239406",
+      "osm_type": "way",
+      "osm_numeric_id": 1547239406,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7948866&mlon=15.9362844#map=19/45.7948866/15.9362844",
+      "category": "nepoznato",
+      "lat": 45.7948866,
+      "lon": 15.9362844,
+      "tags": {
+        "addr:housenumber": "78/1",
+        "addr:street": "Fallerovo šetalište",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22134804"
+      }
+    },
+    {
+      "detected_at": "2026-08-05T05:43:30.180164+00:00",
+      "id": "way/1547239407",
+      "osm_type": "way",
+      "osm_numeric_id": 1547239407,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7948282&mlon=15.9362962#map=19/45.7948282/15.9362962",
+      "category": "nepoznato",
+      "lat": 45.7948282,
+      "lon": 15.9362962,
+      "tags": {
+        "addr:housenumber": "78/2",
+        "addr:street": "Fallerovo šetalište",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22135567"
+      }
+    },
+    {
+      "detected_at": "2026-08-05T05:43:30.180164+00:00",
+      "id": "way/1547239408",
+      "osm_type": "way",
+      "osm_numeric_id": 1547239408,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7962231&mlon=15.9361114#map=19/45.7962231/15.9361114",
+      "category": "nepoznato",
+      "lat": 45.7962231,
+      "lon": 15.9361114,
+      "tags": {
+        "addr:housenumber": "56/1",
+        "addr:street": "Fallerovo šetalište",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2126683102"
+      }
+    },
+    {
+      "detected_at": "2026-08-05T05:43:30.180164+00:00",
+      "id": "way/1547252702",
+      "osm_type": "way",
+      "osm_numeric_id": 1547252702,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8093429&mlon=15.9797582#map=19/45.8093429/15.9797582",
+      "category": "nepoznato",
+      "lat": 45.8093429,
+      "lon": 15.9797582,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "4",
+        "addr:postcode": "10000",
+        "addr:street": "Boškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22079649"
       }
     }
   ]
