@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T05:43:30.180164+00:00",
+  "last_updated": "2026-08-06T05:47:08.860206+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -895,6 +895,360 @@
         "addr:street": "Boškovićeva ulica",
         "building": "yes",
         "ref:HR:kucni_broj": "22079649"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "relation/21193622",
+      "osm_type": "relation",
+      "osm_numeric_id": 21193622,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8129549&mlon=15.9716778#map=19/45.8129549/15.9716778",
+      "category": "poslovno",
+      "lat": 45.8129549,
+      "lon": 15.9716778,
+      "tags": {
+        "architect:wikidata": "Q7938107",
+        "building": "office",
+        "building:levels": "4",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "name": "Zgrada Hrvatsko-slavonske zemaljske centralne štedionice",
+        "ref:hr:uzkb": "Z-5253",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "start_date": "1905..1906",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547422749",
+      "osm_type": "way",
+      "osm_numeric_id": 1547422749,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8120036&mlon=15.9699988#map=19/45.8120036/15.9699988",
+      "category": "nepoznato",
+      "lat": 45.8120036,
+      "lon": 15.9699988,
+      "tags": {
+        "abandoned": "yes",
+        "addr:housenumber": "11/1",
+        "addr:street": "Frankopanska ulica",
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547422757",
+      "osm_type": "way",
+      "osm_numeric_id": 1547422757,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8123354&mlon=15.970052#map=19/45.8123354/15.970052",
+      "category": "nepoznato",
+      "lat": 45.8123354,
+      "lon": 15.970052,
+      "tags": {
+        "addr:housenumber": "7/1",
+        "addr:street": "Frankopanska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547422759",
+      "osm_type": "way",
+      "osm_numeric_id": 1547422759,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8124671&mlon=15.9700912#map=19/45.8124671/15.9700912",
+      "category": "stambene",
+      "lat": 45.8124671,
+      "lon": 15.9700912,
+      "tags": {
+        "addr:housenumber": "5A/1",
+        "addr:street": "Frankopanska ulica",
+        "building": "apartments",
+        "building:levels": "3",
+        "noaddress": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547422763",
+      "osm_type": "way",
+      "osm_numeric_id": 1547422763,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8127087&mlon=15.9698347#map=19/45.8127087/15.9698347",
+      "category": "nepoznato",
+      "lat": 45.8127087,
+      "lon": 15.9698347,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Frankopanska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547422767",
+      "osm_type": "way",
+      "osm_numeric_id": 1547422767,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8128667&mlon=15.9699179#map=19/45.8128667/15.9699179",
+      "category": "nepoznato",
+      "lat": 45.8128667,
+      "lon": 15.9699179,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547422768",
+      "osm_type": "way",
+      "osm_numeric_id": 1547422768,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8128063&mlon=15.9700106#map=19/45.8128063/15.9700106",
+      "category": "nepoznato",
+      "lat": 45.8128063,
+      "lon": 15.9700106,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547557998",
+      "osm_type": "way",
+      "osm_numeric_id": 1547557998,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8128999&mlon=15.9711628#map=19/45.8128999/15.9711628",
+      "category": "nepoznato",
+      "lat": 45.8128999,
+      "lon": 15.9711628,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547557999",
+      "osm_type": "way",
+      "osm_numeric_id": 1547557999,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8126494&mlon=15.9711785#map=19/45.8126494/15.9711785",
+      "category": "nepoznato",
+      "lat": 45.8126494,
+      "lon": 15.9711785,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558000",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558000,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.812611&mlon=15.9706594#map=19/45.812611/15.9706594",
+      "category": "nepoznato",
+      "lat": 45.812611,
+      "lon": 15.9706594,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558001",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558001,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8124426&mlon=15.9707901#map=19/45.8124426/15.9707901",
+      "category": "nepoznato",
+      "lat": 45.8124426,
+      "lon": 15.9707901,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558002",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558002,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8126107&mlon=15.9707916#map=19/45.8126107/15.9707916",
+      "category": "nepoznato",
+      "lat": 45.8126107,
+      "lon": 15.9707916,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558003",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558003,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8129336&mlon=15.9708972#map=19/45.8129336/15.9708972",
+      "category": "nepoznato",
+      "lat": 45.8129336,
+      "lon": 15.9708972,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558004",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558004,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8128397&mlon=15.9708252#map=19/45.8128397/15.9708252",
+      "category": "nepoznato",
+      "lat": 45.8128397,
+      "lon": 15.9708252,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558005",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558005,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8125631&mlon=15.9704824#map=19/45.8125631/15.9704824",
+      "category": "garaze",
+      "lat": 45.8125631,
+      "lon": 15.9704824,
+      "tags": {
+        "building": "garages"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558007",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558007,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8128838&mlon=15.9704928#map=19/45.8128838/15.9704928",
+      "category": "nepoznato",
+      "lat": 45.8128838,
+      "lon": 15.9704928,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558008",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558008,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.812892&mlon=15.9706614#map=19/45.812892/15.9706614",
+      "category": "nepoznato",
+      "lat": 45.812892,
+      "lon": 15.9706614,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547558009",
+      "osm_type": "way",
+      "osm_numeric_id": 1547558009,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8128485&mlon=15.9705587#map=19/45.8128485/15.9705587",
+      "category": "nepoznato",
+      "lat": 45.8128485,
+      "lon": 15.9705587,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547561546",
+      "osm_type": "way",
+      "osm_numeric_id": 1547561546,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8123448&mlon=15.9713705#map=19/45.8123448/15.9713705",
+      "category": "nepoznato",
+      "lat": 45.8123448,
+      "lon": 15.9713705,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547561547",
+      "osm_type": "way",
+      "osm_numeric_id": 1547561547,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8128065&mlon=15.9713968#map=19/45.8128065/15.9713968",
+      "category": "nepoznato",
+      "lat": 45.8128065,
+      "lon": 15.9713968,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547561548",
+      "osm_type": "way",
+      "osm_numeric_id": 1547561548,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8125508&mlon=15.9714127#map=19/45.8125508/15.9714127",
+      "category": "nepoznato",
+      "lat": 45.8125508,
+      "lon": 15.9714127,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547561549",
+      "osm_type": "way",
+      "osm_numeric_id": 1547561549,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8124038&mlon=15.9715686#map=19/45.8124038/15.9715686",
+      "category": "nepoznato",
+      "lat": 45.8124038,
+      "lon": 15.9715686,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547561550",
+      "osm_type": "way",
+      "osm_numeric_id": 1547561550,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8126658&mlon=15.9715037#map=19/45.8126658/15.9715037",
+      "category": "nepoznato",
+      "lat": 45.8126658,
+      "lon": 15.9715037,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/1547561551",
+      "osm_type": "way",
+      "osm_numeric_id": 1547561551,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8126178&mlon=15.9716163#map=19/45.8126178/15.9716163",
+      "category": "nepoznato",
+      "lat": 45.8126178,
+      "lon": 15.9716163,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-06T05:47:08.860206+00:00",
+      "id": "way/280294188",
+      "osm_type": "way",
+      "osm_numeric_id": 280294188,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8126454&mlon=15.9717908#map=19/45.8126454/15.9717908",
+      "category": "nepoznato",
+      "lat": 45.8126454,
+      "lon": 15.9717908,
+      "tags": {
+        "building": "yes"
       }
     }
   ]
