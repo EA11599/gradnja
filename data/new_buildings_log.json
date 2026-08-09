@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T04:09:56.043552+00:00",
+  "last_updated": "2026-08-09T04:15:57.854846+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -1438,6 +1438,74 @@
       "category": "nepoznato",
       "lat": 45.8124277,
       "lon": 15.9709238,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-09T04:15:57.854846+00:00",
+      "id": "way/1548110731",
+      "osm_type": "way",
+      "osm_numeric_id": 1548110731,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8124269&mlon=15.9771098#map=19/45.8124269/15.9771098",
+      "category": "kuce_procjena",
+      "lat": 45.8124269,
+      "lon": 15.9771098,
+      "tags": {
+        "addr:housenumber": "15/1",
+        "addr:street": "Trg bana Josipa Jelačića",
+        "building": "yes",
+        "building:levels": "2",
+        "panoramax": "5d2f77c0-8047-4cbf-b5fc-2253f6201436",
+        "ref:HR:kucni_broj": "22075302",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-09T04:15:57.854846+00:00",
+      "id": "way/1548111397",
+      "osm_type": "way",
+      "osm_numeric_id": 1548111397,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8123058&mlon=15.9768322#map=19/45.8123058/15.9768322",
+      "category": "nepoznato",
+      "lat": 45.8123058,
+      "lon": 15.9768322,
+      "tags": {
+        "building": "yes",
+        "panoramax": "29906bed-b3fc-4bb5-a2b0-9a3a6f552a7a"
+      }
+    },
+    {
+      "detected_at": "2026-08-09T04:15:57.854846+00:00",
+      "id": "way/1548111398",
+      "osm_type": "way",
+      "osm_numeric_id": 1548111398,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8125061&mlon=15.9768812#map=19/45.8125061/15.9768812",
+      "category": "stambene",
+      "lat": 45.8125061,
+      "lon": 15.9768812,
+      "tags": {
+        "addr:housenumber": "15/3",
+        "addr:street": "Trg bana Josipa Jelačića",
+        "building": "apartments",
+        "building:flats": "4",
+        "building:levels": "3",
+        "panoramax": "c8baa258-7840-4c11-b3bf-414899388e84",
+        "ref:HR:kucni_broj": "22134828",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-09T04:15:57.854846+00:00",
+      "id": "way/1548111399",
+      "osm_type": "way",
+      "osm_numeric_id": 1548111399,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8125564&mlon=15.9769667#map=19/45.8125564/15.9769667",
+      "category": "nepoznato",
+      "lat": 45.8125564,
+      "lon": 15.9769667,
       "tags": {
         "building": "yes"
       }
