@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-09T04:15:57.854846+00:00",
+  "last_updated": "2026-08-10T04:27:47.094585+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -1508,6 +1508,630 @@
       "lon": 15.9769667,
       "tags": {
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436829",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436829,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8367059&mlon=15.9968797#map=19/45.8367059/15.9968797",
+      "category": "nepoznato",
+      "lat": 45.8367059,
+      "lon": 15.9968797,
+      "tags": {
+        "addr:housenumber": "31/1",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2125015217"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436830",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436830,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8369412&mlon=15.9957055#map=19/45.8369412/15.9957055",
+      "category": "nepoznato",
+      "lat": 45.8369412,
+      "lon": 15.9957055,
+      "tags": {
+        "addr:housenumber": "39",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040615"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436831",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436831,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8396745&mlon=15.9934155#map=19/45.8396745/15.9934155",
+      "category": "nepoznato",
+      "lat": 45.8396745,
+      "lon": 15.9934155,
+      "tags": {
+        "addr:housenumber": "84A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22037960"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436832",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436832,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8366185&mlon=15.9974915#map=19/45.8366185/15.9974915",
+      "category": "nepoznato",
+      "lat": 45.8366185,
+      "lon": 15.9974915,
+      "tags": {
+        "addr:housenumber": "40",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040609"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436833",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436833,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8365517&mlon=15.9976553#map=19/45.8365517/15.9976553",
+      "category": "nepoznato",
+      "lat": 45.8365517,
+      "lon": 15.9976553,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2189838637"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436834",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436834,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8351668&mlon=16.0003253#map=19/45.8351668/16.0003253",
+      "category": "nepoznato",
+      "lat": 45.8351668,
+      "lon": 16.0003253,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2144004172"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436835",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436835,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8362448&mlon=15.9954281#map=19/45.8362448/15.9954281",
+      "category": "nepoznato",
+      "lat": 45.8362448,
+      "lon": 15.9954281,
+      "tags": {
+        "addr:housenumber": "37/1",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22116427"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436837",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436837,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8397542&mlon=15.9924361#map=19/45.8397542/15.9924361",
+      "category": "nepoznato",
+      "lat": 45.8397542,
+      "lon": 15.9924361,
+      "tags": {
+        "addr:housenumber": "81",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2143463637"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436838",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436838,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8398131&mlon=15.9930774#map=19/45.8398131/15.9930774",
+      "category": "nepoznato",
+      "lat": 45.8398131,
+      "lon": 15.9930774,
+      "tags": {
+        "addr:housenumber": "84C",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22037962"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436839",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436839,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8396716&mlon=15.9927363#map=19/45.8396716/15.9927363",
+      "category": "nepoznato",
+      "lat": 45.8396716,
+      "lon": 15.9927363,
+      "tags": {
+        "addr:housenumber": "79",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040642"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436840",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436840,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8393173&mlon=15.9929315#map=19/45.8393173/15.9929315",
+      "category": "nepoznato",
+      "lat": 45.8393173,
+      "lon": 15.9929315,
+      "tags": {
+        "addr:housenumber": "73",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22037959"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436841",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436841,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.838845&mlon=15.9926777#map=19/45.838845/15.9926777",
+      "category": "nepoznato",
+      "lat": 45.838845,
+      "lon": 15.9926777,
+      "tags": {
+        "addr:housenumber": "71A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22133637"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436842",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436842,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8384917&mlon=15.9935384#map=19/45.8384917/15.9935384",
+      "category": "nepoznato",
+      "lat": 45.8384917,
+      "lon": 15.9935384,
+      "tags": {
+        "addr:housenumber": "65A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22041258"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436843",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436843,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8389011&mlon=15.9946393#map=19/45.8389011/15.9946393",
+      "category": "nepoznato",
+      "lat": 45.8389011,
+      "lon": 15.9946393,
+      "tags": {
+        "addr:housenumber": "78B",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22041757"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436844",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436844,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8386065&mlon=15.9946245#map=19/45.8386065/15.9946245",
+      "category": "nepoznato",
+      "lat": 45.8386065,
+      "lon": 15.9946245,
+      "tags": {
+        "addr:housenumber": "78",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22037957"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436846",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436846,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8380238&mlon=15.9948945#map=19/45.8380238/15.9948945",
+      "category": "nepoznato",
+      "lat": 45.8380238,
+      "lon": 15.9948945,
+      "tags": {
+        "addr:housenumber": "51",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22041917"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436847",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436847,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8376123&mlon=15.9957592#map=19/45.8376123/15.9957592",
+      "category": "nepoznato",
+      "lat": 45.8376123,
+      "lon": 15.9957592,
+      "tags": {
+        "addr:housenumber": "39B",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22038086"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436848",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436848,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8369523&mlon=15.9964994#map=19/45.8369523/15.9964994",
+      "category": "nepoznato",
+      "lat": 45.8369523,
+      "lon": 15.9964994,
+      "tags": {
+        "addr:housenumber": "33A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040620"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436849",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436849,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8364938&mlon=15.9968122#map=19/45.8364938/15.9968122",
+      "category": "nepoznato",
+      "lat": 45.8364938,
+      "lon": 15.9968122,
+      "tags": {
+        "addr:housenumber": "31A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040646"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436850",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436850,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8357587&mlon=15.9986191#map=19/45.8357587/15.9986191",
+      "category": "nepoznato",
+      "lat": 45.8357587,
+      "lon": 15.9986191,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22041185"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436851",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436851,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8359706&mlon=15.998441#map=19/45.8359706/15.998441",
+      "category": "nepoznato",
+      "lat": 45.8359706,
+      "lon": 15.998441,
+      "tags": {
+        "addr:housenumber": "15B",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040630"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436852",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436852,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8361424&mlon=15.9981305#map=19/45.8361424/15.9981305",
+      "category": "nepoznato",
+      "lat": 45.8361424,
+      "lon": 15.9981305,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040628"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436853",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436853,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8359045&mlon=15.9975333#map=19/45.8359045/15.9975333",
+      "category": "nepoznato",
+      "lat": 45.8359045,
+      "lon": 15.9975333,
+      "tags": {
+        "addr:housenumber": "21C",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2164755042"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436854",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436854,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8356153&mlon=15.9977397#map=19/45.8356153/15.9977397",
+      "category": "nepoznato",
+      "lat": 45.8356153,
+      "lon": 15.9977397,
+      "tags": {
+        "addr:housenumber": "21A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2144362596"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436855",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436855,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.835648&mlon=15.9974467#map=19/45.835648/15.9974467",
+      "category": "nepoznato",
+      "lat": 45.835648,
+      "lon": 15.9974467,
+      "tags": {
+        "addr:housenumber": "21B",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2144362641"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436856",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436856,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8360748&mlon=15.9964252#map=19/45.8360748/15.9964252",
+      "category": "nepoznato",
+      "lat": 45.8360748,
+      "lon": 15.9964252,
+      "tags": {
+        "addr:housenumber": "31B",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040622"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436857",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436857,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.836399&mlon=15.996536#map=19/45.836399/15.996536",
+      "category": "nepoznato",
+      "lat": 45.836399,
+      "lon": 15.996536,
+      "tags": {
+        "addr:housenumber": "31D",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2093003304"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436858",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436858,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8364974&mlon=15.9982083#map=19/45.8364974/15.9982083",
+      "category": "nepoznato",
+      "lat": 45.8364974,
+      "lon": 15.9982083,
+      "tags": {
+        "addr:housenumber": "36/1",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22125368"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436859",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436859,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8356347&mlon=15.9993213#map=19/45.8356347/15.9993213",
+      "category": "nepoznato",
+      "lat": 45.8356347,
+      "lon": 15.9993213,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040635"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436860",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436860,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8356888&mlon=15.9992153#map=19/45.8356888/15.9992153",
+      "category": "nepoznato",
+      "lat": 45.8356888,
+      "lon": 15.9992153,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040634"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436861",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436861,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8354902&mlon=15.999838#map=19/45.8354902/15.999838",
+      "category": "nepoznato",
+      "lat": 45.8354902,
+      "lon": 15.999838,
+      "tags": {
+        "addr:housenumber": "14A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040754"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436862",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436862,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8356734&mlon=15.9996359#map=19/45.8356734/15.9996359",
+      "category": "nepoznato",
+      "lat": 45.8356734,
+      "lon": 15.9996359,
+      "tags": {
+        "addr:housenumber": "16A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2144317245"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436863",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436863,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8353325&mlon=15.9991016#map=19/45.8353325/15.9991016",
+      "category": "nepoznato",
+      "lat": 45.8353325,
+      "lon": 15.9991016,
+      "tags": {
+        "addr:housenumber": "13/1",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22041624"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436864",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436864,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8353146&mlon=15.999262#map=19/45.8353146/15.999262",
+      "category": "nepoznato",
+      "lat": 45.8353146,
+      "lon": 15.999262,
+      "tags": {
+        "addr:housenumber": "11A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22039408"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436865",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436865,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8351356&mlon=15.9997644#map=19/45.8351356/15.9997644",
+      "category": "nepoznato",
+      "lat": 45.8351356,
+      "lon": 15.9997644,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040757"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436866",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436866,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8350322&mlon=15.9998684#map=19/45.8350322/15.9998684",
+      "category": "nepoznato",
+      "lat": 45.8350322,
+      "lon": 15.9998684,
+      "tags": {
+        "addr:housenumber": "7A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040758"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436867",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436867,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8346136&mlon=16.0004852#map=19/45.8346136/16.0004852",
+      "category": "nepoznato",
+      "lat": 45.8346136,
+      "lon": 16.0004852,
+      "tags": {
+        "addr:housenumber": "3B",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22038069"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436868",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436868,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8348632&mlon=16.0000582#map=19/45.8348632/16.0000582",
+      "category": "nepoznato",
+      "lat": 45.8348632,
+      "lon": 16.0000582,
+      "tags": {
+        "addr:housenumber": "5A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22040760"
+      }
+    },
+    {
+      "detected_at": "2026-08-10T04:27:47.094585+00:00",
+      "id": "way/1548436869",
+      "osm_type": "way",
+      "osm_numeric_id": 1548436869,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8341571&mlon=16.0010795#map=19/45.8341571/16.0010795",
+      "category": "nepoznato",
+      "lat": 45.8341571,
+      "lon": 16.0010795,
+      "tags": {
+        "addr:housenumber": "1A",
+        "addr:street": "Rim",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22134967"
       }
     }
   ]
