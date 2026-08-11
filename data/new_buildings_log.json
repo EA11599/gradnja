@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-10T04:27:47.094585+00:00",
+  "last_updated": "2026-08-11T04:17:31.684758+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2132,6 +2132,37 @@
         "addr:street": "Rim",
         "building": "yes",
         "ref:HR:kucni_broj": "22134967"
+      }
+    },
+    {
+      "detected_at": "2026-08-11T04:17:31.684758+00:00",
+      "id": "way/1548568855",
+      "osm_type": "way",
+      "osm_numeric_id": 1548568855,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8068459&mlon=15.9610958#map=19/45.8068459/15.9610958",
+      "category": "nepoznato",
+      "lat": 45.8068459,
+      "lon": 15.9610958,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-11T04:17:31.684758+00:00",
+      "id": "way/1548624783",
+      "osm_type": "way",
+      "osm_numeric_id": 1548624783,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8068816&mlon=15.9689775#map=19/45.8068816/15.9689775",
+      "category": "stambene",
+      "lat": 45.8068816,
+      "lon": 15.9689775,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4",
+        "panoramax": "7bacea52-7246-4f01-9efb-0446542bdc26",
+        "roof:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       }
     }
   ]
