@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-11T04:17:31.684758+00:00",
+  "last_updated": "2026-08-12T04:45:48.769799+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2161,6 +2161,166 @@
         "building:levels": "4",
         "panoramax": "7bacea52-7246-4f01-9efb-0446542bdc26",
         "roof:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548816505",
+      "osm_type": "way",
+      "osm_numeric_id": 1548816505,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8017603&mlon=15.9367352#map=19/45.8017603/15.9367352",
+      "category": "kuce",
+      "lat": 45.8017603,
+      "lon": 15.9367352,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "Jablanovečka ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548816506",
+      "osm_type": "way",
+      "osm_numeric_id": 1548816506,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8018872&mlon=15.93672#map=19/45.8018872/15.93672",
+      "category": "kuce",
+      "lat": 45.8018872,
+      "lon": 15.93672,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Jablanovečka ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548843337",
+      "osm_type": "way",
+      "osm_numeric_id": 1548843337,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8101994&mlon=15.9714321#map=19/45.8101994/15.9714321",
+      "category": "stambene",
+      "lat": 45.8101994,
+      "lon": 15.9714321,
+      "tags": {
+        "addr:housenumber": "23",
+        "addr:street": "Masarykova ulica",
+        "building": "apartments",
+        "building:levels": "4",
+        "panoramax": "06aaca5d-55ba-4fe9-bf0d-9e2c87e2b510",
+        "ref:HR:kucni_broj": "22073511",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548874072",
+      "osm_type": "way",
+      "osm_numeric_id": 1548874072,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8073117&mlon=15.9753665#map=19/45.8073117/15.9753665",
+      "category": "stambene",
+      "lat": 45.8073117,
+      "lon": 15.9753665,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Ulica baruna Trenka",
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548876861",
+      "osm_type": "way",
+      "osm_numeric_id": 1548876861,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8072672&mlon=15.9757805#map=19/45.8072672/15.9757805",
+      "category": "stambene",
+      "lat": 45.8072672,
+      "lon": 15.9757805,
+      "tags": {
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548876862",
+      "osm_type": "way",
+      "osm_numeric_id": 1548876862,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8072962&mlon=15.9760814#map=19/45.8072962/15.9760814",
+      "category": "stambene",
+      "lat": 45.8072962,
+      "lon": 15.9760814,
+      "tags": {
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548876863",
+      "osm_type": "way",
+      "osm_numeric_id": 1548876863,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8073174&mlon=15.9755701#map=19/45.8073174/15.9755701",
+      "category": "stambene",
+      "lat": 45.8073174,
+      "lon": 15.9755701,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "Ulica baruna Trenka",
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548876864",
+      "osm_type": "way",
+      "osm_numeric_id": 1548876864,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8077519&mlon=15.977426#map=19/45.8077519/15.977426",
+      "category": "stambene",
+      "lat": 45.8077519,
+      "lon": 15.977426,
+      "tags": {
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548876865",
+      "osm_type": "way",
+      "osm_numeric_id": 1548876865,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8077478&mlon=15.9772315#map=19/45.8077478/15.9772315",
+      "category": "stambene",
+      "lat": 45.8077478,
+      "lon": 15.9772315,
+      "tags": {
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-12T04:45:48.769799+00:00",
+      "id": "way/1548877590",
+      "osm_type": "way",
+      "osm_numeric_id": 1548877590,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8081773&mlon=15.9776294#map=19/45.8081773/15.9776294",
+      "category": "ostalo",
+      "lat": 45.8081773,
+      "lon": 15.9776294,
+      "tags": {
+        "building": "residential",
+        "building:levels": "4",
         "roof:material": "roof_tiles",
         "roof:shape": "gabled"
       }
