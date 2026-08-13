@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T04:45:48.769799+00:00",
+  "last_updated": "2026-08-13T04:48:40.498368+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2323,6 +2323,372 @@
         "building:levels": "4",
         "roof:material": "roof_tiles",
         "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "relation/21222347",
+      "osm_type": "relation",
+      "osm_numeric_id": 21222347,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8084496&mlon=15.9737655#map=19/45.8084496/15.9737655",
+      "category": "nepoznato",
+      "lat": 45.8084496,
+      "lon": 15.9737655,
+      "tags": {
+        "building": "yes",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549108848",
+      "osm_type": "way",
+      "osm_numeric_id": 1549108848,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.80822&mlon=15.9704699#map=19/45.80822/15.9704699",
+      "category": "ostalo",
+      "lat": 45.80822,
+      "lon": 15.9704699,
+      "tags": {
+        "building": "service",
+        "panoramax": "cbc6a403-7b45-4eae-a0a5-56d92a35da0a"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549110906",
+      "osm_type": "way",
+      "osm_numeric_id": 1549110906,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8084671&mlon=15.9712439#map=19/45.8084671/15.9712439",
+      "category": "stambene",
+      "lat": 45.8084671,
+      "lon": 15.9712439,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Trg Ivana, Antuna i Vladimira Mažuranića",
+        "building": "apartments",
+        "building:levels": "6",
+        "panoramax": "2166476e-06e7-4280-851b-e67256d9064a",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549110907",
+      "osm_type": "way",
+      "osm_numeric_id": 1549110907,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.808281&mlon=15.9712609#map=19/45.808281/15.9712609",
+      "category": "stambene",
+      "lat": 45.808281,
+      "lon": 15.9712609,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Trg Ivana, Antuna i Vladimira Mažuranića",
+        "building": "apartments",
+        "building:flats": "17",
+        "building:levels": "6",
+        "panoramax": "a2f45a3d-cfdf-4d0d-b09f-0706a40c1b1e",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549111219",
+      "osm_type": "way",
+      "osm_numeric_id": 1549111219,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8083874&mlon=15.9714903#map=19/45.8083874/15.9714903",
+      "category": "garaze",
+      "lat": 45.8083874,
+      "lon": 15.9714903,
+      "tags": {
+        "building": "garage",
+        "panoramax": "535d3304-cae5-48e4-bf7b-69b31fd77eae"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549112372",
+      "osm_type": "way",
+      "osm_numeric_id": 1549112372,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8077769&mlon=15.9712987#map=19/45.8077769/15.9712987",
+      "category": "stambene",
+      "lat": 45.8077769,
+      "lon": 15.9712987,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Trg Ivana, Antuna i Vladimira Mažuranića",
+        "building": "apartments",
+        "building:levels": "5",
+        "panoramax": "2c471d04-257e-4e86-8bf1-6aee870539bb",
+        "roof:material": "eternit",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549116191",
+      "osm_type": "way",
+      "osm_numeric_id": 1549116191,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8088118&mlon=15.9726409#map=19/45.8088118/15.9726409",
+      "category": "stambene",
+      "lat": 45.8088118,
+      "lon": 15.9726409,
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Ulica Andrije Hebranga",
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549117411",
+      "osm_type": "way",
+      "osm_numeric_id": 1549117411,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8092828&mlon=15.9734379#map=19/45.8092828/15.9734379",
+      "category": "stambene_procjena",
+      "lat": 45.8092828,
+      "lon": 15.9734379,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "panoramax": "02291ab3-fdca-4d34-820f-f35a831da1af"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549120155",
+      "osm_type": "way",
+      "osm_numeric_id": 1549120155,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8094324&mlon=15.9747256#map=19/45.8094324/15.9747256",
+      "category": "stambene",
+      "lat": 45.8094324,
+      "lon": 15.9747256,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "3",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549121314",
+      "osm_type": "way",
+      "osm_numeric_id": 1549121314,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8090689&mlon=15.976791#map=19/45.8090689/15.976791",
+      "category": "nepoznato",
+      "lat": 45.8090689,
+      "lon": 15.976791,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549121315",
+      "osm_type": "way",
+      "osm_numeric_id": 1549121315,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.809078&mlon=15.9764797#map=19/45.809078/15.9764797",
+      "category": "nepoznato",
+      "lat": 45.809078,
+      "lon": 15.9764797,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549121316",
+      "osm_type": "way",
+      "osm_numeric_id": 1549121316,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8089286&mlon=15.9765756#map=19/45.8089286/15.9765756",
+      "category": "nepoznato",
+      "lat": 45.8089286,
+      "lon": 15.9765756,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549121843",
+      "osm_type": "way",
+      "osm_numeric_id": 1549121843,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8094362&mlon=15.9768563#map=19/45.8094362/15.9768563",
+      "category": "stambene",
+      "lat": 45.8094362,
+      "lon": 15.9768563,
+      "tags": {
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549171238",
+      "osm_type": "way",
+      "osm_numeric_id": 1549171238,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8095696&mlon=15.9856103#map=19/45.8095696/15.9856103",
+      "category": "nepoznato",
+      "lat": 45.8095696,
+      "lon": 15.9856103,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549187221",
+      "osm_type": "way",
+      "osm_numeric_id": 1549187221,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8080975&mlon=15.9715419#map=19/45.8080975/15.9715419",
+      "category": "nepoznato",
+      "lat": 45.8080975,
+      "lon": 15.9715419,
+      "tags": {
+        "addr:housenumber": "5/1",
+        "addr:street": "Trg Ivana, Antuna i Vladimira Mažuranića",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549190443",
+      "osm_type": "way",
+      "osm_numeric_id": 1549190443,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8085671&mlon=15.9740836#map=19/45.8085671/15.9740836",
+      "category": "nepoznato",
+      "lat": 45.8085671,
+      "lon": 15.9740836,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549190444",
+      "osm_type": "way",
+      "osm_numeric_id": 1549190444,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8085774&mlon=15.9741735#map=19/45.8085774/15.9741735",
+      "category": "nepoznato",
+      "lat": 45.8085774,
+      "lon": 15.9741735,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549192805",
+      "osm_type": "way",
+      "osm_numeric_id": 1549192805,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8082736&mlon=15.9736505#map=19/45.8082736/15.9736505",
+      "category": "nepoznato",
+      "lat": 45.8082736,
+      "lon": 15.9736505,
+      "tags": {
+        "addr:housenumber": "34/5",
+        "addr:street": "Preradovićeva ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549192806",
+      "osm_type": "way",
+      "osm_numeric_id": 1549192806,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8081385&mlon=15.9736594#map=19/45.8081385/15.9736594",
+      "category": "nepoznato",
+      "lat": 45.8081385,
+      "lon": 15.9736594,
+      "tags": {
+        "addr:housenumber": "34/4",
+        "addr:street": "Preradovićeva ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549192807",
+      "osm_type": "way",
+      "osm_numeric_id": 1549192807,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8082326&mlon=15.9745079#map=19/45.8082326/15.9745079",
+      "category": "stambene",
+      "lat": 45.8082326,
+      "lon": 15.9745079,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "38",
+        "addr:postcode": "10000",
+        "addr:street": "Preradovićeva ulica",
+        "building": "apartments",
+        "building:levels": "4",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549192808",
+      "osm_type": "way",
+      "osm_numeric_id": 1549192808,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8083579&mlon=15.9745183#map=19/45.8083579/15.9745183",
+      "category": "stambene",
+      "lat": 45.8083579,
+      "lon": 15.9745183,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:country": "HR",
+        "addr:housenumber": "36",
+        "addr:street": "Preradovićeva ulica",
+        "building": "apartments",
+        "building:levels": "4",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/1549192809",
+      "osm_type": "way",
+      "osm_numeric_id": 1549192809,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8079613&mlon=15.9743229#map=19/45.8079613/15.9743229",
+      "category": "nepoznato",
+      "lat": 45.8079613,
+      "lon": 15.9743229,
+      "tags": {
+        "addr:housenumber": "40/1",
+        "addr:street": "Preradovićeva ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-13T04:48:40.498368+00:00",
+      "id": "way/429622128",
+      "osm_type": "way",
+      "osm_numeric_id": 429622128,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8087252&mlon=15.9717682#map=19/45.8087252/15.9717682",
+      "category": "poslovno",
+      "lat": 45.8087252,
+      "lon": 15.9717682,
+      "tags": {
+        "architect:wikidata": "Q17255412",
+        "building": "commercial",
+        "building:levels": "4",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "name": "Poslovna zgrada \"Elektra\"",
+        "ref:hr:uzkb": "Z-2150",
+        "roof:levels": "1",
+        "start_date": "1932..1934"
       }
     }
   ]
