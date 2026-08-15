@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T04:48:40.498368+00:00",
+  "last_updated": "2026-08-15T03:35:55.015758+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2689,6 +2689,35 @@
         "ref:hr:uzkb": "Z-2150",
         "roof:levels": "1",
         "start_date": "1932..1934"
+      }
+    },
+    {
+      "detected_at": "2026-08-15T03:35:55.015758+00:00",
+      "id": "way/1549601852",
+      "osm_type": "way",
+      "osm_numeric_id": 1549601852,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.792164&mlon=15.9528397#map=19/45.792164/15.9528397",
+      "category": "ostalo",
+      "lat": 45.792164,
+      "lon": 15.9528397,
+      "tags": {
+        "building": "service",
+        "panoramax": "b1b16074-ec08-442b-9a36-c48ab397b0a4",
+        "power": "substation"
+      }
+    },
+    {
+      "detected_at": "2026-08-15T03:35:55.015758+00:00",
+      "id": "way/1549647164",
+      "osm_type": "way",
+      "osm_numeric_id": 1549647164,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8029808&mlon=15.9643585#map=19/45.8029808/15.9643585",
+      "category": "stambene",
+      "lat": 45.8029808,
+      "lon": 15.9643585,
+      "tags": {
+        "building": "apartments",
+        "building:flats": "16"
       }
     }
   ]
