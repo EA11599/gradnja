@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-15T03:35:55.015758+00:00",
+  "last_updated": "2026-08-16T03:44:57.004779+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2718,6 +2718,20 @@
       "tags": {
         "building": "apartments",
         "building:flats": "16"
+      }
+    },
+    {
+      "detected_at": "2026-08-16T03:44:57.004779+00:00",
+      "id": "way/1549855759",
+      "osm_type": "way",
+      "osm_numeric_id": 1549855759,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8063391&mlon=15.9889865#map=19/45.8063391/15.9889865",
+      "category": "nepoznato",
+      "lat": 45.8063391,
+      "lon": 15.9889865,
+      "tags": {
+        "building": "yes",
+        "panoramax": "9ca25d18-2d29-4a79-8ce3-a864d1de821a"
       }
     }
   ]
