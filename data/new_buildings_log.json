@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-16T03:44:57.004779+00:00",
+  "last_updated": "2026-08-21T03:48:15.354995+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2732,6 +2732,21 @@
       "tags": {
         "building": "yes",
         "panoramax": "9ca25d18-2d29-4a79-8ce3-a864d1de821a"
+      }
+    },
+    {
+      "detected_at": "2026-08-21T03:48:15.354995+00:00",
+      "id": "way/1551149024",
+      "osm_type": "way",
+      "osm_numeric_id": 1551149024,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7990415&mlon=15.9648437#map=19/45.7990415/15.9648437",
+      "category": "kuce",
+      "lat": 45.7990415,
+      "lon": 15.9648437,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Poljička ulica",
+        "building": "house"
       }
     }
   ]
