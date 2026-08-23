@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T03:48:15.354995+00:00",
+  "last_updated": "2026-08-23T03:47:49.826141+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2747,6 +2747,33 @@
         "addr:housenumber": "3",
         "addr:street": "Poljička ulica",
         "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-08-23T03:47:49.826141+00:00",
+      "id": "way/1551553564",
+      "osm_type": "way",
+      "osm_numeric_id": 1551553564,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8052014&mlon=15.9362023#map=19/45.8052014/15.9362023",
+      "category": "ostalo",
+      "lat": 45.8052014,
+      "lon": 15.9362023,
+      "tags": {
+        "building": "grandstand"
+      }
+    },
+    {
+      "detected_at": "2026-08-23T03:47:49.826141+00:00",
+      "id": "way/90642648",
+      "osm_type": "way",
+      "osm_numeric_id": 90642648,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8054058&mlon=15.9361926#map=19/45.8054058/15.9361926",
+      "category": "ostalo",
+      "lat": 45.8054058,
+      "lon": 15.9361926,
+      "tags": {
+        "building": "sports_hall",
+        "sport": "badminton"
       }
     }
   ]
