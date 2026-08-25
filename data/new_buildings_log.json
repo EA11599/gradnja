@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-23T03:47:49.826141+00:00",
+  "last_updated": "2026-08-25T03:46:10.249890+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -2774,6 +2774,38 @@
       "tags": {
         "building": "sports_hall",
         "sport": "badminton"
+      }
+    },
+    {
+      "detected_at": "2026-08-25T03:46:10.249890+00:00",
+      "id": "way/1552119628",
+      "osm_type": "way",
+      "osm_numeric_id": 1552119628,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8001397&mlon=16.0029789#map=19/45.8001397/16.0029789",
+      "category": "ostalo",
+      "lat": 45.8001397,
+      "lon": 16.0029789,
+      "tags": {
+        "building": "service",
+        "power": "substation",
+        "ref": "806",
+        "substation": "minor_distribution"
+      }
+    },
+    {
+      "detected_at": "2026-08-25T03:46:10.249890+00:00",
+      "id": "way/1552120737",
+      "osm_type": "way",
+      "osm_numeric_id": 1552120737,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.800426&mlon=16.004161#map=19/45.800426/16.004161",
+      "category": "ostalo",
+      "lat": 45.800426,
+      "lon": 16.004161,
+      "tags": {
+        "building": "service",
+        "power": "substation",
+        "ref": "837",
+        "substation": "minor_distribution"
       }
     }
   ]
