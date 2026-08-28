@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T13:44:41.724454+00:00",
+  "last_updated": "2026-08-28T14:53:01.104772+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -4015,6 +4015,806 @@
         "addr:street": "Gorjanska ulica",
         "building": "apartments",
         "panoramax": "b034485d-3e47-48d0-9990-576971750886"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552941611",
+      "osm_type": "way",
+      "osm_numeric_id": 1552941611,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7980194&mlon=15.9513305#map=19/45.7980194/15.9513305",
+      "category": "nepoznato",
+      "lat": 45.7980194,
+      "lon": 15.9513305,
+      "tags": {
+        "addr:housenumber": "44",
+        "addr:street": "Čapljinska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22076328"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552941612",
+      "osm_type": "way",
+      "osm_numeric_id": 1552941612,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7977295&mlon=15.9514057#map=19/45.7977295/15.9514057",
+      "category": "nepoznato",
+      "lat": 45.7977295,
+      "lon": 15.9514057,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Čapljinska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22076326"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552941613",
+      "osm_type": "way",
+      "osm_numeric_id": 1552941613,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975843&mlon=15.951555#map=19/45.7975843/15.951555",
+      "category": "garaze",
+      "lat": 45.7975843,
+      "lon": 15.951555,
+      "tags": {
+        "building": "garage"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552941614",
+      "osm_type": "way",
+      "osm_numeric_id": 1552941614,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975502&mlon=15.9515548#map=19/45.7975502/15.9515548",
+      "category": "garaze",
+      "lat": 45.7975502,
+      "lon": 15.9515548,
+      "tags": {
+        "building": "garage"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956736",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956736,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7967579&mlon=15.9521346#map=19/45.7967579/15.9521346",
+      "category": "nepoznato",
+      "lat": 45.7967579,
+      "lon": 15.9521346,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22102147"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956737",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956737,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.79665&mlon=15.9521168#map=19/45.79665/15.9521168",
+      "category": "nepoznato",
+      "lat": 45.79665,
+      "lon": 15.9521168,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22102146"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956738",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956738,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7965119&mlon=15.9521638#map=19/45.7965119/15.9521638",
+      "category": "nepoznato",
+      "lat": 45.7965119,
+      "lon": 15.9521638,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22102144"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956739",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956739,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7965471&mlon=15.951895#map=19/45.7965471/15.951895",
+      "category": "nepoznato",
+      "lat": 45.7965471,
+      "lon": 15.951895,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22098887"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956740",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956740,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7965531&mlon=15.9518397#map=19/45.7965531/15.9518397",
+      "category": "nepoznato",
+      "lat": 45.7965531,
+      "lon": 15.9518397,
+      "tags": {
+        "addr:housenumber": "3A",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22098888"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956741",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956741,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7967082&mlon=15.9518827#map=19/45.7967082/15.9518827",
+      "category": "nepoznato",
+      "lat": 45.7967082,
+      "lon": 15.9518827,
+      "tags": {
+        "addr:housenumber": "5A",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22101552"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956742",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956742,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7968903&mlon=15.9518489#map=19/45.7968903/15.9518489",
+      "category": "nepoznato",
+      "lat": 45.7968903,
+      "lon": 15.9518489,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22102141"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956743",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956743,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7969289&mlon=15.951814#map=19/45.7969289/15.951814",
+      "category": "nepoznato",
+      "lat": 45.7969289,
+      "lon": 15.951814,
+      "tags": {
+        "addr:housenumber": "9A",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22102140"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956745",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956745,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.797142&mlon=15.9517287#map=19/45.797142/15.9517287",
+      "category": "nepoznato",
+      "lat": 45.797142,
+      "lon": 15.9517287,
+      "tags": {
+        "addr:housenumber": "13/1",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2159610219"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956746",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956746,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7971389&mlon=15.9518433#map=19/45.7971389/15.9518433",
+      "category": "nepoznato",
+      "lat": 45.7971389,
+      "lon": 15.9518433,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22102138"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956747",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956747,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7972393&mlon=15.9520018#map=19/45.7972393/15.9520018",
+      "category": "nepoznato",
+      "lat": 45.7972393,
+      "lon": 15.9520018,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22101539"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956748",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956748,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975339&mlon=15.9517167#map=19/45.7975339/15.9517167",
+      "category": "nepoznato",
+      "lat": 45.7975339,
+      "lon": 15.9517167,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22076337"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956749",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956749,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7976302&mlon=15.952166#map=19/45.7976302/15.952166",
+      "category": "nepoznato",
+      "lat": 45.7976302,
+      "lon": 15.952166,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Ključka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22077575"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956750",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956750,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7978672&mlon=15.9516757#map=19/45.7978672/15.9516757",
+      "category": "nepoznato",
+      "lat": 45.7978672,
+      "lon": 15.9516757,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22076334"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1552956751",
+      "osm_type": "way",
+      "osm_numeric_id": 1552956751,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7977912&mlon=15.9516818#map=19/45.7977912/15.9516818",
+      "category": "nepoznato",
+      "lat": 45.7977912,
+      "lon": 15.9516818,
+      "tags": {
+        "addr:housenumber": "25A",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22076335"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553042807",
+      "osm_type": "way",
+      "osm_numeric_id": 1553042807,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7965983&mlon=15.9500977#map=19/45.7965983/15.9500977",
+      "category": "nepoznato",
+      "lat": 45.7965983,
+      "lon": 15.9500977,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553042808",
+      "osm_type": "way",
+      "osm_numeric_id": 1553042808,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7965585&mlon=15.9501693#map=19/45.7965585/15.9501693",
+      "category": "nepoznato",
+      "lat": 45.7965585,
+      "lon": 15.9501693,
+      "tags": {
+        "addr:housenumber": "22/2",
+        "addr:street": "Udbinska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22117637"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553042815",
+      "osm_type": "way",
+      "osm_numeric_id": 1553042815,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7967308&mlon=15.9504211#map=19/45.7967308/15.9504211",
+      "category": "kuce",
+      "lat": 45.7967308,
+      "lon": 15.9504211,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Udbinska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22102429"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553042816",
+      "osm_type": "way",
+      "osm_numeric_id": 1553042816,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7966479&mlon=15.9503905#map=19/45.7966479/15.9503905",
+      "category": "kuce",
+      "lat": 45.7966479,
+      "lon": 15.9503905,
+      "tags": {
+        "addr:housenumber": "20A",
+        "addr:street": "Udbinska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22121371"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553042817",
+      "osm_type": "way",
+      "osm_numeric_id": 1553042817,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.796536&mlon=15.9507706#map=19/45.796536/15.9507706",
+      "category": "kuce",
+      "lat": 45.796536,
+      "lon": 15.9507706,
+      "tags": {
+        "addr:housenumber": "54",
+        "addr:street": "Sokolgradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22102324"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553042818",
+      "osm_type": "way",
+      "osm_numeric_id": 1553042818,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7964758&mlon=15.9503791#map=19/45.7964758/15.9503791",
+      "category": "stambene",
+      "lat": 45.7964758,
+      "lon": 15.9503791,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:street": "Udbinska ulica",
+        "building": "apartments",
+        "ref:HR:kucni_broj": "22102430"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052598",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052598,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.795684&mlon=15.950544#map=19/45.795684/15.950544",
+      "category": "nepoznato",
+      "lat": 45.795684,
+      "lon": 15.950544,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052599",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052599,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7957421&mlon=15.9505469#map=19/45.7957421/15.9505469",
+      "category": "nepoznato",
+      "lat": 45.7957421,
+      "lon": 15.9505469,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052620",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052620,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7961285&mlon=15.9514501#map=19/45.7961285/15.9514501",
+      "category": "kuce",
+      "lat": 45.7961285,
+      "lon": 15.9514501,
+      "tags": {
+        "building": "house",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052621",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052621,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.798765&mlon=15.9509348#map=19/45.798765/15.9509348",
+      "category": "nepoznato",
+      "lat": 45.798765,
+      "lon": 15.9509348,
+      "tags": {
+        "addr:housenumber": "9/1",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22077486"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052622",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052622,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7988488&mlon=15.9509311#map=19/45.7988488/15.9509311",
+      "category": "nepoznato",
+      "lat": 45.7988488,
+      "lon": 15.9509311,
+      "tags": {
+        "addr:housenumber": "7B",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22077465"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052623",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052623,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7972711&mlon=15.9510779#map=19/45.7972711/15.9510779",
+      "category": "nepoznato",
+      "lat": 45.7972711,
+      "lon": 15.9510779,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2163444647"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052624",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052624,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.797355&mlon=15.9510563#map=19/45.797355/15.9510563",
+      "category": "nepoznato",
+      "lat": 45.797355,
+      "lon": 15.9510563,
+      "tags": {
+        "addr:housenumber": "31A",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22076300"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052625",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052625,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7977181&mlon=15.9504319#map=19/45.7977181/15.9504319",
+      "category": "nepoznato",
+      "lat": 45.7977181,
+      "lon": 15.9504319,
+      "tags": {
+        "addr:housenumber": "30/1",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22125056"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052626",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052626,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7978475&mlon=15.9504015#map=19/45.7978475/15.9504015",
+      "category": "nepoznato",
+      "lat": 45.7978475,
+      "lon": 15.9504015,
+      "tags": {
+        "addr:housenumber": "28/1",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22116077"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052631",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052631,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7980869&mlon=15.9503781#map=19/45.7980869/15.9503781",
+      "category": "nepoznato",
+      "lat": 45.7980869,
+      "lon": 15.9503781,
+      "tags": {
+        "addr:housenumber": "20/1",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22117046"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052632",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052632,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7981204&mlon=15.9505443#map=19/45.7981204/15.9505443",
+      "category": "nepoznato",
+      "lat": 45.7981204,
+      "lon": 15.9505443,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22077458"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553052636",
+      "osm_type": "way",
+      "osm_numeric_id": 1553052636,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7988777&mlon=15.9500616#map=19/45.7988777/15.9500616",
+      "category": "nepoznato",
+      "lat": 45.7988777,
+      "lon": 15.9500616,
+      "tags": {
+        "addr:housenumber": "4/1",
+        "addr:street": "Sokolgradska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22115962"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553059775",
+      "osm_type": "way",
+      "osm_numeric_id": 1553059775,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7973203&mlon=15.9512851#map=19/45.7973203/15.9512851",
+      "category": "kuce",
+      "lat": 45.7973203,
+      "lon": 15.9512851,
+      "tags": {
+        "addr:housenumber": "21A",
+        "addr:street": "Čapljinska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22076302"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553059776",
+      "osm_type": "way",
+      "osm_numeric_id": 1553059776,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975253&mlon=15.9512179#map=19/45.7975253/15.9512179",
+      "category": "kuce",
+      "lat": 45.7975253,
+      "lon": 15.9512179,
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Čapljinska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22076303"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553064853",
+      "osm_type": "way",
+      "osm_numeric_id": 1553064853,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.797852&mlon=15.9524977#map=19/45.797852/15.9524977",
+      "category": "kuce",
+      "lat": 45.797852,
+      "lon": 15.9524977,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Ključka ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22076397"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553066815",
+      "osm_type": "way",
+      "osm_numeric_id": 1553066815,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7973113&mlon=15.9524675#map=19/45.7973113/15.9524675",
+      "category": "kuce",
+      "lat": 45.7973113,
+      "lon": 15.9524675,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22075606"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553066816",
+      "osm_type": "way",
+      "osm_numeric_id": 1553066816,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7973979&mlon=15.9528438#map=19/45.7973979/15.9528438",
+      "category": "kuce",
+      "lat": 45.7973979,
+      "lon": 15.9528438,
+      "tags": {
+        "addr:housenumber": "3A",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22075610"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553066817",
+      "osm_type": "way",
+      "osm_numeric_id": 1553066817,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7973537&mlon=15.9526993#map=19/45.7973537/15.9526993",
+      "category": "kuce",
+      "lat": 45.7973537,
+      "lon": 15.9526993,
+      "tags": {
+        "addr:housenumber": "5A",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22077229"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553066818",
+      "osm_type": "way",
+      "osm_numeric_id": 1553066818,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7974378&mlon=15.9524429#map=19/45.7974378/15.9524429",
+      "category": "kuce",
+      "lat": 45.7974378,
+      "lon": 15.9524429,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22075607"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553066819",
+      "osm_type": "way",
+      "osm_numeric_id": 1553066819,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7974525&mlon=15.9525176#map=19/45.7974525/15.9525176",
+      "category": "kuce",
+      "lat": 45.7974525,
+      "lon": 15.9525176,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22075608"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553066820",
+      "osm_type": "way",
+      "osm_numeric_id": 1553066820,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7974762&mlon=15.9526192#map=19/45.7974762/15.9526192",
+      "category": "kuce",
+      "lat": 45.7974762,
+      "lon": 15.9526192,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22075609"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553066821",
+      "osm_type": "way",
+      "osm_numeric_id": 1553066821,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975373&mlon=15.952864#map=19/45.7975373/15.952864",
+      "category": "kuce",
+      "lat": 45.7975373,
+      "lon": 15.952864,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22075611"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553068748",
+      "osm_type": "way",
+      "osm_numeric_id": 1553068748,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975975&mlon=15.9525475#map=19/45.7975975/15.9525475",
+      "category": "kuce",
+      "lat": 45.7975975,
+      "lon": 15.9525475,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Višegradska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22075601"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553069880",
+      "osm_type": "way",
+      "osm_numeric_id": 1553069880,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7967928&mlon=15.9522202#map=19/45.7967928/15.9522202",
+      "category": "kuce",
+      "lat": 45.7967928,
+      "lon": 15.9522202,
+      "tags": {
+        "addr:housenumber": "8A",
+        "addr:street": "Glamočka ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22103425"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553071344",
+      "osm_type": "way",
+      "osm_numeric_id": 1553071344,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7992787&mlon=15.9531885#map=19/45.7992787/15.9531885",
+      "category": "nepoznato",
+      "lat": 45.7992787,
+      "lon": 15.9531885,
+      "tags": {
+        "addr:housenumber": "3/1",
+        "addr:street": "Maglajska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22134390"
+      }
+    },
+    {
+      "detected_at": "2026-08-28T14:53:01.104772+00:00",
+      "id": "way/1553071345",
+      "osm_type": "way",
+      "osm_numeric_id": 1553071345,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7991775&mlon=15.9533417#map=19/45.7991775/15.9533417",
+      "category": "nepoznato",
+      "lat": 45.7991775,
+      "lon": 15.9533417,
+      "tags": {
+        "addr:housenumber": "5/2",
+        "addr:street": "Maglajska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22074525"
       }
     }
   ]
