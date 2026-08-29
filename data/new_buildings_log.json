@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-28T14:53:01.104772+00:00",
+  "last_updated": "2026-08-29T09:42:35.325377+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -4815,6 +4815,664 @@
         "addr:street": "Maglajska ulica",
         "building": "yes",
         "ref:HR:kucni_broj": "22074525"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553238696",
+      "osm_type": "way",
+      "osm_numeric_id": 1553238696,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7954181&mlon=15.9678482#map=19/45.7954181/15.9678482",
+      "category": "stambene",
+      "lat": 45.7954181,
+      "lon": 15.9678482,
+      "tags": {
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553313225",
+      "osm_type": "way",
+      "osm_numeric_id": 1553313225,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7994241&mlon=15.953208#map=19/45.7994241/15.953208",
+      "category": "nepoznato",
+      "lat": 45.7994241,
+      "lon": 15.953208,
+      "tags": {
+        "addr:housenumber": "1/2",
+        "addr:street": "Ozaljska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553313611",
+      "osm_type": "way",
+      "osm_numeric_id": 1553313611,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7979093&mlon=15.9588589#map=19/45.7979093/15.9588589",
+      "category": "nepoznato",
+      "lat": 45.7979093,
+      "lon": 15.9588589,
+      "tags": {
+        "addr:housenumber": "52/1",
+        "addr:street": "Cernička ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553313612",
+      "osm_type": "way",
+      "osm_numeric_id": 1553313612,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7978004&mlon=15.9589063#map=19/45.7978004/15.9589063",
+      "category": "nepoznato",
+      "lat": 45.7978004,
+      "lon": 15.9589063,
+      "tags": {
+        "addr:housenumber": "52",
+        "addr:street": "Cernička ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553313823",
+      "osm_type": "way",
+      "osm_numeric_id": 1553313823,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7966752&mlon=15.9551045#map=19/45.7966752/15.9551045",
+      "category": "nepoznato",
+      "lat": 45.7966752,
+      "lon": 15.9551045,
+      "tags": {
+        "addr:housenumber": "144/1",
+        "addr:street": "Nova cesta",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22101389"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553313996",
+      "osm_type": "way",
+      "osm_numeric_id": 1553313996,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7963608&mlon=15.9560606#map=19/45.7963608/15.9560606",
+      "category": "stambene",
+      "lat": 45.7963608,
+      "lon": 15.9560606,
+      "tags": {
+        "addr:housenumber": "137B",
+        "addr:street": "Nova cesta",
+        "building": "apartments",
+        "building:levels": "5",
+        "noaddress": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553313997",
+      "osm_type": "way",
+      "osm_numeric_id": 1553313997,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7962859&mlon=15.9560115#map=19/45.7962859/15.9560115",
+      "category": "nepoznato",
+      "lat": 45.7962859,
+      "lon": 15.9560115,
+      "tags": {
+        "addr:housenumber": "139/2",
+        "addr:street": "Nova cesta",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553314576",
+      "osm_type": "way",
+      "osm_numeric_id": 1553314576,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7976589&mlon=15.9470763#map=19/45.7976589/15.9470763",
+      "category": "nepoznato",
+      "lat": 45.7976589,
+      "lon": 15.9470763,
+      "tags": {
+        "addr:housenumber": "2/1",
+        "addr:street": "Grobnička ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553314577",
+      "osm_type": "way",
+      "osm_numeric_id": 1553314577,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7977817&mlon=15.9475945#map=19/45.7977817/15.9475945",
+      "category": "nepoznato",
+      "lat": 45.7977817,
+      "lon": 15.9475945,
+      "tags": {
+        "addr:housenumber": "7/1",
+        "addr:street": "Trsatska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553315294",
+      "osm_type": "way",
+      "osm_numeric_id": 1553315294,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7971474&mlon=15.9460308#map=19/45.7971474/15.9460308",
+      "category": "nepoznato",
+      "lat": 45.7971474,
+      "lon": 15.9460308,
+      "tags": {
+        "addr:housenumber": "22/1",
+        "addr:street": "Hreljinska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553315295",
+      "osm_type": "way",
+      "osm_numeric_id": 1553315295,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7971084&mlon=15.9459092#map=19/45.7971084/15.9459092",
+      "category": "nepoznato",
+      "lat": 45.7971084,
+      "lon": 15.9459092,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:street": "Hreljinska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553315296",
+      "osm_type": "way",
+      "osm_numeric_id": 1553315296,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.797272&mlon=15.9463772#map=19/45.797272/15.9463772",
+      "category": "nepoznato",
+      "lat": 45.797272,
+      "lon": 15.9463772,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553315297",
+      "osm_type": "way",
+      "osm_numeric_id": 1553315297,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7972486&mlon=15.9462749#map=19/45.7972486/15.9462749",
+      "category": "nepoznato",
+      "lat": 45.7972486,
+      "lon": 15.9462749,
+      "tags": {
+        "addr:housenumber": "13/1",
+        "addr:street": "Grobnička ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553315298",
+      "osm_type": "way",
+      "osm_numeric_id": 1553315298,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7970612&mlon=15.9474381#map=19/45.7970612/15.9474381",
+      "category": "nepoznato",
+      "lat": 45.7970612,
+      "lon": 15.9474381,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Trsatska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553316457",
+      "osm_type": "way",
+      "osm_numeric_id": 1553316457,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7977658&mlon=15.9455124#map=19/45.7977658/15.9455124",
+      "category": "nepoznato",
+      "lat": 45.7977658,
+      "lon": 15.9455124,
+      "tags": {
+        "addr:housenumber": "59/1",
+        "addr:street": "Ozaljska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553316458",
+      "osm_type": "way",
+      "osm_numeric_id": 1553316458,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.797798&mlon=15.9455792#map=19/45.797798/15.9455792",
+      "category": "nepoznato",
+      "lat": 45.797798,
+      "lon": 15.9455792,
+      "tags": {
+        "addr:housenumber": "57/1",
+        "addr:street": "Ozaljska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553316459",
+      "osm_type": "way",
+      "osm_numeric_id": 1553316459,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7978289&mlon=15.9458994#map=19/45.7978289/15.9458994",
+      "category": "nepoznato",
+      "lat": 45.7978289,
+      "lon": 15.9458994,
+      "tags": {
+        "addr:housenumber": "53/1",
+        "addr:street": "Ozaljska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553316593",
+      "osm_type": "way",
+      "osm_numeric_id": 1553316593,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7976042&mlon=15.9452245#map=19/45.7976042/15.9452245",
+      "category": "nepoznato",
+      "lat": 45.7976042,
+      "lon": 15.9452245,
+      "tags": {
+        "addr:housenumber": "22A",
+        "addr:street": "Severinska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2176121956"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553316714",
+      "osm_type": "way",
+      "osm_numeric_id": 1553316714,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7980754&mlon=15.9468816#map=19/45.7980754/15.9468816",
+      "category": "nepoznato",
+      "lat": 45.7980754,
+      "lon": 15.9468816,
+      "tags": {
+        "addr:housenumber": "41/1",
+        "addr:street": "Ozaljska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553318103",
+      "osm_type": "way",
+      "osm_numeric_id": 1553318103,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7967643&mlon=15.9455492#map=19/45.7967643/15.9455492",
+      "category": "nepoznato",
+      "lat": 45.7967643,
+      "lon": 15.9455492,
+      "tags": {
+        "addr:housenumber": "31/2",
+        "addr:street": "Hreljinska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553318104",
+      "osm_type": "way",
+      "osm_numeric_id": 1553318104,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7967482&mlon=15.9455002#map=19/45.7967482/15.9455002",
+      "category": "nepoznato",
+      "lat": 45.7967482,
+      "lon": 15.9455002,
+      "tags": {
+        "addr:housenumber": "31/1",
+        "addr:street": "Hreljinska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553318105",
+      "osm_type": "way",
+      "osm_numeric_id": 1553318105,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7970768&mlon=15.9454177#map=19/45.7970768/15.9454177",
+      "category": "nepoznato",
+      "lat": 45.7970768,
+      "lon": 15.9454177,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553318106",
+      "osm_type": "way",
+      "osm_numeric_id": 1553318106,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7970763&mlon=15.9453531#map=19/45.7970763/15.9453531",
+      "category": "nepoznato",
+      "lat": 45.7970763,
+      "lon": 15.9453531,
+      "tags": {
+        "addr:housenumber": "27A/1",
+        "addr:street": "Ozaljska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553318107",
+      "osm_type": "way",
+      "osm_numeric_id": 1553318107,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7971577&mlon=15.9453853#map=19/45.7971577/15.9453853",
+      "category": "nepoznato",
+      "lat": 45.7971577,
+      "lon": 15.9453853,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "Grobnička ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22098399"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553318108",
+      "osm_type": "way",
+      "osm_numeric_id": 1553318108,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975121&mlon=15.9442853#map=19/45.7975121/15.9442853",
+      "category": "nepoznato",
+      "lat": 45.7975121,
+      "lon": 15.9442853,
+      "tags": {
+        "addr:housenumber": "79/1",
+        "addr:street": "Ozaljska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319175",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319175,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7952181&mlon=15.9456242#map=19/45.7952181/15.9456242",
+      "category": "nepoznato",
+      "lat": 45.7952181,
+      "lon": 15.9456242,
+      "tags": {
+        "addr:housenumber": "22/1",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319176",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319176,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7952241&mlon=15.945711#map=19/45.7952241/15.945711",
+      "category": "nepoznato",
+      "lat": 45.7952241,
+      "lon": 15.945711,
+      "tags": {
+        "addr:housenumber": "20/1",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319177",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319177,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7951276&mlon=15.9458461#map=19/45.7951276/15.9458461",
+      "category": "nepoznato",
+      "lat": 45.7951276,
+      "lon": 15.9458461,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319178",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319178,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7951697&mlon=15.945526#map=19/45.7951697/15.945526",
+      "category": "nepoznato",
+      "lat": 45.7951697,
+      "lon": 15.945526,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319179",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319179,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7948716&mlon=15.9451075#map=19/45.7948716/15.9451075",
+      "category": "nepoznato",
+      "lat": 45.7948716,
+      "lon": 15.9451075,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319180",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319180,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.794952&mlon=15.945059#map=19/45.794952/15.945059",
+      "category": "nepoznato",
+      "lat": 45.794952,
+      "lon": 15.945059,
+      "tags": {
+        "addr:housenumber": "31B",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319181",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319181,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7951786&mlon=15.9449304#map=19/45.7951786/15.9449304",
+      "category": "nepoznato",
+      "lat": 45.7951786,
+      "lon": 15.9449304,
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319182",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319182,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7951304&mlon=15.9446658#map=19/45.7951304/15.9446658",
+      "category": "nepoznato",
+      "lat": 45.7951304,
+      "lon": 15.9446658,
+      "tags": {
+        "addr:housenumber": "36/1",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319594",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319594,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7944575&mlon=15.9454071#map=19/45.7944575/15.9454071",
+      "category": "nepoznato",
+      "lat": 45.7944575,
+      "lon": 15.9454071,
+      "tags": {
+        "addr:housenumber": "34/1",
+        "addr:street": "Slunjska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22136020"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319595",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319595,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7952092&mlon=15.9460191#map=19/45.7952092/15.9460191",
+      "category": "nepoznato",
+      "lat": 45.7952092,
+      "lon": 15.9460191,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319739",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319739,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7945541&mlon=15.9471281#map=19/45.7945541/15.9471281",
+      "category": "nepoznato",
+      "lat": 45.7945541,
+      "lon": 15.9471281,
+      "tags": {
+        "addr:housenumber": "14/1",
+        "addr:street": "Slunjska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2092959151"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319890",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319890,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.788228&mlon=15.9503482#map=19/45.788228/15.9503482",
+      "category": "nepoznato",
+      "lat": 45.788228,
+      "lon": 15.9503482,
+      "tags": {
+        "addr:housenumber": "3/1",
+        "addr:street": "Ulica Stjepana Romića",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319891",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319891,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7881106&mlon=15.9503194#map=19/45.7881106/15.9503194",
+      "category": "nepoznato",
+      "lat": 45.7881106,
+      "lon": 15.9503194,
+      "tags": {
+        "addr:housenumber": "28/2",
+        "addr:street": "Horvaćanska cesta",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553319892",
+      "osm_type": "way",
+      "osm_numeric_id": 1553319892,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7879975&mlon=15.9502823#map=19/45.7879975/15.9502823",
+      "category": "nepoznato",
+      "lat": 45.7879975,
+      "lon": 15.9502823,
+      "tags": {
+        "addr:housenumber": "28/1",
+        "addr:street": "Horvaćanska cesta",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553323704",
+      "osm_type": "way",
+      "osm_numeric_id": 1553323704,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7948954&mlon=15.9461997#map=19/45.7948954/15.9461997",
+      "category": "nepoznato",
+      "lat": 45.7948954,
+      "lon": 15.9461997,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553323705",
+      "osm_type": "way",
+      "osm_numeric_id": 1553323705,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.794968&mlon=15.9465993#map=19/45.794968/15.9465993",
+      "category": "nepoznato",
+      "lat": 45.794968,
+      "lon": 15.9465993,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553323706",
+      "osm_type": "way",
+      "osm_numeric_id": 1553323706,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7950007&mlon=15.9465519#map=19/45.7950007/15.9465519",
+      "category": "nepoznato",
+      "lat": 45.7950007,
+      "lon": 15.9465519,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553323707",
+      "osm_type": "way",
+      "osm_numeric_id": 1553323707,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7950003&mlon=15.946464#map=19/45.7950003/15.946464",
+      "category": "nepoznato",
+      "lat": 45.7950003,
+      "lon": 15.946464,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-08-29T09:42:35.325377+00:00",
+      "id": "way/1553323708",
+      "osm_type": "way",
+      "osm_numeric_id": 1553323708,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7949164&mlon=15.945905#map=19/45.7949164/15.945905",
+      "category": "nepoznato",
+      "lat": 45.7949164,
+      "lon": 15.945905,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "Blagajska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22098053",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       }
     }
   ]
