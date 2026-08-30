@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-29T09:42:35.325377+00:00",
+  "last_updated": "2026-08-30T08:54:34.610065+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5473,6 +5473,75 @@
         "ref:HR:kucni_broj": "22098053",
         "roof:material": "roof_tiles",
         "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-08-30T08:54:34.610065+00:00",
+      "id": "way/1553376775",
+      "osm_type": "way",
+      "osm_numeric_id": 1553376775,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8256538&mlon=16.046472#map=19/45.8256538/16.046472",
+      "category": "stambene",
+      "lat": 45.8256538,
+      "lon": 16.046472,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-08-30T08:54:34.610065+00:00",
+      "id": "way/1553376776",
+      "osm_type": "way",
+      "osm_numeric_id": 1553376776,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8259047&mlon=16.0463403#map=19/45.8259047/16.0463403",
+      "category": "stambene",
+      "lat": 45.8259047,
+      "lon": 16.0463403,
+      "tags": {
+        "building": "apartments",
+        "panoramax": "4398cfda-465b-4cbc-993a-082d8264b4c2"
+      }
+    },
+    {
+      "detected_at": "2026-08-30T08:54:34.610065+00:00",
+      "id": "way/1553376777",
+      "osm_type": "way",
+      "osm_numeric_id": 1553376777,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8260222&mlon=16.0462924#map=19/45.8260222/16.0462924",
+      "category": "stambene",
+      "lat": 45.8260222,
+      "lon": 16.0462924,
+      "tags": {
+        "building": "apartments",
+        "panoramax": "e5c5c591-c62d-42d2-b305-470b7921709e"
+      }
+    },
+    {
+      "detected_at": "2026-08-30T08:54:34.610065+00:00",
+      "id": "way/1553376778",
+      "osm_type": "way",
+      "osm_numeric_id": 1553376778,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8257893&mlon=16.0464078#map=19/45.8257893/16.0464078",
+      "category": "stambene",
+      "lat": 45.8257893,
+      "lon": 16.0464078,
+      "tags": {
+        "building": "apartments",
+        "panoramax": "3570d6c3-5aa3-4acd-98fe-db252c09879a"
+      }
+    },
+    {
+      "detected_at": "2026-08-30T08:54:34.610065+00:00",
+      "id": "way/1553377967",
+      "osm_type": "way",
+      "osm_numeric_id": 1553377967,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8259358&mlon=16.0467976#map=19/45.8259358/16.0467976",
+      "category": "stambene",
+      "lat": 45.8259358,
+      "lon": 16.0467976,
+      "tags": {
+        "building": "apartments",
+        "panoramax": "0a7643bf-e98c-415d-b293-2f9bce257d62"
       }
     }
   ]
