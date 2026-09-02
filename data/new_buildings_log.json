@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T08:54:34.610065+00:00",
+  "last_updated": "2026-09-02T07:36:42.922448+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5542,6 +5542,37 @@
       "tags": {
         "building": "apartments",
         "panoramax": "0a7643bf-e98c-415d-b293-2f9bce257d62"
+      }
+    },
+    {
+      "detected_at": "2026-09-02T07:36:42.922448+00:00",
+      "id": "way/1554222491",
+      "osm_type": "way",
+      "osm_numeric_id": 1554222491,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7905665&mlon=15.9857587#map=19/45.7905665/15.9857587",
+      "category": "garaze",
+      "lat": 45.7905665,
+      "lon": 15.9857587,
+      "tags": {
+        "building": "carport"
+      }
+    },
+    {
+      "detected_at": "2026-09-02T07:36:42.922448+00:00",
+      "id": "way/1554275247",
+      "osm_type": "way",
+      "osm_numeric_id": 1554275247,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8000881&mlon=15.9338232#map=19/45.8000881/15.9338232",
+      "category": "kuce",
+      "lat": 45.8000881,
+      "lon": 15.9338232,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Šljivarska ulica",
+        "building": "house",
+        "panoramax": "71e97aec-f877-4d30-8e72-6ad25c55d58d",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       }
     }
   ]
