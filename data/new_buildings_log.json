@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T07:36:42.922448+00:00",
+  "last_updated": "2026-09-03T07:46:30.592604+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5573,6 +5573,80 @@
         "panoramax": "71e97aec-f877-4d30-8e72-6ad25c55d58d",
         "roof:material": "roof_tiles",
         "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-03T07:46:30.592604+00:00",
+      "id": "way/1554523295",
+      "osm_type": "way",
+      "osm_numeric_id": 1554523295,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7879269&mlon=16.0096263#map=19/45.7879269/16.0096263",
+      "category": "ostalo",
+      "lat": 45.7879269,
+      "lon": 16.0096263,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Ulica Davora Zbiljskog",
+        "building": "kindergarten",
+        "fixme": "Ucrtati bolje kada dođu snimke"
+      }
+    },
+    {
+      "detected_at": "2026-09-03T07:46:30.592604+00:00",
+      "id": "way/1554638404",
+      "osm_type": "way",
+      "osm_numeric_id": 1554638404,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8138474&mlon=15.8854345#map=19/45.8138474/15.8854345",
+      "category": "stambene",
+      "lat": 45.8138474,
+      "lon": 15.8854345,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "14D",
+        "addr:postcode": "10090",
+        "addr:street": "Crnojezerska ulica",
+        "building": "apartments",
+        "building:flats": "5",
+        "building:levels": "3",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-09-03T07:46:30.592604+00:00",
+      "id": "way/1554638405",
+      "osm_type": "way",
+      "osm_numeric_id": 1554638405,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8139403&mlon=15.8854571#map=19/45.8139403/15.8854571",
+      "category": "stambene",
+      "lat": 45.8139403,
+      "lon": 15.8854571,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "14E",
+        "addr:postcode": "10090",
+        "addr:street": "Crnojezerska ulica",
+        "building": "apartments",
+        "building:flats": "5",
+        "building:levels": "3",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-09-03T07:46:30.592604+00:00",
+      "id": "way/1554640106",
+      "osm_type": "way",
+      "osm_numeric_id": 1554640106,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8142781&mlon=15.8856376#map=19/45.8142781/15.8856376",
+      "category": "stambene",
+      "lat": 45.8142781,
+      "lon": 15.8856376,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "14",
+        "addr:postcode": "10090",
+        "addr:street": "Crnojezerska ulica",
+        "building": "apartments",
+        "roof:shape": "flat"
       }
     }
   ]
