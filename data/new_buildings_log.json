@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T07:46:30.592604+00:00",
+  "last_updated": "2026-09-04T07:42:00.041627+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5647,6 +5647,114 @@
         "addr:street": "Crnojezerska ulica",
         "building": "apartments",
         "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/1554710709",
+      "osm_type": "way",
+      "osm_numeric_id": 1554710709,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7988898&mlon=15.9607073#map=19/45.7988898/15.9607073",
+      "category": "ostalo",
+      "lat": 45.7988898,
+      "lon": 15.9607073,
+      "tags": {
+        "building": "service"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/1554724235",
+      "osm_type": "way",
+      "osm_numeric_id": 1554724235,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.786971&mlon=16.0095146#map=19/45.786971/16.0095146",
+      "category": "ostalo",
+      "lat": 45.786971,
+      "lon": 16.0095146,
+      "tags": {
+        "building": "school"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/1554752769",
+      "osm_type": "way",
+      "osm_numeric_id": 1554752769,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7853399&mlon=16.006464#map=19/45.7853399/16.006464",
+      "category": "nepoznato",
+      "lat": 45.7853399,
+      "lon": 16.006464,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/1554774503",
+      "osm_type": "way",
+      "osm_numeric_id": 1554774503,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7846862&mlon=16.0068859#map=19/45.7846862/16.0068859",
+      "category": "ostalo",
+      "lat": 45.7846862,
+      "lon": 16.0068859,
+      "tags": {
+        "building": "service",
+        "power": "substation",
+        "substation": "minor_distribution"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/1554817135",
+      "osm_type": "way",
+      "osm_numeric_id": 1554817135,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7985753&mlon=15.9923154#map=19/45.7985753/15.9923154",
+      "category": "ostalo",
+      "lat": 45.7985753,
+      "lon": 15.9923154,
+      "tags": {
+        "building": "shed"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/1554872683",
+      "osm_type": "way",
+      "osm_numeric_id": 1554872683,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7860786&mlon=16.0054273#map=19/45.7860786/16.0054273",
+      "category": "stambene",
+      "lat": 45.7860786,
+      "lon": 16.0054273,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/1554886956",
+      "osm_type": "way",
+      "osm_numeric_id": 1554886956,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8015806&mlon=15.8884272#map=19/45.8015806/15.8884272",
+      "category": "ostalo",
+      "lat": 45.8015806,
+      "lon": 15.8884272,
+      "tags": {
+        "building": "kindergarten"
+      }
+    },
+    {
+      "detected_at": "2026-09-04T07:42:00.041627+00:00",
+      "id": "way/498641236",
+      "osm_type": "way",
+      "osm_numeric_id": 498641236,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7985455&mlon=15.9922612#map=19/45.7985455/15.9922612",
+      "category": "nepoznato",
+      "lat": 45.7985455,
+      "lon": 15.9922612,
+      "tags": {
+        "barrier": "fence",
+        "building": "yes",
+        "panoramax": "d8f96885-fe69-4882-bb5c-1896f319d0d4"
       }
     }
   ]
