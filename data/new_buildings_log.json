@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T07:42:00.041627+00:00",
+  "last_updated": "2026-09-05T07:23:50.177888+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5755,6 +5755,25 @@
         "barrier": "fence",
         "building": "yes",
         "panoramax": "d8f96885-fe69-4882-bb5c-1896f319d0d4"
+      }
+    },
+    {
+      "detected_at": "2026-09-05T07:23:50.177888+00:00",
+      "id": "way/1555148851",
+      "osm_type": "way",
+      "osm_numeric_id": 1555148851,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8123811&mlon=15.9362917#map=19/45.8123811/15.9362917",
+      "category": "ostalo",
+      "lat": 45.8123811,
+      "lon": 15.9362917,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "30",
+        "addr:postcode": "10000",
+        "addr:street": "Prilaz baruna Filipovića",
+        "building": "university",
+        "panoramax": "561a4719-4b19-476d-9991-667d2f4c4d1d",
+        "panoramax:1": "c0385d79-f042-49b1-b319-71112875b612"
       }
     }
   ]
