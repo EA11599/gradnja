@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-05T07:23:50.177888+00:00",
+  "last_updated": "2026-09-06T07:37:02.619886+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5774,6 +5774,145 @@
         "building": "university",
         "panoramax": "561a4719-4b19-476d-9991-667d2f4c4d1d",
         "panoramax:1": "c0385d79-f042-49b1-b319-71112875b612"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556373719",
+      "osm_type": "way",
+      "osm_numeric_id": 1556373719,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8007621&mlon=15.9602556#map=19/45.8007621/15.9602556",
+      "category": "stambene",
+      "lat": 45.8007621,
+      "lon": 15.9602556,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Šarengradska ulica",
+        "building": "apartments",
+        "panoramax": "0735a3c0-3e5f-429a-935e-074e122dee5c"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556377499",
+      "osm_type": "way",
+      "osm_numeric_id": 1556377499,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8011475&mlon=15.9606833#map=19/45.8011475/15.9606833",
+      "category": "nepoznato",
+      "lat": 45.8011475,
+      "lon": 15.9606833,
+      "tags": {
+        "addr:housenumber": "4A",
+        "addr:street": "Šarengradska ulica",
+        "building": "yes",
+        "panoramax": "708debe1-b12e-4c6d-be41-be2d24d6e2e9"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556379838",
+      "osm_type": "way",
+      "osm_numeric_id": 1556379838,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8023831&mlon=15.9602065#map=19/45.8023831/15.9602065",
+      "category": "stambene",
+      "lat": 45.8023831,
+      "lon": 15.9602065,
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "Tratinska ulica",
+        "building": "apartments",
+        "building:colour": "#eecfaf",
+        "building:flats": "28",
+        "building:levels": "5",
+        "panoramax": "4d6bcd98-2d92-4169-93d9-b00179b21d13",
+        "roof:levels": "1",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556381207",
+      "osm_type": "way",
+      "osm_numeric_id": 1556381207,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8013756&mlon=15.959382#map=19/45.8013756/15.959382",
+      "category": "nepoznato",
+      "lat": 45.8013756,
+      "lon": 15.959382,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Iločka ulica",
+        "building": "yes",
+        "noaddress": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556381524",
+      "osm_type": "way",
+      "osm_numeric_id": 1556381524,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8008076&mlon=15.9597668#map=19/45.8008076/15.9597668",
+      "category": "nepoznato",
+      "lat": 45.8008076,
+      "lon": 15.9597668,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Iločka ulica",
+        "building": "yes",
+        "noaddress": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556381649",
+      "osm_type": "way",
+      "osm_numeric_id": 1556381649,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8005666&mlon=15.9598011#map=19/45.8005666/15.9598011",
+      "category": "nepoznato",
+      "lat": 45.8005666,
+      "lon": 15.9598011,
+      "tags": {
+        "building": "yes",
+        "noaddress": "yes",
+        "panoramax": "39d14ad8-26cb-496f-b19c-38e5e6fa2110",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556382084",
+      "osm_type": "way",
+      "osm_numeric_id": 1556382084,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.800059&mlon=15.9598513#map=19/45.800059/15.9598513",
+      "category": "nepoznato",
+      "lat": 45.800059,
+      "lon": 15.9598513,
+      "tags": {
+        "building": "yes",
+        "noaddress": "yes",
+        "panoramax": "772f5998-59c7-463a-ba2e-bc94059dc2a7",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-06T07:37:02.619886+00:00",
+      "id": "way/1556382085",
+      "osm_type": "way",
+      "osm_numeric_id": 1556382085,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.800168&mlon=15.9599999#map=19/45.800168/15.9599999",
+      "category": "nepoznato",
+      "lat": 45.800168,
+      "lon": 15.9599999,
+      "tags": {
+        "building": "yes",
+        "noaddress": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       }
     }
   ]
