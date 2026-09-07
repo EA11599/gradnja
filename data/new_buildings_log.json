@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-06T07:37:02.619886+00:00",
+  "last_updated": "2026-09-07T07:55:03.854110+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5913,6 +5913,20 @@
         "noaddress": "yes",
         "roof:material": "roof_tiles",
         "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-07T07:55:03.854110+00:00",
+      "id": "way/1556699789",
+      "osm_type": "way",
+      "osm_numeric_id": 1556699789,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8231253&mlon=16.0057004#map=19/45.8231253/16.0057004",
+      "category": "ostalo",
+      "lat": 45.8231253,
+      "lon": 16.0057004,
+      "tags": {
+        "building": "service",
+        "power": "substation"
       }
     }
   ]
