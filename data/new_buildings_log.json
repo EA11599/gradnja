@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T07:49:07.555420+00:00",
+  "last_updated": "2026-09-10T07:53:34.898190+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -5939,6 +5939,119 @@
       "lat": 45.8325143,
       "lon": 16.0942615,
       "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557577087",
+      "osm_type": "way",
+      "osm_numeric_id": 1557577087,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.801356&mlon=15.9852605#map=19/45.801356/15.9852605",
+      "category": "nepoznato",
+      "lat": 45.801356,
+      "lon": 15.9852605,
+      "tags": {
+        "addr:housenumber": "229/2",
+        "addr:street": "Ulica grada Vukovara",
+        "building": "yes",
+        "panoramax": "45e693a9-b02a-4b59-9dcb-2b0c85bb9035",
+        "ref:HR:kucni_broj": "22117145"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557577438",
+      "osm_type": "way",
+      "osm_numeric_id": 1557577438,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8011934&mlon=15.9850606#map=19/45.8011934/15.9850606",
+      "category": "ostalo",
+      "lat": 45.8011934,
+      "lon": 15.9850606,
+      "tags": {
+        "building": "shed",
+        "panoramax": "592615e3-0466-4a8c-aa20-cb719ea295c9"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557721896",
+      "osm_type": "way",
+      "osm_numeric_id": 1557721896,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8303914&mlon=15.9934861#map=19/45.8303914/15.9934861",
+      "category": "nepoznato",
+      "lat": 45.8303914,
+      "lon": 15.9934861,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557721897",
+      "osm_type": "way",
+      "osm_numeric_id": 1557721897,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8302297&mlon=15.9938803#map=19/45.8302297/15.9938803",
+      "category": "nepoznato",
+      "lat": 45.8302297,
+      "lon": 15.9938803,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557722989",
+      "osm_type": "way",
+      "osm_numeric_id": 1557722989,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.831388&mlon=15.9931068#map=19/45.831388/15.9931068",
+      "category": "kuce",
+      "lat": 45.831388,
+      "lon": 15.9931068,
+      "tags": {
+        "building": "house",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557724088",
+      "osm_type": "way",
+      "osm_numeric_id": 1557724088,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8315989&mlon=15.9924028#map=19/45.8315989/15.9924028",
+      "category": "nepoznato",
+      "lat": 45.8315989,
+      "lon": 15.9924028,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557724089",
+      "osm_type": "way",
+      "osm_numeric_id": 1557724089,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8314772&mlon=15.9921213#map=19/45.8314772/15.9921213",
+      "category": "nepoznato",
+      "lat": 45.8314772,
+      "lon": 15.9921213,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-10T07:53:34.898190+00:00",
+      "id": "way/1557724090",
+      "osm_type": "way",
+      "osm_numeric_id": 1557724090,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8314369&mlon=15.9920703#map=19/45.8314369/15.9920703",
+      "category": "nepoznato",
+      "lat": 45.8314369,
+      "lon": 15.9920703,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Hrastovac",
         "building": "yes"
       }
     }
