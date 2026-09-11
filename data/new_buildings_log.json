@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T07:53:34.898190+00:00",
+  "last_updated": "2026-09-11T07:47:33.112034+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6053,6 +6053,119 @@
         "addr:housenumber": "5",
         "addr:street": "Hrastovac",
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-11T07:47:33.112034+00:00",
+      "id": "way/1557829544",
+      "osm_type": "way",
+      "osm_numeric_id": 1557829544,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8139774&mlon=15.885109#map=19/45.8139774/15.885109",
+      "category": "kuce",
+      "lat": 45.8139774,
+      "lon": 15.885109,
+      "tags": {
+        "addr:housenumber": "8B",
+        "addr:street": "Crnojezerska ulica",
+        "building": "house",
+        "house": "semi-detached"
+      }
+    },
+    {
+      "detected_at": "2026-09-11T07:47:33.112034+00:00",
+      "id": "way/1557829545",
+      "osm_type": "way",
+      "osm_numeric_id": 1557829545,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8138489&mlon=15.8850789#map=19/45.8138489/15.8850789",
+      "category": "kuce",
+      "lat": 45.8138489,
+      "lon": 15.8850789,
+      "tags": {
+        "addr:housenumber": "8A",
+        "addr:street": "Crnojezerska ulica",
+        "building": "house",
+        "house": "semi-detached"
+      }
+    },
+    {
+      "detected_at": "2026-09-11T07:47:33.112034+00:00",
+      "id": "way/1557829546",
+      "osm_type": "way",
+      "osm_numeric_id": 1557829546,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.814274&mlon=15.8851876#map=19/45.814274/15.8851876",
+      "category": "stambene",
+      "lat": 45.814274,
+      "lon": 15.8851876,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Crnojezerska ulica",
+        "building": "apartments",
+        "building:flats": "5"
+      }
+    },
+    {
+      "detected_at": "2026-09-11T07:47:33.112034+00:00",
+      "id": "way/1557829547",
+      "osm_type": "way",
+      "osm_numeric_id": 1557829547,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8141753&mlon=15.885166#map=19/45.8141753/15.885166",
+      "category": "stambene",
+      "lat": 45.8141753,
+      "lon": 15.885166,
+      "tags": {
+        "addr:housenumber": "8C",
+        "addr:street": "Crnojezerska ulica",
+        "building": "apartments",
+        "building:flats": "4"
+      }
+    },
+    {
+      "detected_at": "2026-09-11T07:47:33.112034+00:00",
+      "id": "way/1557829548",
+      "osm_type": "way",
+      "osm_numeric_id": 1557829548,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8136778&mlon=15.8853137#map=19/45.8136778/15.8853137",
+      "category": "kuce",
+      "lat": 45.8136778,
+      "lon": 15.8853137,
+      "tags": {
+        "addr:housenumber": "14A",
+        "addr:street": "Crnojezerska ulica",
+        "building": "house",
+        "house": "semi-detached"
+      }
+    },
+    {
+      "detected_at": "2026-09-11T07:47:33.112034+00:00",
+      "id": "way/1557829549",
+      "osm_type": "way",
+      "osm_numeric_id": 1557829549,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8132662&mlon=15.8846611#map=19/45.8132662/15.8846611",
+      "category": "kuce",
+      "lat": 45.8132662,
+      "lon": 15.8846611,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Crnojezerska ulica",
+        "building": "house",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-09-11T07:47:33.112034+00:00",
+      "id": "way/1557835373",
+      "osm_type": "way",
+      "osm_numeric_id": 1557835373,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.814139&mlon=15.8877462#map=19/45.814139/15.8877462",
+      "category": "stambene",
+      "lat": 45.814139,
+      "lon": 15.8877462,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Gospodska ulica",
+        "building": "apartments",
+        "building:flats": "17",
+        "roof:shape": "flat"
       }
     }
   ]
