@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-11T07:47:33.112034+00:00",
+  "last_updated": "2026-09-12T07:40:27.497976+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6166,6 +6166,57 @@
         "building": "apartments",
         "building:flats": "17",
         "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-09-12T07:40:27.497976+00:00",
+      "id": "way/1558064965",
+      "osm_type": "way",
+      "osm_numeric_id": 1558064965,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7738135&mlon=15.944451#map=19/45.7738135/15.944451",
+      "category": "poslovno",
+      "lat": 45.7738135,
+      "lon": 15.944451,
+      "tags": {
+        "addr:street": "Lanište",
+        "building": "commercial",
+        "building:levels": "8"
+      }
+    },
+    {
+      "detected_at": "2026-09-12T07:40:27.497976+00:00",
+      "id": "way/1558068626",
+      "osm_type": "way",
+      "osm_numeric_id": 1558068626,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7735872&mlon=15.9516409#map=19/45.7735872/15.9516409",
+      "category": "ostalo",
+      "lat": 45.7735872,
+      "lon": 15.9516409,
+      "tags": {
+        "addr:city": "Zagreb-Novi Zagreb",
+        "addr:housenumber": "100",
+        "addr:postcode": "10020",
+        "addr:street": "Remetinečka cesta",
+        "building": "residential",
+        "building:levels": "8"
+      }
+    },
+    {
+      "detected_at": "2026-09-12T07:40:27.497976+00:00",
+      "id": "way/1558068627",
+      "osm_type": "way",
+      "osm_numeric_id": 1558068627,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7740987&mlon=15.952363#map=19/45.7740987/15.952363",
+      "category": "ostalo",
+      "lat": 45.7740987,
+      "lon": 15.952363,
+      "tags": {
+        "addr:city": "Zagreb-Novi Zagreb",
+        "addr:housenumber": "96",
+        "addr:postcode": "10020",
+        "addr:street": "Remetinečka cesta",
+        "building": "residential",
+        "building:levels": "8"
       }
     }
   ]
