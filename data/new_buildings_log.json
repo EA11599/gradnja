@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-12T07:40:27.497976+00:00",
+  "last_updated": "2026-09-13T07:59:15.989339+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6217,6 +6217,38 @@
         "addr:street": "Remetinečka cesta",
         "building": "residential",
         "building:levels": "8"
+      }
+    },
+    {
+      "detected_at": "2026-09-13T07:59:15.989339+00:00",
+      "id": "way/1558347809",
+      "osm_type": "way",
+      "osm_numeric_id": 1558347809,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8146467&mlon=15.8866929#map=19/45.8146467/15.8866929",
+      "category": "kuce",
+      "lat": 45.8146467,
+      "lon": 15.8866929,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Gospodska ulica",
+        "building": "house",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-09-13T07:59:15.989339+00:00",
+      "id": "way/1558347810",
+      "osm_type": "way",
+      "osm_numeric_id": 1558347810,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8146978&mlon=15.8864288#map=19/45.8146978/15.8864288",
+      "category": "kuce",
+      "lat": 45.8146978,
+      "lon": 15.8864288,
+      "tags": {
+        "addr:housenumber": "19A",
+        "addr:street": "Gospodska ulica",
+        "building": "house",
+        "house": "detached"
       }
     }
   ]
