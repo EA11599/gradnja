@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T07:59:15.989339+00:00",
+  "last_updated": "2026-09-15T08:22:15.202344+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6249,6 +6249,27 @@
         "addr:street": "Gospodska ulica",
         "building": "house",
         "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-09-15T08:22:15.202344+00:00",
+      "id": "way/1558918398",
+      "osm_type": "way",
+      "osm_numeric_id": 1558918398,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8112744&mlon=15.9879675#map=19/45.8112744/15.9879675",
+      "category": "stambene",
+      "lat": 45.8112744,
+      "lon": 15.9879675,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Ulica Radoslava Lopašića",
+        "building": "apartments",
+        "building:flats": "10",
+        "building:levels": "5",
+        "panoramax": "75cc1747-d9e0-4ef8-8bd3-eb34440576d4",
+        "ref:HR:kucni_broj": "22081175",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       }
     }
   ]
