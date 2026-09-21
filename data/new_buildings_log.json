@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T08:22:15.202344+00:00",
+  "last_updated": "2026-09-21T08:33:50.253903+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6270,6 +6270,46 @@
         "ref:HR:kucni_broj": "22081175",
         "roof:material": "roof_tiles",
         "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-21T08:33:50.253903+00:00",
+      "id": "way/1560860375",
+      "osm_type": "way",
+      "osm_numeric_id": 1560860375,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7820726&mlon=15.8914811#map=19/45.7820726/15.8914811",
+      "category": "nepoznato",
+      "lat": 45.7820726,
+      "lon": 15.8914811,
+      "tags": {
+        "amenity": "toilets",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-21T08:33:50.253903+00:00",
+      "id": "way/1560860386",
+      "osm_type": "way",
+      "osm_numeric_id": 1560860386,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7828156&mlon=15.8956413#map=19/45.7828156/15.8956413",
+      "category": "nepoznato",
+      "lat": 45.7828156,
+      "lon": 15.8956413,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-21T08:33:50.253903+00:00",
+      "id": "way/1560860387",
+      "osm_type": "way",
+      "osm_numeric_id": 1560860387,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7825697&mlon=15.8960408#map=19/45.7825697/15.8960408",
+      "category": "nepoznato",
+      "lat": 45.7825697,
+      "lon": 15.8960408,
+      "tags": {
+        "building": "yes"
       }
     }
   ]
