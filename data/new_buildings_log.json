@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21T08:33:50.253903+00:00",
+  "last_updated": "2026-09-22T08:13:51.785081+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6309,6 +6309,36 @@
       "lat": 45.7825697,
       "lon": 15.8960408,
       "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-22T08:13:51.785081+00:00",
+      "id": "way/1561055067",
+      "osm_type": "way",
+      "osm_numeric_id": 1561055067,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8154281&mlon=15.9720082#map=19/45.8154281/15.9720082",
+      "category": "nepoznato",
+      "lat": 45.8154281,
+      "lon": 15.9720082,
+      "tags": {
+        "addr:housenumber": "5/1",
+        "addr:street": "Ulica Antuna Gustava Matoša",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-22T08:13:51.785081+00:00",
+      "id": "way/1561055731",
+      "osm_type": "way",
+      "osm_numeric_id": 1561055731,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8164189&mlon=15.9721154#map=19/45.8164189/15.9721154",
+      "category": "nepoznato",
+      "lat": 45.8164189,
+      "lon": 15.9721154,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Mesnička ulica",
         "building": "yes"
       }
     }
