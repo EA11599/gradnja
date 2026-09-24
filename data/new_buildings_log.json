@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T08:13:51.785081+00:00",
+  "last_updated": "2026-09-24T08:07:32.644130+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6340,6 +6340,43 @@
         "addr:housenumber": "38",
         "addr:street": "Mesnička ulica",
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-24T08:07:32.644130+00:00",
+      "id": "way/1561899892",
+      "osm_type": "way",
+      "osm_numeric_id": 1561899892,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8084478&mlon=15.9496152#map=19/45.8084478/15.9496152",
+      "category": "ostalo",
+      "lat": 45.8084478,
+      "lon": 15.9496152,
+      "tags": {
+        "building": "bridge",
+        "noaddress": "yes",
+        "panoramax": "df157b72-dfeb-40ca-a75c-89e4db0e0393",
+        "roof:material": "concrete",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-09-24T08:07:32.644130+00:00",
+      "id": "way/1561899893",
+      "osm_type": "way",
+      "osm_numeric_id": 1561899893,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8082992&mlon=15.949864#map=19/45.8082992/15.949864",
+      "category": "nepoznato",
+      "lat": 45.8082992,
+      "lon": 15.949864,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "69",
+        "addr:postcode": "10000",
+        "addr:street": "Magazinska cesta",
+        "building": "yes",
+        "panoramax": "b19f5343-2587-4383-b174-7578232ecea5",
+        "roof:material": "concrete",
+        "roof:shape": "flat"
       }
     }
   ]
