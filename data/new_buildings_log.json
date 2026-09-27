@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26T08:17:52.185852+00:00",
+  "last_updated": "2026-09-27T08:56:45.174978+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6427,6 +6427,111 @@
         "start_date": "C18",
         "wikidata": "Q806072",
         "wikipedia": "hr:Banski dvori"
+      }
+    },
+    {
+      "detected_at": "2026-09-27T08:56:45.174978+00:00",
+      "id": "way/1562488461",
+      "osm_type": "way",
+      "osm_numeric_id": 1562488461,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8597848&mlon=15.948519#map=19/45.8597848/15.948519",
+      "category": "ostalo",
+      "lat": 45.8597848,
+      "lon": 15.948519,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "shelter",
+        "panoramax": "087f0b4a-fef4-47f2-a152-f0c576b2f3c8"
+      }
+    },
+    {
+      "detected_at": "2026-09-27T08:56:45.174978+00:00",
+      "id": "way/1562491444",
+      "osm_type": "way",
+      "osm_numeric_id": 1562491444,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7915818&mlon=15.9574503#map=19/45.7915818/15.9574503",
+      "category": "nepoznato",
+      "lat": 45.7915818,
+      "lon": 15.9574503,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-27T08:56:45.174978+00:00",
+      "id": "way/1562491445",
+      "osm_type": "way",
+      "osm_numeric_id": 1562491445,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7914844&mlon=15.9573795#map=19/45.7914844/15.9573795",
+      "category": "nepoznato",
+      "lat": 45.7914844,
+      "lon": 15.9573795,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-27T08:56:45.174978+00:00",
+      "id": "way/1562491446",
+      "osm_type": "way",
+      "osm_numeric_id": 1562491446,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7914766&mlon=15.9578948#map=19/45.7914766/15.9578948",
+      "category": "ostalo",
+      "lat": 45.7914766,
+      "lon": 15.9578948,
+      "tags": {
+        "building": "roof",
+        "layer": "1"
+      }
+    },
+    {
+      "detected_at": "2026-09-27T08:56:45.174978+00:00",
+      "id": "way/1562491447",
+      "osm_type": "way",
+      "osm_numeric_id": 1562491447,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7913557&mlon=15.9578601#map=19/45.7913557/15.9578601",
+      "category": "nepoznato",
+      "lat": 45.7913557,
+      "lon": 15.9578601,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-27T08:56:45.174978+00:00",
+      "id": "way/1562623822",
+      "osm_type": "way",
+      "osm_numeric_id": 1562623822,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8080521&mlon=15.9834708#map=19/45.8080521/15.9834708",
+      "category": "nepoznato",
+      "lat": 45.8080521,
+      "lon": 15.9834708,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "60/1",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22078425"
+      }
+    },
+    {
+      "detected_at": "2026-09-27T08:56:45.174978+00:00",
+      "id": "way/1562623823",
+      "osm_type": "way",
+      "osm_numeric_id": 1562623823,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8080339&mlon=15.9833793#map=19/45.8080339/15.9833793",
+      "category": "nepoznato",
+      "lat": 45.8080339,
+      "lon": 15.9833793,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "60/2",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22078426"
       }
     }
   ]
