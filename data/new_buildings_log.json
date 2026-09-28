@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27T08:56:45.174978+00:00",
+  "last_updated": "2026-09-28T09:29:23.095114+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -6532,6 +6532,794 @@
         "addr:street": "Draškovićeva ulica",
         "building": "yes",
         "ref:HR:kucni_broj": "22078426"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "relation/11229072",
+      "osm_type": "relation",
+      "osm_numeric_id": 11229072,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.812668&mlon=15.9716918#map=19/45.812668/15.9716918",
+      "category": "nepoznato",
+      "lat": 45.812668,
+      "lon": 15.9716918,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "relation/14162702",
+      "osm_type": "relation",
+      "osm_numeric_id": 14162702,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.808724&mlon=15.9717715#map=19/45.808724/15.9717715",
+      "category": "poslovno",
+      "lat": 45.808724,
+      "lon": 15.9717715,
+      "tags": {
+        "architect:wikidata": "Q17255412",
+        "building": "commercial",
+        "building:levels": "4",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "name": "Poslovna zgrada \"Elektra\"",
+        "ref:hr:uzkb": "Z-2150",
+        "roof:levels": "1",
+        "start_date": "1932..1934",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/1044042581",
+      "osm_type": "way",
+      "osm_numeric_id": 1044042581,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8013553&mlon=15.9852611#map=19/45.8013553/15.9852611",
+      "category": "nepoznato",
+      "lat": 45.8013553,
+      "lon": 15.9852611,
+      "tags": {
+        "addr:housenumber": "229/2",
+        "addr:street": "Ulica grada Vukovara",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22117145"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/1132565939",
+      "osm_type": "way",
+      "osm_numeric_id": 1132565939,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7860962&mlon=15.9508728#map=19/45.7860962/15.9508728",
+      "category": "poslovno",
+      "lat": 45.7860962,
+      "lon": 15.9508728,
+      "tags": {
+        "building": "kiosk",
+        "mobile": "+385 99 2492 877",
+        "name": "Pan-Pek",
+        "opening_hours": "Mo-Fr 06:00-13:00; Sa,Su,PH off",
+        "shop": "bakery",
+        "website": "https://panpek.hr/zagreb/"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/1172960515",
+      "osm_type": "way",
+      "osm_numeric_id": 1172960515,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7875534&mlon=16.0062517#map=19/45.7875534/16.0062517",
+      "category": "stambene",
+      "lat": 45.7875534,
+      "lon": 16.0062517,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Ulica grada Chicaga",
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/1198414127",
+      "osm_type": "way",
+      "osm_numeric_id": 1198414127,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7859758&mlon=16.0056462#map=19/45.7859758/16.0056462",
+      "category": "nepoznato",
+      "lat": 45.7859758,
+      "lon": 16.0056462,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/135580872",
+      "osm_type": "way",
+      "osm_numeric_id": 135580872,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8566502&mlon=15.8056706#map=19/45.8566502/15.8056706",
+      "category": "stambene",
+      "lat": 45.8566502,
+      "lon": 15.8056706,
+      "tags": {
+        "addr:city": "Zaprešić",
+        "addr:housenumber": "9",
+        "addr:postcode": "10290",
+        "addr:street": "Trg žrtava fašizma",
+        "building": "apartments",
+        "level": "2",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/1532163643",
+      "osm_type": "way",
+      "osm_numeric_id": 1532163643,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.795712&mlon=15.9479244#map=19/45.795712/15.9479244",
+      "category": "ostalo",
+      "lat": 45.795712,
+      "lon": 15.9479244,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Tržačka ulica",
+        "building": "maybe"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/1532165614",
+      "osm_type": "way",
+      "osm_numeric_id": 1532165614,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7952836&mlon=15.9463932#map=19/45.7952836/15.9463932",
+      "category": "nepoznato",
+      "lat": 45.7952836,
+      "lon": 15.9463932,
+      "tags": {
+        "addr:housenumber": "4/1",
+        "addr:street": "Blagajska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/159242076",
+      "osm_type": "way",
+      "osm_numeric_id": 159242076,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7917279&mlon=15.9576468#map=19/45.7917279/15.9576468",
+      "category": "nepoznato",
+      "lat": 45.7917279,
+      "lon": 15.9576468,
+      "tags": {
+        "addr:housenumber": "139",
+        "addr:street": "Savska cesta",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/280294225",
+      "osm_type": "way",
+      "osm_numeric_id": 280294225,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8129913&mlon=15.9709674#map=19/45.8129913/15.9709674",
+      "category": "stambene",
+      "lat": 45.8129913,
+      "lon": 15.9709674,
+      "tags": {
+        "building": "apartments",
+        "building:levels": "4",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/289540871",
+      "osm_type": "way",
+      "osm_numeric_id": 289540871,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8097564&mlon=15.9861214#map=19/45.8097564/15.9861214",
+      "category": "stambene",
+      "lat": 45.8097564,
+      "lon": 15.9861214,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Trg žrtava fašizma",
+        "building": "apartments",
+        "building:flats": "13",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/291008941",
+      "osm_type": "way",
+      "osm_numeric_id": 291008941,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8129713&mlon=15.9717566#map=19/45.8129713/15.9717566",
+      "category": "poslovno",
+      "lat": 45.8129713,
+      "lon": 15.9717566,
+      "tags": {
+        "architect:wikidata": "Q7938107",
+        "building": "office",
+        "building:levels": "4",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "name": "Zgrada Hrvatsko-slavonske zemaljske centralne štedionice",
+        "ref:hr:uzkb": "Z-5253",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "start_date": "1905..1906"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/293342133",
+      "osm_type": "way",
+      "osm_numeric_id": 293342133,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8077419&mlon=15.9770143#map=19/45.8077419/15.9770143",
+      "category": "stambene",
+      "lat": 45.8077419,
+      "lon": 15.9770143,
+      "tags": {
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/296513194",
+      "osm_type": "way",
+      "osm_numeric_id": 296513194,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8153667&mlon=15.9720322#map=19/45.8153667/15.9720322",
+      "category": "nepoznato",
+      "lat": 45.8153667,
+      "lon": 15.9720322,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/313980289",
+      "osm_type": "way",
+      "osm_numeric_id": 313980289,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7967684&mlon=15.9453086#map=19/45.7967684/15.9453086",
+      "category": "nepoznato",
+      "lat": 45.7967684,
+      "lon": 15.9453086,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/313993366",
+      "osm_type": "way",
+      "osm_numeric_id": 313993366,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.796218&mlon=15.948226#map=19/45.796218/15.948226",
+      "category": "nepoznato",
+      "lat": 45.796218,
+      "lon": 15.948226,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "I. Crikvenička ulica",
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/313993556",
+      "osm_type": "way",
+      "osm_numeric_id": 313993556,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7949899&mlon=15.9461144#map=19/45.7949899/15.9461144",
+      "category": "nepoznato",
+      "lat": 45.7949899,
+      "lon": 15.9461144,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Blagajska ulica",
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/313993655",
+      "osm_type": "way",
+      "osm_numeric_id": 313993655,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7957948&mlon=15.9553611#map=19/45.7957948/15.9553611",
+      "category": "nepoznato",
+      "lat": 45.7957948,
+      "lon": 15.9553611,
+      "tags": {
+        "building": "yes",
+        "noaddress": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/313993700",
+      "osm_type": "way",
+      "osm_numeric_id": 313993700,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7957662&mlon=15.9551398#map=19/45.7957662/15.9551398",
+      "category": "nepoznato",
+      "lat": 45.7957662,
+      "lon": 15.9551398,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/313993705",
+      "osm_type": "way",
+      "osm_numeric_id": 313993705,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7961829&mlon=15.9547176#map=19/45.7961829/15.9547176",
+      "category": "nepoznato",
+      "lat": 45.7961829,
+      "lon": 15.9547176,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/314330833",
+      "osm_type": "way",
+      "osm_numeric_id": 314330833,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7946138&mlon=15.9477582#map=19/45.7946138/15.9477582",
+      "category": "nepoznato",
+      "lat": 45.7946138,
+      "lon": 15.9477582,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/314330873",
+      "osm_type": "way",
+      "osm_numeric_id": 314330873,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.797337&mlon=15.9518026#map=19/45.797337/15.9518026",
+      "category": "nepoznato",
+      "lat": 45.797337,
+      "lon": 15.9518026,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:country": "HR",
+        "addr:housenumber": "17",
+        "addr:street": "Bočačka ulica",
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/314330905",
+      "osm_type": "way",
+      "osm_numeric_id": 314330905,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7948526&mlon=15.9515562#map=19/45.7948526/15.9515562",
+      "category": "nepoznato",
+      "lat": 45.7948526,
+      "lon": 15.9515562,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/321272299",
+      "osm_type": "way",
+      "osm_numeric_id": 321272299,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7880054&mlon=16.0058807#map=19/45.7880054/16.0058807",
+      "category": "ostalo",
+      "lat": 45.7880054,
+      "lon": 16.0058807,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "22",
+        "addr:postcode": "10000",
+        "addr:street": "Ulica grada Chicaga",
+        "building": "residential"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/34760713",
+      "osm_type": "way",
+      "osm_numeric_id": 34760713,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8004918&mlon=16.0199856#map=19/45.8004918/16.0199856",
+      "category": "poslovno",
+      "lat": 45.8004918,
+      "lon": 16.0199856,
+      "tags": {
+        "building": "industrial"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/365848661",
+      "osm_type": "way",
+      "osm_numeric_id": 365848661,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7866353&mlon=16.0063004#map=19/45.7866353/16.0063004",
+      "category": "ostalo",
+      "lat": 45.7866353,
+      "lon": 16.0063004,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "Ulica grada Chicaga",
+        "building": "residential"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/384552341",
+      "osm_type": "way",
+      "osm_numeric_id": 384552341,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7770471&mlon=15.8985213#map=19/45.7770471/15.8985213",
+      "category": "ostalo",
+      "lat": 45.7770471,
+      "lon": 15.8985213,
+      "tags": {
+        "building": "greenhouse"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/393175553",
+      "osm_type": "way",
+      "osm_numeric_id": 393175553,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7862679&mlon=16.0053674#map=19/45.7862679/16.0053674",
+      "category": "stambene",
+      "lat": 45.7862679,
+      "lon": 16.0053674,
+      "tags": {
+        "building": "apartments",
+        "noaddress": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/393175554",
+      "osm_type": "way",
+      "osm_numeric_id": 393175554,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7858944&mlon=16.0054369#map=19/45.7858944/16.0054369",
+      "category": "stambene",
+      "lat": 45.7858944,
+      "lon": 16.0054369,
+      "tags": {
+        "building": "apartments",
+        "noaddress": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/421479936",
+      "osm_type": "way",
+      "osm_numeric_id": 421479936,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7873292&mlon=16.0064228#map=19/45.7873292/16.0064228",
+      "category": "stambene",
+      "lat": 45.7873292,
+      "lon": 16.0064228,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "Ulica grada Chicaga",
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/422906393",
+      "osm_type": "way",
+      "osm_numeric_id": 422906393,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7873335&mlon=16.0069771#map=19/45.7873335/16.0069771",
+      "category": "stambene",
+      "lat": 45.7873335,
+      "lon": 16.0069771,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "addr:street": "Ulica grada Chicaga",
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/429283716",
+      "osm_type": "way",
+      "osm_numeric_id": 429283716,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7992337&mlon=16.0021763#map=19/45.7992337/16.0021763",
+      "category": "kuce",
+      "lat": 45.7992337,
+      "lon": 16.0021763,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Paška ulica",
+        "building": "house",
+        "building:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/544516554",
+      "osm_type": "way",
+      "osm_numeric_id": 544516554,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8068515&mlon=15.9662319#map=19/45.8068515/15.9662319",
+      "category": "poslovno",
+      "lat": 45.8068515,
+      "lon": 15.9662319,
+      "tags": {
+        "addr:street": "Ulica Isidora Kršnjavoga",
+        "building": "hotel",
+        "building:levels": "10",
+        "height": "30"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/553298139",
+      "osm_type": "way",
+      "osm_numeric_id": 553298139,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8141135&mlon=15.8854824#map=19/45.8141135/15.8854824",
+      "category": "nepoznato",
+      "lat": 45.8141135,
+      "lon": 15.8854824,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/553298140",
+      "osm_type": "way",
+      "osm_numeric_id": 553298140,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8143091&mlon=15.8854938#map=19/45.8143091/15.8854938",
+      "category": "nepoznato",
+      "lat": 45.8143091,
+      "lon": 15.8854938,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/579294966",
+      "osm_type": "way",
+      "osm_numeric_id": 579294966,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8084554&mlon=15.9737205#map=19/45.8084554/15.9737205",
+      "category": "nepoznato",
+      "lat": 45.8084554,
+      "lon": 15.9737205,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/689017899",
+      "osm_type": "way",
+      "osm_numeric_id": 689017899,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7975072&mlon=15.9311673#map=19/45.7975072/15.9311673",
+      "category": "ostalo",
+      "lat": 45.7975072,
+      "lon": 15.9311673,
+      "tags": {
+        "building": "residential",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/689017901",
+      "osm_type": "way",
+      "osm_numeric_id": 689017901,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7976171&mlon=15.9310882#map=19/45.7976171/15.9310882",
+      "category": "ostalo",
+      "lat": 45.7976171,
+      "lon": 15.9310882,
+      "tags": {
+        "addr:housenumber": "37",
+        "addr:street": "Majevička ulica",
+        "building": "residential"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/698880160",
+      "osm_type": "way",
+      "osm_numeric_id": 698880160,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7961638&mlon=15.9323232#map=19/45.7961638/15.9323232",
+      "category": "ostalo",
+      "lat": 45.7961638,
+      "lon": 15.9323232,
+      "tags": {
+        "building": "residential"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/766702158",
+      "osm_type": "way",
+      "osm_numeric_id": 766702158,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7979543&mlon=15.9437764#map=19/45.7979543/15.9437764",
+      "category": "ostalo",
+      "lat": 45.7979543,
+      "lon": 15.9437764,
+      "tags": {
+        "addr:housenumber": "112",
+        "addr:street": "Ozaljska ulica",
+        "building": "residential",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/766702159",
+      "osm_type": "way",
+      "osm_numeric_id": 766702159,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7979315&mlon=15.943511#map=19/45.7979315/15.943511",
+      "category": "stambene",
+      "lat": 45.7979315,
+      "lon": 15.943511,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "114",
+        "addr:postcode": "10000",
+        "addr:street": "Ozaljska ulica",
+        "building": "apartments",
+        "panoramax": "319662c3-0792-4dd3-afee-f9eb26ff4674",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/766702160",
+      "osm_type": "way",
+      "osm_numeric_id": 766702160,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7980837&mlon=15.9433973#map=19/45.7980837/15.9433973",
+      "category": "stambene",
+      "lat": 45.7980837,
+      "lon": 15.9433973,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "153",
+        "addr:postcode": "10000",
+        "addr:street": "Selska cesta",
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/766702161",
+      "osm_type": "way",
+      "osm_numeric_id": 766702161,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7982032&mlon=15.943428#map=19/45.7982032/15.943428",
+      "category": "stambene",
+      "lat": 45.7982032,
+      "lon": 15.943428,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "51",
+        "addr:postcode": "10000",
+        "addr:street": "Bosiljevska ulica",
+        "building": "apartments",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/785716558",
+      "osm_type": "way",
+      "osm_numeric_id": 785716558,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8135993&mlon=15.9053748#map=19/45.8135993/15.9053748",
+      "category": "nepoznato",
+      "lat": 45.8135993,
+      "lon": 15.9053748,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "3",
+        "addr:postcode": "10090",
+        "addr:street": "Vrapčanska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/785716561",
+      "osm_type": "way",
+      "osm_numeric_id": 785716561,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8137197&mlon=15.9057573#map=19/45.8137197/15.9057573",
+      "category": "nepoznato",
+      "lat": 45.8137197,
+      "lon": 15.9057573,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/834667521",
+      "osm_type": "way",
+      "osm_numeric_id": 834667521,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7891054&mlon=16.0089019#map=19/45.7891054/16.0089019",
+      "category": "ostalo",
+      "lat": 45.7891054,
+      "lon": 16.0089019,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Ulica grada Chicaga",
+        "building": "residential",
+        "building:levels": "6"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/902157517",
+      "osm_type": "way",
+      "osm_numeric_id": 902157517,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8008768&mlon=15.9513235#map=19/45.8008768/15.9513235",
+      "category": "ostalo",
+      "lat": 45.8008768,
+      "lon": 15.9513235,
+      "tags": {
+        "building": "residential"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/902423195",
+      "osm_type": "way",
+      "osm_numeric_id": 902423195,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7974176&mlon=15.944039#map=19/45.7974176/15.944039",
+      "category": "ostalo",
+      "lat": 45.7974176,
+      "lon": 15.944039,
+      "tags": {
+        "building": "residential"
+      }
+    },
+    {
+      "detected_at": "2026-09-28T09:29:23.095114+00:00",
+      "id": "way/906797509",
+      "osm_type": "way",
+      "osm_numeric_id": 906797509,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8022441&mlon=15.9598861#map=19/45.8022441/15.9598861",
+      "category": "nepoznato",
+      "lat": 45.8022441,
+      "lon": 15.9598861,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
       }
     }
   ]
