@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T09:27:02.983966+00:00",
+  "last_updated": "2026-10-01T09:45:19.866628+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -13947,6 +13947,69 @@
       "tags": {
         "building": "sports_hall",
         "sport": "badminton"
+      }
+    },
+    {
+      "detected_at": "2026-10-01T09:45:19.866628+00:00",
+      "id": "way/1563853173",
+      "osm_type": "way",
+      "osm_numeric_id": 1563853173,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7847006&mlon=15.9337784#map=19/45.7847006/15.9337784",
+      "category": "ostalo",
+      "lat": 45.7847006,
+      "lon": 15.9337784,
+      "tags": {
+        "building": "service",
+        "power": "substation",
+        "ref": "1352",
+        "substation": "minor_distribution"
+      }
+    },
+    {
+      "detected_at": "2026-10-01T09:45:19.866628+00:00",
+      "id": "way/317534585",
+      "osm_type": "way",
+      "osm_numeric_id": 317534585,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7938444&mlon=15.9576801#map=19/45.7938444/15.9576801",
+      "category": "nepoznato",
+      "lat": 45.7938444,
+      "lon": 15.9576801,
+      "tags": {
+        "addr:housenumber": "118/2",
+        "addr:street": "Savska cesta",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-01T09:45:19.866628+00:00",
+      "id": "way/319190121",
+      "osm_type": "way",
+      "osm_numeric_id": 319190121,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7705524&mlon=15.9442344#map=19/45.7705524/15.9442344",
+      "category": "kuce_procjena",
+      "lat": 45.7705524,
+      "lon": 15.9442344,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "building:part": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-01T09:45:19.866628+00:00",
+      "id": "way/89155511",
+      "osm_type": "way",
+      "osm_numeric_id": 89155511,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.771301&mlon=15.9435976#map=19/45.771301/15.9435976",
+      "category": "ostalo",
+      "lat": 45.771301,
+      "lon": 15.9435976,
+      "tags": {
+        "building": "stadium",
+        "building:levels": "4",
+        "name": "Arena Zagreb",
+        "roof:material": "concrete",
+        "roof:shape": "flat"
       }
     }
   ]
