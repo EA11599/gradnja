@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T09:45:19.866628+00:00",
+  "last_updated": "2026-10-02T09:20:19.273622+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14010,6 +14010,58 @@
         "name": "Arena Zagreb",
         "roof:material": "concrete",
         "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-10-02T09:20:19.273622+00:00",
+      "id": "way/1564224360",
+      "osm_type": "way",
+      "osm_numeric_id": 1564224360,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8971762&mlon=16.1336007#map=19/45.8971762/16.1336007",
+      "category": "nepoznato",
+      "lat": 45.8971762,
+      "lon": 16.1336007,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-02T09:20:19.273622+00:00",
+      "id": "way/1564224617",
+      "osm_type": "way",
+      "osm_numeric_id": 1564224617,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8881573&mlon=16.1362649#map=19/45.8881573/16.1362649",
+      "category": "nepoznato",
+      "lat": 45.8881573,
+      "lon": 16.1362649,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-02T09:20:19.273622+00:00",
+      "id": "way/1564226028",
+      "osm_type": "way",
+      "osm_numeric_id": 1564226028,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.877325&mlon=16.1413094#map=19/45.877325/16.1413094",
+      "category": "nepoznato",
+      "lat": 45.877325,
+      "lon": 16.1413094,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-02T09:20:19.273622+00:00",
+      "id": "way/1564226181",
+      "osm_type": "way",
+      "osm_numeric_id": 1564226181,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8732272&mlon=16.1488937#map=19/45.8732272/16.1488937",
+      "category": "nepoznato",
+      "lat": 45.8732272,
+      "lon": 16.1488937,
+      "tags": {
+        "building": "yes"
       }
     }
   ]
