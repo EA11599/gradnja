@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T09:20:19.273622+00:00",
+  "last_updated": "2026-10-06T09:45:37.652574+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14062,6 +14062,21 @@
       "lon": 16.1488937,
       "tags": {
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-06T09:45:37.652574+00:00",
+      "id": "way/1565169209",
+      "osm_type": "way",
+      "osm_numeric_id": 1565169209,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8017572&mlon=15.9363609#map=19/45.8017572/15.9363609",
+      "category": "kuce",
+      "lat": 45.8017572,
+      "lon": 15.9363609,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Harmička ulica",
+        "building": "house"
       }
     }
   ]
