@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T09:45:37.652574+00:00",
+  "last_updated": "2026-10-07T09:47:01.767786+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14077,6 +14077,50 @@
         "addr:housenumber": "7",
         "addr:street": "Harmička ulica",
         "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-10-07T09:47:01.767786+00:00",
+      "id": "way/1565590602",
+      "osm_type": "way",
+      "osm_numeric_id": 1565590602,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.805893&mlon=15.9867152#map=19/45.805893/15.9867152",
+      "category": "stambene",
+      "lat": 45.805893,
+      "lon": 15.9867152,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "27",
+        "addr:postcode": "10000",
+        "addr:street": "Ulica kneza Domagoja",
+        "building": "apartments",
+        "building:flats": "15"
+      }
+    },
+    {
+      "detected_at": "2026-10-07T09:47:01.767786+00:00",
+      "id": "way/1565595360",
+      "osm_type": "way",
+      "osm_numeric_id": 1565595360,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8723291&mlon=16.1125469#map=19/45.8723291/16.1125469",
+      "category": "nepoznato",
+      "lat": 45.8723291,
+      "lon": 16.1125469,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-07T09:47:01.767786+00:00",
+      "id": "way/1565597256",
+      "osm_type": "way",
+      "osm_numeric_id": 1565597256,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.885163&mlon=16.1297905#map=19/45.885163/16.1297905",
+      "category": "nepoznato",
+      "lat": 45.885163,
+      "lon": 16.1297905,
+      "tags": {
+        "building": "yes"
       }
     }
   ]
