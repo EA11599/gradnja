@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T09:47:01.767786+00:00",
+  "last_updated": "2026-10-08T09:57:47.561481+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14120,6 +14120,147 @@
       "lat": 45.885163,
       "lon": 16.1297905,
       "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1565860433",
+      "osm_type": "way",
+      "osm_numeric_id": 1565860433,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8162873&mlon=15.8865426#map=19/45.8162873/15.8865426",
+      "category": "kuce",
+      "lat": 45.8162873,
+      "lon": 15.8865426,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Gospodska ulica",
+        "building": "house",
+        "house": "semi-detached"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1565860434",
+      "osm_type": "way",
+      "osm_numeric_id": 1565860434,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8154289&mlon=15.8864072#map=19/45.8154289/15.8864072",
+      "category": "nepoznato",
+      "lat": 45.8154289,
+      "lon": 15.8864072,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1565860435",
+      "osm_type": "way",
+      "osm_numeric_id": 1565860435,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8148746&mlon=15.8860935#map=19/45.8148746/15.8860935",
+      "category": "kuce",
+      "lat": 45.8148746,
+      "lon": 15.8860935,
+      "tags": {
+        "addr:housenumber": "21/1",
+        "addr:street": "Gospodska ulica",
+        "building": "house",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1565860436",
+      "osm_type": "way",
+      "osm_numeric_id": 1565860436,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8145863&mlon=15.8863546#map=19/45.8145863/15.8863546",
+      "category": "nepoznato",
+      "lat": 45.8145863,
+      "lon": 15.8863546,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1565860437",
+      "osm_type": "way",
+      "osm_numeric_id": 1565860437,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8140508&mlon=15.8863674#map=19/45.8140508/15.8863674",
+      "category": "stambene",
+      "lat": 45.8140508,
+      "lon": 15.8863674,
+      "tags": {
+        "addr:street": "Gospodska ulica",
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1565863406",
+      "osm_type": "way",
+      "osm_numeric_id": 1565863406,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8135396&mlon=15.8869046#map=19/45.8135396/15.8869046",
+      "category": "stambene",
+      "lat": 45.8135396,
+      "lon": 15.8869046,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Gospodska ulica",
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1565904266",
+      "osm_type": "way",
+      "osm_numeric_id": 1565904266,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7852944&mlon=15.9337231#map=19/45.7852944/15.9337231",
+      "category": "stambene",
+      "lat": 45.7852944,
+      "lon": 15.9337231,
+      "tags": {
+        "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1566297716",
+      "osm_type": "way",
+      "osm_numeric_id": 1566297716,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8135849&mlon=15.8851541#map=19/45.8135849/15.8851541",
+      "category": "nepoznato",
+      "lat": 45.8135849,
+      "lon": 15.8851541,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1566297717",
+      "osm_type": "way",
+      "osm_numeric_id": 1566297717,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8136929&mlon=15.8850787#map=19/45.8136929/15.8850787",
+      "category": "garaze",
+      "lat": 45.8136929,
+      "lon": 15.8850787,
+      "tags": {
+        "building": "garage"
+      }
+    },
+    {
+      "detected_at": "2026-10-08T09:57:47.561481+00:00",
+      "id": "way/1566297718",
+      "osm_type": "way",
+      "osm_numeric_id": 1566297718,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8134146&mlon=15.8850925#map=19/45.8134146/15.8850925",
+      "category": "nepoznato",
+      "lat": 45.8134146,
+      "lon": 15.8850925,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Crnojezerska ulica",
         "building": "yes"
       }
     }
