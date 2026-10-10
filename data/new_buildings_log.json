@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T09:57:47.561481+00:00",
+  "last_updated": "2026-10-10T09:22:23.817244+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14261,6 +14261,443 @@
       "tags": {
         "addr:housenumber": "4",
         "addr:street": "Crnojezerska ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493866",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493866,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8482958&mlon=15.808545#map=19/45.8482958/15.808545",
+      "category": "nepoznato",
+      "lat": 45.8482958,
+      "lon": 15.808545,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493867",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493867,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8495178&mlon=15.8048531#map=19/45.8495178/15.8048531",
+      "category": "nepoznato",
+      "lat": 45.8495178,
+      "lon": 15.8048531,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493868",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493868,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8499179&mlon=15.8048852#map=19/45.8499179/15.8048852",
+      "category": "nepoznato",
+      "lat": 45.8499179,
+      "lon": 15.8048852,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493869",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493869,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8503015&mlon=15.8032869#map=19/45.8503015/15.8032869",
+      "category": "nepoznato",
+      "lat": 45.8503015,
+      "lon": 15.8032869,
+      "tags": {
+        "abandoned": "yes",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493870",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493870,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8500243&mlon=15.8048312#map=19/45.8500243/15.8048312",
+      "category": "nepoznato",
+      "lat": 45.8500243,
+      "lon": 15.8048312,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493871",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493871,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8497763&mlon=15.8053224#map=19/45.8497763/15.8053224",
+      "category": "nepoznato",
+      "lat": 45.8497763,
+      "lon": 15.8053224,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493872",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493872,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8508411&mlon=15.8046459#map=19/45.8508411/15.8046459",
+      "category": "nepoznato",
+      "lat": 45.8508411,
+      "lon": 15.8046459,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493873",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493873,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8508688&mlon=15.8039225#map=19/45.8508688/15.8039225",
+      "category": "nepoznato",
+      "lat": 45.8508688,
+      "lon": 15.8039225,
+      "tags": {
+        "abandoned": "yes",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493874",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493874,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8507303&mlon=15.8042125#map=19/45.8507303/15.8042125",
+      "category": "nepoznato",
+      "lat": 45.8507303,
+      "lon": 15.8042125,
+      "tags": {
+        "abandoned": "yes",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493876",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493876,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8511155&mlon=15.8034282#map=19/45.8511155/15.8034282",
+      "category": "nepoznato",
+      "lat": 45.8511155,
+      "lon": 15.8034282,
+      "tags": {
+        "abandoned": "yes",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493877",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493877,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8512489&mlon=15.8031655#map=19/45.8512489/15.8031655",
+      "category": "nepoznato",
+      "lat": 45.8512489,
+      "lon": 15.8031655,
+      "tags": {
+        "abandoned": "yes",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493878",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493878,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8517662&mlon=15.8030606#map=19/45.8517662/15.8030606",
+      "category": "nepoznato",
+      "lat": 45.8517662,
+      "lon": 15.8030606,
+      "tags": {
+        "abandoned": "yes",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493879",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493879,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8514274&mlon=15.8028006#map=19/45.8514274/15.8028006",
+      "category": "nepoznato",
+      "lat": 45.8514274,
+      "lon": 15.8028006,
+      "tags": {
+        "abandoned": "yes",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493882",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493882,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8522963&mlon=15.7998984#map=19/45.8522963/15.7998984",
+      "category": "nepoznato",
+      "lat": 45.8522963,
+      "lon": 15.7998984,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493886",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493886,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8498235&mlon=15.8042074#map=19/45.8498235/15.8042074",
+      "category": "nepoznato",
+      "lat": 45.8498235,
+      "lon": 15.8042074,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566493887",
+      "osm_type": "way",
+      "osm_numeric_id": 1566493887,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8498615&mlon=15.8041268#map=19/45.8498615/15.8041268",
+      "category": "nepoznato",
+      "lat": 45.8498615,
+      "lon": 15.8041268,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566511245",
+      "osm_type": "way",
+      "osm_numeric_id": 1566511245,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8428463&mlon=15.8142421#map=19/45.8428463/15.8142421",
+      "category": "nepoznato",
+      "lat": 45.8428463,
+      "lon": 15.8142421,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566511246",
+      "osm_type": "way",
+      "osm_numeric_id": 1566511246,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8427855&mlon=15.8143105#map=19/45.8427855/15.8143105",
+      "category": "nepoznato",
+      "lat": 45.8427855,
+      "lon": 15.8143105,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566511247",
+      "osm_type": "way",
+      "osm_numeric_id": 1566511247,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8426577&mlon=15.8144768#map=19/45.8426577/15.8144768",
+      "category": "nepoznato",
+      "lat": 45.8426577,
+      "lon": 15.8144768,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566511248",
+      "osm_type": "way",
+      "osm_numeric_id": 1566511248,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8430472&mlon=15.8140296#map=19/45.8430472/15.8140296",
+      "category": "nepoznato",
+      "lat": 45.8430472,
+      "lon": 15.8140296,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566511249",
+      "osm_type": "way",
+      "osm_numeric_id": 1566511249,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.843474&mlon=15.8135712#map=19/45.843474/15.8135712",
+      "category": "nepoznato",
+      "lat": 45.843474,
+      "lon": 15.8135712,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566538430",
+      "osm_type": "way",
+      "osm_numeric_id": 1566538430,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7715033&mlon=16.0039468#map=19/45.7715033/16.0039468",
+      "category": "ostalo",
+      "lat": 45.7715033,
+      "lon": 16.0039468,
+      "tags": {
+        "building": "construction",
+        "construction": "retail"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566657392",
+      "osm_type": "way",
+      "osm_numeric_id": 1566657392,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8110063&mlon=15.9746631#map=19/45.8110063/15.9746631",
+      "category": "nepoznato",
+      "lat": 45.8110063,
+      "lon": 15.9746631,
+      "tags": {
+        "addr:housenumber": "15C",
+        "addr:street": "Ulica Nikole Tesle",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22134840"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566657393",
+      "osm_type": "way",
+      "osm_numeric_id": 1566657393,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.81089&mlon=15.9747044#map=19/45.81089/15.9747044",
+      "category": "poslovno",
+      "lat": 45.81089,
+      "lon": 15.9747044,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:country": "HR",
+        "addr:housenumber": "15B",
+        "addr:street": "Ulica Nikole Tesle",
+        "building": "office",
+        "building:levels": "3",
+        "ref:HR:kucni_broj": "22134839",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566657394",
+      "osm_type": "way",
+      "osm_numeric_id": 1566657394,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8109597&mlon=15.9748225#map=19/45.8109597/15.9748225",
+      "category": "poslovno",
+      "lat": 45.8109597,
+      "lon": 15.9748225,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:country": "HR",
+        "addr:housenumber": "15A",
+        "addr:street": "Ulica Nikole Tesle",
+        "building": "office",
+        "building:levels": "3",
+        "ref:HR:kucni_broj": "22134838",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566657395",
+      "osm_type": "way",
+      "osm_numeric_id": 1566657395,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8106927&mlon=15.9750165#map=19/45.8106927/15.9750165",
+      "category": "stambene",
+      "lat": 45.8106927,
+      "lon": 15.9750165,
+      "tags": {
+        "addr:housenumber": "16/1",
+        "addr:street": "Berislavićeva ulica",
+        "building": "apartments",
+        "building:levels": "3",
+        "ref:HR:kucni_broj": "22074347",
+        "roof:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566657396",
+      "osm_type": "way",
+      "osm_numeric_id": 1566657396,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8108173&mlon=15.9749996#map=19/45.8108173/15.9749996",
+      "category": "stambene",
+      "lat": 45.8108173,
+      "lon": 15.9749996,
+      "tags": {
+        "addr:housenumber": "13/1",
+        "addr:street": "Ulica Nikole Tesle",
+        "building": "apartments",
+        "building:levels": "3",
+        "ref:HR:kucni_broj": "22073358",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566657397",
+      "osm_type": "way",
+      "osm_numeric_id": 1566657397,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8116672&mlon=15.9752046#map=19/45.8116672/15.9752046",
+      "category": "stambene",
+      "lat": 45.8116672,
+      "lon": 15.9752046,
+      "tags": {
+        "addr:housenumber": "12/1",
+        "addr:street": "Ulica Nikole Tesle",
+        "building": "apartments",
+        "building:levels": "3",
+        "ref:HR:kucni_broj": "22073363",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566657398",
+      "osm_type": "way",
+      "osm_numeric_id": 1566657398,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8116318&mlon=15.9755919#map=19/45.8116318/15.9755919",
+      "category": "nepoznato",
+      "lat": 45.8116318,
+      "lon": 15.9755919,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-10T09:22:23.817244+00:00",
+      "id": "way/1566660350",
+      "osm_type": "way",
+      "osm_numeric_id": 1566660350,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8122703&mlon=15.9724488#map=19/45.8122703/15.9724488",
+      "category": "nepoznato",
+      "lat": 45.8122703,
+      "lon": 15.9724488,
+      "tags": {
+        "addr:housenumber": "7/2",
+        "addr:street": "Gundulićeva ulica",
         "building": "yes"
       }
     }
