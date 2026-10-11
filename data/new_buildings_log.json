@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-10T09:22:23.817244+00:00",
+  "last_updated": "2026-10-11T09:40:37.574417+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14699,6 +14699,69 @@
         "addr:housenumber": "7/2",
         "addr:street": "Gundulićeva ulica",
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-11T09:40:37.574417+00:00",
+      "id": "way/1567165512",
+      "osm_type": "way",
+      "osm_numeric_id": 1567165512,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8089981&mlon=15.9844003#map=19/45.8089981/15.9844003",
+      "category": "garaze",
+      "lat": 45.8089981,
+      "lon": 15.9844003,
+      "tags": {
+        "building": "garages"
+      }
+    },
+    {
+      "detected_at": "2026-10-11T09:40:37.574417+00:00",
+      "id": "way/1567165513",
+      "osm_type": "way",
+      "osm_numeric_id": 1567165513,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8090002&mlon=15.984467#map=19/45.8090002/15.984467",
+      "category": "nepoznato",
+      "lat": 45.8090002,
+      "lon": 15.984467,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "29/1",
+        "addr:postcode": "10000",
+        "addr:street": "Draškovićeva ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22135658"
+      }
+    },
+    {
+      "detected_at": "2026-10-11T09:40:37.574417+00:00",
+      "id": "way/1567165514",
+      "osm_type": "way",
+      "osm_numeric_id": 1567165514,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8091441&mlon=15.9850067#map=19/45.8091441/15.9850067",
+      "category": "stambene",
+      "lat": 45.8091441,
+      "lon": 15.9850067,
+      "tags": {
+        "addr:housenumber": "11/2",
+        "addr:street": "Ulica kneza Mislava",
+        "building": "apartments",
+        "ref:HR:kucni_broj": "22079556"
+      }
+    },
+    {
+      "detected_at": "2026-10-11T09:40:37.574417+00:00",
+      "id": "way/1567165515",
+      "osm_type": "way",
+      "osm_numeric_id": 1567165515,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8096879&mlon=15.9854859#map=19/45.8096879/15.9854859",
+      "category": "nepoznato",
+      "lat": 45.8096879,
+      "lon": 15.9854859,
+      "tags": {
+        "addr:housenumber": "10/2",
+        "addr:street": "Ulica kralja Držislava",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2092325300"
       }
     }
   ]
