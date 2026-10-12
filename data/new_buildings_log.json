@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T09:40:37.574417+00:00",
+  "last_updated": "2026-10-12T10:12:08.141143+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14762,6 +14762,36 @@
         "addr:street": "Ulica kralja Držislava",
         "building": "yes",
         "ref:HR:kucni_broj": "2092325300"
+      }
+    },
+    {
+      "detected_at": "2026-10-12T10:12:08.141143+00:00",
+      "id": "way/1567363138",
+      "osm_type": "way",
+      "osm_numeric_id": 1567363138,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8133852&mlon=15.8864153#map=19/45.8133852/15.8864153",
+      "category": "kuce",
+      "lat": 45.8133852,
+      "lon": 15.8864153,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Gospodska ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-10-12T10:12:08.141143+00:00",
+      "id": "way/1567363139",
+      "osm_type": "way",
+      "osm_numeric_id": 1567363139,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8135204&mlon=15.8860562#map=19/45.8135204/15.8860562",
+      "category": "kuce",
+      "lat": 45.8135204,
+      "lon": 15.8860562,
+      "tags": {
+        "addr:housenumber": "7A",
+        "addr:street": "Gospodska ulica",
+        "building": "house"
       }
     }
   ]
