@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T10:12:08.141143+00:00",
+  "last_updated": "2026-10-13T10:04:46.167841+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14792,6 +14792,56 @@
         "addr:housenumber": "7A",
         "addr:street": "Gospodska ulica",
         "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-10-13T10:04:46.167841+00:00",
+      "id": "way/1567616042",
+      "osm_type": "way",
+      "osm_numeric_id": 1567616042,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7977754&mlon=15.8945387#map=19/45.7977754/15.8945387",
+      "category": "nepoznato",
+      "lat": 45.7977754,
+      "lon": 15.8945387,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "1b",
+        "addr:postcode": "10000",
+        "addr:street": "Milana Rešetara",
+        "amenity": "bank",
+        "brand": "Addiko Bank",
+        "brand:wikidata": "Q27926559",
+        "building": "yes",
+        "name": "Addiko Bank"
+      }
+    },
+    {
+      "detected_at": "2026-10-13T10:04:46.167841+00:00",
+      "id": "way/1567710796",
+      "osm_type": "way",
+      "osm_numeric_id": 1567710796,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8058501&mlon=15.9857583#map=19/45.8058501/15.9857583",
+      "category": "garaze",
+      "lat": 45.8058501,
+      "lon": 15.9857583,
+      "tags": {
+        "building": "garages"
+      }
+    },
+    {
+      "detected_at": "2026-10-13T10:04:46.167841+00:00",
+      "id": "way/1567883750",
+      "osm_type": "way",
+      "osm_numeric_id": 1567883750,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.799487&mlon=15.9581772#map=19/45.799487/15.9581772",
+      "category": "stambene",
+      "lat": 45.799487,
+      "lon": 15.9581772,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:street": "Cernička ulica",
+        "building": "apartments",
+        "panoramax": "b56801f0-5891-4872-a286-84ea0a876642"
       }
     }
   ]
