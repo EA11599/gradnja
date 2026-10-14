@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T10:04:46.167841+00:00",
+  "last_updated": "2026-10-14T08:22:21.098092+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14842,6 +14842,20 @@
         "addr:street": "Cernička ulica",
         "building": "apartments",
         "panoramax": "b56801f0-5891-4872-a286-84ea0a876642"
+      }
+    },
+    {
+      "detected_at": "2026-10-14T08:22:21.098092+00:00",
+      "id": "way/1567982655",
+      "osm_type": "way",
+      "osm_numeric_id": 1567982655,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.801707&mlon=15.9585907#map=19/45.801707/15.9585907",
+      "category": "nepoznato",
+      "lat": 45.801707,
+      "lon": 15.9585907,
+      "tags": {
+        "building": "yes",
+        "panoramax": "30f6db7c-42f4-4054-9a63-2a2bfb635a15"
       }
     }
   ]
