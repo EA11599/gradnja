@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T08:22:21.098092+00:00",
+  "last_updated": "2026-10-15T08:00:17.141156+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14856,6 +14856,34 @@
       "tags": {
         "building": "yes",
         "panoramax": "30f6db7c-42f4-4054-9a63-2a2bfb635a15"
+      }
+    },
+    {
+      "detected_at": "2026-10-15T08:00:17.141156+00:00",
+      "id": "way/1568302932",
+      "osm_type": "way",
+      "osm_numeric_id": 1568302932,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7865759&mlon=15.9317074#map=19/45.7865759/15.9317074",
+      "category": "ostalo",
+      "lat": 45.7865759,
+      "lon": 15.9317074,
+      "tags": {
+        "building": "service",
+        "power": "substation",
+        "substation": "minor_distribution"
+      }
+    },
+    {
+      "detected_at": "2026-10-15T08:00:17.141156+00:00",
+      "id": "way/1568305079",
+      "osm_type": "way",
+      "osm_numeric_id": 1568305079,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7854679&mlon=15.9337083#map=19/45.7854679/15.9337083",
+      "category": "stambene",
+      "lat": 45.7854679,
+      "lon": 15.9337083,
+      "tags": {
+        "building": "apartments"
       }
     }
   ]
