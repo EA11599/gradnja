@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-15T08:00:17.141156+00:00",
+  "last_updated": "2026-10-16T07:54:10.445225+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14884,6 +14884,73 @@
       "lon": 15.9337083,
       "tags": {
         "building": "apartments"
+      }
+    },
+    {
+      "detected_at": "2026-10-16T07:54:10.445225+00:00",
+      "id": "way/1568497189",
+      "osm_type": "way",
+      "osm_numeric_id": 1568497189,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8005428&mlon=15.9583527#map=19/45.8005428/15.9583527",
+      "category": "nepoznato",
+      "lat": 45.8005428,
+      "lon": 15.9583527,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-16T07:54:10.445225+00:00",
+      "id": "way/1568497190",
+      "osm_type": "way",
+      "osm_numeric_id": 1568497190,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8001756&mlon=15.9583855#map=19/45.8001756/15.9583855",
+      "category": "nepoznato",
+      "lat": 45.8001756,
+      "lon": 15.9583855,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-16T07:54:10.445225+00:00",
+      "id": "way/1568549309",
+      "osm_type": "way",
+      "osm_numeric_id": 1568549309,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8154597&mlon=15.9725904#map=19/45.8154597/15.9725904",
+      "category": "nepoznato",
+      "lat": 45.8154597,
+      "lon": 15.9725904,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Ulica Josipa Kuševića",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-16T07:54:10.445225+00:00",
+      "id": "way/1568610775",
+      "osm_type": "way",
+      "osm_numeric_id": 1568610775,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8967225&mlon=15.880206#map=19/45.8967225/15.880206",
+      "category": "nepoznato",
+      "lat": 45.8967225,
+      "lon": 15.880206,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-16T07:54:10.445225+00:00",
+      "id": "way/1568611074",
+      "osm_type": "way",
+      "osm_numeric_id": 1568611074,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8967041&mlon=15.881202#map=19/45.8967041/15.881202",
+      "category": "nepoznato",
+      "lat": 45.8967041,
+      "lon": 15.881202,
+      "tags": {
+        "building": "yes"
       }
     }
   ]
