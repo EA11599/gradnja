@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-16T07:54:10.445225+00:00",
+  "last_updated": "2026-10-17T07:31:22.016708+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -14951,6 +14951,78 @@
       "lon": 15.881202,
       "tags": {
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-17T07:31:22.016708+00:00",
+      "id": "way/1568841492",
+      "osm_type": "way",
+      "osm_numeric_id": 1568841492,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.832868&mlon=16.090164#map=19/45.832868/16.090164",
+      "category": "ostalo",
+      "lat": 45.832868,
+      "lon": 16.090164,
+      "tags": {
+        "building": "service",
+        "building:levels": "1"
+      }
+    },
+    {
+      "detected_at": "2026-10-17T07:31:22.016708+00:00",
+      "id": "way/1568874607",
+      "osm_type": "way",
+      "osm_numeric_id": 1568874607,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8076&mlon=15.9712962#map=19/45.8076/15.9712962",
+      "category": "stambene",
+      "lat": 45.8076,
+      "lon": 15.9712962,
+      "tags": {
+        "architect": "Dionis Sunko",
+        "building": "apartments",
+        "building:colour": "#ffe0a0",
+        "building:flats": "23",
+        "building:levels": "4",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "name": "Kuća Strižić",
+        "panoramax": "df9b0c10-702e-41af-b307-8c0f265218b2",
+        "ref:hr:uzkb": "Z-2391",
+        "roof:levels": "1",
+        "start_date": "1912"
+      }
+    },
+    {
+      "detected_at": "2026-10-17T07:31:22.016708+00:00",
+      "id": "way/1568876414",
+      "osm_type": "way",
+      "osm_numeric_id": 1568876414,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8075761&mlon=15.9716222#map=19/45.8075761/15.9716222",
+      "category": "stambene",
+      "lat": 45.8075761,
+      "lon": 15.9716222,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Ulica Jurja Žerjavića",
+        "building": "apartments",
+        "building:colour": "#ffe0a0",
+        "building:flats": "11",
+        "building:levels": "4",
+        "roof:levels": "1",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-10-17T07:31:22.016708+00:00",
+      "id": "way/1568905434",
+      "osm_type": "way",
+      "osm_numeric_id": 1568905434,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7877573&mlon=15.9567018#map=19/45.7877573/15.9567018",
+      "category": "garaze",
+      "lat": 45.7877573,
+      "lon": 15.9567018,
+      "tags": {
+        "building": "carport"
       }
     }
   ]
