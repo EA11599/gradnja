@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-17T07:31:22.016708+00:00",
+  "last_updated": "2026-10-19T08:29:39.360829+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -15023,6 +15023,27 @@
       "lon": 15.9567018,
       "tags": {
         "building": "carport"
+      }
+    },
+    {
+      "detected_at": "2026-10-19T08:29:39.360829+00:00",
+      "id": "way/1569555747",
+      "osm_type": "way",
+      "osm_numeric_id": 1569555747,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7938439&mlon=16.1494348#map=19/45.7938439/16.1494348",
+      "category": "poslovno",
+      "lat": 45.7938439,
+      "lon": 16.1494348,
+      "tags": {
+        "alt_name": "Kentucky Fried Chicken",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:wikidata": "Q524757",
+        "building": "retail",
+        "check_date": "2026-10-18",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "source": "https://osm.org/note/5587955"
       }
     }
   ]
