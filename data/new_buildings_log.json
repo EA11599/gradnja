@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19T08:29:39.360829+00:00",
+  "last_updated": "2026-10-20T08:12:03.660437+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -15044,6 +15044,32 @@
         "cuisine": "chicken",
         "name": "KFC",
         "source": "https://osm.org/note/5587955"
+      }
+    },
+    {
+      "detected_at": "2026-10-20T08:12:03.660437+00:00",
+      "id": "way/1569848887",
+      "osm_type": "way",
+      "osm_numeric_id": 1569848887,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7575275&mlon=16.1004493#map=19/45.7575275/16.1004493",
+      "category": "kuce",
+      "lat": 45.7575275,
+      "lon": 16.1004493,
+      "tags": {
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-10-20T08:12:03.660437+00:00",
+      "id": "way/1569848888",
+      "osm_type": "way",
+      "osm_numeric_id": 1569848888,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7573401&mlon=16.1005107#map=19/45.7573401/16.1005107",
+      "category": "kuce",
+      "lat": 45.7573401,
+      "lon": 16.1005107,
+      "tags": {
+        "building": "house"
       }
     }
   ]
