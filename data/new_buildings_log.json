@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T08:12:03.660437+00:00",
+  "last_updated": "2026-10-23T08:14:49.181835+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -15070,6 +15070,26 @@
       "lon": 16.1005107,
       "tags": {
         "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-10-23T08:14:49.181835+00:00",
+      "id": "way/1570617631",
+      "osm_type": "way",
+      "osm_numeric_id": 1570617631,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7508109&mlon=15.8033206#map=19/45.7508109/15.8033206",
+      "category": "kuce",
+      "lat": 45.7508109,
+      "lon": 15.8033206,
+      "tags": {
+        "addr:city": "Kalinovica",
+        "addr:housenumber": "19C",
+        "addr:postcode": "10436",
+        "addr:street": "Puhali",
+        "building": "house",
+        "building:levels": "2",
+        "height": "7.80",
+        "house": "terraced"
       }
     }
   ]
