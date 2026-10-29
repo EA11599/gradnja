@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T09:18:29.835506+00:00",
+  "last_updated": "2026-10-29T09:19:24.025263+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23187,6 +23187,21 @@
         "addr:street": "Ulica Slavka Kolara",
         "building": "yes",
         "building:levels": "6"
+      }
+    },
+    {
+      "detected_at": "2026-10-29T09:19:24.025263+00:00",
+      "id": "way/1572938242",
+      "osm_type": "way",
+      "osm_numeric_id": 1572938242,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7869105&mlon=15.9293109#map=19/45.7869105/15.9293109",
+      "category": "ostalo",
+      "lat": 45.7869105,
+      "lon": 15.9293109,
+      "tags": {
+        "building": "service",
+        "power": "substation",
+        "substation": "minor_distribution"
       }
     }
   ]
