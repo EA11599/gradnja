@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T09:19:24.025263+00:00",
+  "last_updated": "2026-10-31T09:16:28.379613+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23202,6 +23202,123 @@
         "building": "service",
         "power": "substation",
         "substation": "minor_distribution"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573656855",
+      "osm_type": "way",
+      "osm_numeric_id": 1573656855,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8587076&mlon=15.8005661#map=19/45.8587076/15.8005661",
+      "category": "nepoznato",
+      "lat": 45.8587076,
+      "lon": 15.8005661,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573656856",
+      "osm_type": "way",
+      "osm_numeric_id": 1573656856,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8595568&mlon=15.8010118#map=19/45.8595568/15.8010118",
+      "category": "nepoznato",
+      "lat": 45.8595568,
+      "lon": 15.8010118,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573656857",
+      "osm_type": "way",
+      "osm_numeric_id": 1573656857,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8597462&mlon=15.8003055#map=19/45.8597462/15.8003055",
+      "category": "nepoznato",
+      "lat": 45.8597462,
+      "lon": 15.8003055,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573656858",
+      "osm_type": "way",
+      "osm_numeric_id": 1573656858,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.859655&mlon=15.8003943#map=19/45.859655/15.8003943",
+      "category": "nepoznato",
+      "lat": 45.859655,
+      "lon": 15.8003943,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573731298",
+      "osm_type": "way",
+      "osm_numeric_id": 1573731298,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8572896&mlon=15.8015861#map=19/45.8572896/15.8015861",
+      "category": "nepoznato",
+      "lat": 45.8572896,
+      "lon": 15.8015861,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573731299",
+      "osm_type": "way",
+      "osm_numeric_id": 1573731299,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8570574&mlon=15.8015038#map=19/45.8570574/15.8015038",
+      "category": "nepoznato",
+      "lat": 45.8570574,
+      "lon": 15.8015038,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573731300",
+      "osm_type": "way",
+      "osm_numeric_id": 1573731300,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8570989&mlon=15.8017747#map=19/45.8570989/15.8017747",
+      "category": "nepoznato",
+      "lat": 45.8570989,
+      "lon": 15.8017747,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573731315",
+      "osm_type": "way",
+      "osm_numeric_id": 1573731315,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8571721&mlon=15.8019306#map=19/45.8571721/15.8019306",
+      "category": "nepoznato",
+      "lat": 45.8571721,
+      "lon": 15.8019306,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-10-31T09:16:28.379613+00:00",
+      "id": "way/1573731317",
+      "osm_type": "way",
+      "osm_numeric_id": 1573731317,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8575899&mlon=15.8020957#map=19/45.8575899/15.8020957",
+      "category": "nepoznato",
+      "lat": 45.8575899,
+      "lon": 15.8020957,
+      "tags": {
+        "building": "yes"
       }
     }
   ]
