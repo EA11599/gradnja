@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-31T09:16:28.379613+00:00",
+  "last_updated": "2026-11-01T10:04:02.586646+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23317,6 +23317,78 @@
       "category": "nepoznato",
       "lat": 45.8575899,
       "lon": 15.8020957,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-01T10:04:02.586646+00:00",
+      "id": "way/1573936893",
+      "osm_type": "way",
+      "osm_numeric_id": 1573936893,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8118468&mlon=15.9845522#map=19/45.8118468/15.9845522",
+      "category": "ostalo",
+      "lat": 45.8118468,
+      "lon": 15.9845522,
+      "tags": {
+        "architect:wikidata": "Q1266191;Q960450",
+        "building": "government",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "mapillary": "3929526110470415",
+        "ref:hr:uzkb": "Z-0225",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-11-01T10:04:02.586646+00:00",
+      "id": "way/1574024907",
+      "osm_type": "way",
+      "osm_numeric_id": 1574024907,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7990576&mlon=15.9903274#map=19/45.7990576/15.9903274",
+      "category": "garaze",
+      "lat": 45.7990576,
+      "lon": 15.9903274,
+      "tags": {
+        "building": "garage"
+      }
+    },
+    {
+      "detected_at": "2026-11-01T10:04:02.586646+00:00",
+      "id": "way/1574034181",
+      "osm_type": "way",
+      "osm_numeric_id": 1574034181,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7982496&mlon=16.1445788#map=19/45.7982496/16.1445788",
+      "category": "nepoznato",
+      "lat": 45.7982496,
+      "lon": 16.1445788,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-01T10:04:02.586646+00:00",
+      "id": "way/1574034512",
+      "osm_type": "way",
+      "osm_numeric_id": 1574034512,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7963482&mlon=16.1388754#map=19/45.7963482/16.1388754",
+      "category": "nepoznato",
+      "lat": 45.7963482,
+      "lon": 16.1388754,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-01T10:04:02.586646+00:00",
+      "id": "way/1574035580",
+      "osm_type": "way",
+      "osm_numeric_id": 1574035580,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7958153&mlon=16.1406376#map=19/45.7958153/16.1406376",
+      "category": "nepoznato",
+      "lat": 45.7958153,
+      "lon": 16.1406376,
       "tags": {
         "building": "yes"
       }
