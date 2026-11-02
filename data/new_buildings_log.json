@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T10:04:02.586646+00:00",
+  "last_updated": "2026-11-02T10:32:11.890534+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23391,6 +23391,70 @@
       "lon": 16.1406376,
       "tags": {
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-02T10:32:11.890534+00:00",
+      "id": "way/1574428027",
+      "osm_type": "way",
+      "osm_numeric_id": 1574428027,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8087465&mlon=15.9412943#map=19/45.8087465/15.9412943",
+      "category": "nepoznato",
+      "lat": 45.8087465,
+      "lon": 15.9412943,
+      "tags": {
+        "addr:housenumber": "30A",
+        "addr:street": "Selska cesta",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22067206"
+      }
+    },
+    {
+      "detected_at": "2026-11-02T10:32:11.890534+00:00",
+      "id": "way/1574428533",
+      "osm_type": "way",
+      "osm_numeric_id": 1574428533,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8090292&mlon=15.9411914#map=19/45.8090292/15.9411914",
+      "category": "nepoznato",
+      "lat": 45.8090292,
+      "lon": 15.9411914,
+      "tags": {
+        "addr:housenumber": "30B",
+        "addr:street": "Selska cesta",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22067205"
+      }
+    },
+    {
+      "detected_at": "2026-11-02T10:32:11.890534+00:00",
+      "id": "way/1574429697",
+      "osm_type": "way",
+      "osm_numeric_id": 1574429697,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8088675&mlon=15.9411321#map=19/45.8088675/15.9411321",
+      "category": "nepoznato",
+      "lat": 45.8088675,
+      "lon": 15.9411321,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-02T10:32:11.890534+00:00",
+      "id": "way/615217094",
+      "osm_type": "way",
+      "osm_numeric_id": 615217094,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8074059&mlon=15.94241#map=19/45.8074059/15.94241",
+      "category": "stambene",
+      "lat": 45.8074059,
+      "lon": 15.94241,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "48",
+        "addr:postcode": "10000",
+        "addr:street": "Selska cesta",
+        "building": "apartments",
+        "panoramax": "e079d379-e626-4f83-9638-c8eb4f1c18a8",
+        "ref:HR:kucni_broj": "2197005948"
       }
     }
   ]
