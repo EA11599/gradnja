@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T10:32:11.890534+00:00",
+  "last_updated": "2026-11-03T10:27:31.752105+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23455,6 +23455,37 @@
         "building": "apartments",
         "panoramax": "e079d379-e626-4f83-9638-c8eb4f1c18a8",
         "ref:HR:kucni_broj": "2197005948"
+      }
+    },
+    {
+      "detected_at": "2026-11-03T10:27:31.752105+00:00",
+      "id": "way/1574446864",
+      "osm_type": "way",
+      "osm_numeric_id": 1574446864,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8081921&mlon=15.9224718#map=19/45.8081921/15.9224718",
+      "category": "kuce",
+      "lat": 45.8081921,
+      "lon": 15.9224718,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "Mariborska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22069433"
+      }
+    },
+    {
+      "detected_at": "2026-11-03T10:27:31.752105+00:00",
+      "id": "way/1574777349",
+      "osm_type": "way",
+      "osm_numeric_id": 1574777349,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8414811&mlon=16.0444752#map=19/45.8414811/16.0444752",
+      "category": "nepoznato",
+      "lat": 45.8414811,
+      "lon": 16.0444752,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Korablja"
       }
     }
   ]
