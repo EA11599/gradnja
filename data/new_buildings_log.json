@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-03T10:27:31.752105+00:00",
+  "last_updated": "2026-11-05T10:19:26.831579+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23486,6 +23486,191 @@
         "amenity": "restaurant",
         "building": "yes",
         "name": "Korablja"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575318683",
+      "osm_type": "way",
+      "osm_numeric_id": 1575318683,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8193447&mlon=15.9626721#map=19/45.8193447/15.9626721",
+      "category": "nepoznato",
+      "lat": 45.8193447,
+      "lon": 15.9626721,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Ulica Josipa Kozarca",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22075935",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575325414",
+      "osm_type": "way",
+      "osm_numeric_id": 1575325414,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8002843&mlon=15.9674518#map=19/45.8002843/15.9674518",
+      "category": "nepoznato",
+      "lat": 45.8002843,
+      "lon": 15.9674518,
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:street": "Koranska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22074969"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575326615",
+      "osm_type": "way",
+      "osm_numeric_id": 1575326615,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8064035&mlon=15.9713367#map=19/45.8064035/15.9713367",
+      "category": "stambene",
+      "lat": 45.8064035,
+      "lon": 15.9713367,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Trg Marka Marulića",
+        "building": "apartments",
+        "building:levels": "4",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575327314",
+      "osm_type": "way",
+      "osm_numeric_id": 1575327314,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8069059&mlon=15.9712573#map=19/45.8069059/15.9712573",
+      "category": "stambene",
+      "lat": 45.8069059,
+      "lon": 15.9712573,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Trg Marka Marulića",
+        "building": "apartments",
+        "building:levels": "4",
+        "ref:HR:kucni_broj": "22071973",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575345996",
+      "osm_type": "way",
+      "osm_numeric_id": 1575345996,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8058443&mlon=15.9714489#map=19/45.8058443/15.9714489",
+      "category": "nepoznato",
+      "lat": 45.8058443,
+      "lon": 15.9714489,
+      "tags": {
+        "addr:housenumber": "38/1",
+        "addr:street": "Mihanovićeva ulica",
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575524783",
+      "osm_type": "way",
+      "osm_numeric_id": 1575524783,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7850921&mlon=15.9285743#map=19/45.7850921/15.9285743",
+      "category": "stambene",
+      "lat": 45.7850921,
+      "lon": 15.9285743,
+      "tags": {
+        "building": "apartments",
+        "building:flats": "162",
+        "height": "17.5"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575587711",
+      "osm_type": "way",
+      "osm_numeric_id": 1575587711,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7930095&mlon=15.9383104#map=19/45.7930095/15.9383104",
+      "category": "kuce",
+      "lat": 45.7930095,
+      "lon": 15.9383104,
+      "tags": {
+        "addr:housenumber": "25",
+        "addr:street": "Vrbnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22097921"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575587712",
+      "osm_type": "way",
+      "osm_numeric_id": 1575587712,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7933362&mlon=15.9383311#map=19/45.7933362/15.9383311",
+      "category": "kuce",
+      "lat": 45.7933362,
+      "lon": 15.9383311,
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:street": "Dobrinjska ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22097915",
+        "ref:HR:zgrada": "339270/37837"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575587713",
+      "osm_type": "way",
+      "osm_numeric_id": 1575587713,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7934884&mlon=15.9383644#map=19/45.7934884/15.9383644",
+      "category": "kuce",
+      "lat": 45.7934884,
+      "lon": 15.9383644,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Dobrinjska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22097916"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575587714",
+      "osm_type": "way",
+      "osm_numeric_id": 1575587714,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7933944&mlon=15.9383856#map=19/45.7933944/15.9383856",
+      "category": "kuce",
+      "lat": 45.7933944,
+      "lon": 15.9383856,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Vrbnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22097918"
+      }
+    },
+    {
+      "detected_at": "2026-11-05T10:19:26.831579+00:00",
+      "id": "way/1575587715",
+      "osm_type": "way",
+      "osm_numeric_id": 1575587715,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7923241&mlon=15.9384442#map=19/45.7923241/15.9384442",
+      "category": "kuce",
+      "lat": 45.7923241,
+      "lon": 15.9384442,
+      "tags": {
+        "addr:housenumber": "10A",
+        "addr:street": "Vrbnička ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22098632",
+        "ref:HR:zgrada": "339270/36892"
       }
     }
   ]
