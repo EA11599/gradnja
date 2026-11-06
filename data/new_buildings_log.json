@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T10:19:26.831579+00:00",
+  "last_updated": "2026-11-06T10:22:39.232161+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23671,6 +23671,247 @@
         "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
         "ref:HR:kucni_broj": "22098632",
         "ref:HR:zgrada": "339270/36892"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575941496",
+      "osm_type": "way",
+      "osm_numeric_id": 1575941496,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7903495&mlon=15.9341114#map=19/45.7903495/15.9341114",
+      "category": "kuce",
+      "lat": 45.7903495,
+      "lon": 15.9341114,
+      "tags": {
+        "addr:housenumber": "43",
+        "addr:street": "Koprivnička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22135623"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575941497",
+      "osm_type": "way",
+      "osm_numeric_id": 1575941497,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7904574&mlon=15.9346695#map=19/45.7904574/15.9346695",
+      "category": "kuce",
+      "lat": 45.7904574,
+      "lon": 15.9346695,
+      "tags": {
+        "addr:housenumber": "8",
+        "addr:street": "Granička ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22096200"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575941498",
+      "osm_type": "way",
+      "osm_numeric_id": 1575941498,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7912933&mlon=15.9352567#map=19/45.7912933/15.9352567",
+      "category": "kuce",
+      "lat": 45.7912933,
+      "lon": 15.9352567,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Vojakovačka ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22096153",
+        "ref:HR:zgrada": "335614/2211"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575941499",
+      "osm_type": "way",
+      "osm_numeric_id": 1575941499,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7913762&mlon=15.9352217#map=19/45.7913762/15.9352217",
+      "category": "kuce",
+      "lat": 45.7913762,
+      "lon": 15.9352217,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "Vojakovačka ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22096154",
+        "ref:HR:zgrada": "335614/7824"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575941500",
+      "osm_type": "way",
+      "osm_numeric_id": 1575941500,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7918117&mlon=15.9350534#map=19/45.7918117/15.9350534",
+      "category": "kuce",
+      "lat": 45.7918117,
+      "lon": 15.9350534,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Vojakovačka ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22096159"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575943251",
+      "osm_type": "way",
+      "osm_numeric_id": 1575943251,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7923617&mlon=15.9348468#map=19/45.7923617/15.9348468",
+      "category": "kuce",
+      "lat": 45.7923617,
+      "lon": 15.9348468,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "Vojakovačka ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22097334",
+        "ref:HR:zgrada": "335614/8062"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575943252",
+      "osm_type": "way",
+      "osm_numeric_id": 1575943252,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7926836&mlon=15.9346704#map=19/45.7926836/15.9346704",
+      "category": "kuce",
+      "lat": 45.7926836,
+      "lon": 15.9346704,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Vojakovačka ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22096255",
+        "ref:HR:zgrada": "335614/1982"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575943253",
+      "osm_type": "way",
+      "osm_numeric_id": 1575943253,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7925429&mlon=15.9334054#map=19/45.7925429/15.9334054",
+      "category": "kuce",
+      "lat": 45.7925429,
+      "lon": 15.9334054,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "Koprivnička ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22097050",
+        "ref:HR:zgrada": "335614/757"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575943254",
+      "osm_type": "way",
+      "osm_numeric_id": 1575943254,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7922923&mlon=15.9343395#map=19/45.7922923/15.9343395",
+      "category": "nepoznato",
+      "lat": 45.7922923,
+      "lon": 15.9343395,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Svibanjska ulica",
+        "building": "yes",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22096705",
+        "ref:HR:zgrada": "335614/2969"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575944787",
+      "osm_type": "way",
+      "osm_numeric_id": 1575944787,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7899221&mlon=15.9332825#map=19/45.7899221/15.9332825",
+      "category": "kuce",
+      "lat": 45.7899221,
+      "lon": 15.9332825,
+      "tags": {
+        "addr:housenumber": "3A",
+        "addr:street": "Trogirska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22096193"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575944788",
+      "osm_type": "way",
+      "osm_numeric_id": 1575944788,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7897231&mlon=15.9338378#map=19/45.7897231/15.9338378",
+      "category": "nepoznato",
+      "lat": 45.7897231,
+      "lon": 15.9338378,
+      "tags": {
+        "addr:housenumber": "76",
+        "addr:street": "Koprivnička ulica",
+        "building": "yes",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22097203",
+        "ref:HR:zgrada": "335614/482"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575950145",
+      "osm_type": "way",
+      "osm_numeric_id": 1575950145,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7947219&mlon=15.9115434#map=19/45.7947219/15.9115434",
+      "category": "stambene",
+      "lat": 45.7947219,
+      "lon": 15.9115434,
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "Cirkovljanska ulica",
+        "building": "apartments",
+        "ref:HR:kucni_broj": "22095924",
+        "ref:HR:zgrada": "339318/1342"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575953319",
+      "osm_type": "way",
+      "osm_numeric_id": 1575953319,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7945039&mlon=15.9037906#map=19/45.7945039/15.9037906",
+      "category": "kuce",
+      "lat": 45.7945039,
+      "lon": 15.9037906,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Beethovenova ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22095858"
+      }
+    },
+    {
+      "detected_at": "2026-11-06T10:22:39.232161+00:00",
+      "id": "way/1575953320",
+      "osm_type": "way",
+      "osm_numeric_id": 1575953320,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.794883&mlon=15.9039359#map=19/45.794883/15.9039359",
+      "category": "nepoznato",
+      "lat": 45.794883,
+      "lon": 15.9039359,
+      "tags": {
+        "addr:housenumber": "24",
+        "addr:street": "Beethovenova ulica",
+        "building": "yes",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22133244",
+        "ref:HR:zgrada": "339318/1177"
       }
     }
   ]
