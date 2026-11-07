@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-06T10:22:39.232161+00:00",
+  "last_updated": "2026-11-07T09:37:07.702297+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -23912,6 +23912,159 @@
         "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
         "ref:HR:kucni_broj": "22133244",
         "ref:HR:zgrada": "339318/1177"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576039763",
+      "osm_type": "way",
+      "osm_numeric_id": 1576039763,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7869719&mlon=15.9272281#map=19/45.7869719/15.9272281",
+      "category": "ostalo",
+      "lat": 45.7869719,
+      "lon": 15.9272281,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "Jarun",
+        "building": "civic",
+        "ref:HR:kucni_broj": "22096500",
+        "ref:HR:zgrada": "335614/3048"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576039764",
+      "osm_type": "way",
+      "osm_numeric_id": 1576039764,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.786624&mlon=15.9270869#map=19/45.786624/15.9270869",
+      "category": "kuce",
+      "lat": 45.786624,
+      "lon": 15.9270869,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Ravnogorska ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22097526",
+        "ref:HR:zgrada": "335614/8088"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576117441",
+      "osm_type": "way",
+      "osm_numeric_id": 1576117441,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8300923&mlon=15.984979#map=19/45.8300923/15.984979",
+      "category": "kuce",
+      "lat": 45.8300923,
+      "lon": 15.984979,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "16",
+        "addr:postcode": "10000",
+        "addr:street": "Zmajevac",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576117442",
+      "osm_type": "way",
+      "osm_numeric_id": 1576117442,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.830068&mlon=15.9848473#map=19/45.830068/15.9848473",
+      "category": "kuce",
+      "lat": 45.830068,
+      "lon": 15.9848473,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "14",
+        "addr:postcode": "10000",
+        "addr:street": "Zmajevac",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576117443",
+      "osm_type": "way",
+      "osm_numeric_id": 1576117443,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8300487&mlon=15.9847142#map=19/45.8300487/15.9847142",
+      "category": "kuce",
+      "lat": 45.8300487,
+      "lon": 15.9847142,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "12",
+        "addr:postcode": "10000",
+        "addr:street": "Zmajevac",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576117444",
+      "osm_type": "way",
+      "osm_numeric_id": 1576117444,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8299887&mlon=15.9846006#map=19/45.8299887/15.9846006",
+      "category": "kuce",
+      "lat": 45.8299887,
+      "lon": 15.9846006,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "10",
+        "addr:postcode": "10000",
+        "addr:street": "Zmajevac",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576221172",
+      "osm_type": "way",
+      "osm_numeric_id": 1576221172,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7991605&mlon=15.8948417#map=19/45.7991605/15.8948417",
+      "category": "nepoznato",
+      "lat": 45.7991605,
+      "lon": 15.8948417,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Maršanići",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22059994",
+        "ref:HR:zgrada": "339318/2845"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576222113",
+      "osm_type": "way",
+      "osm_numeric_id": 1576222113,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7985644&mlon=15.8979534#map=19/45.7985644/15.8979534",
+      "category": "stambene",
+      "lat": 45.7985644,
+      "lon": 15.8979534,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Martinci",
+        "building": "apartments",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "2135931081",
+        "ref:HR:zgrada": "339318/3407"
+      }
+    },
+    {
+      "detected_at": "2026-11-07T09:37:07.702297+00:00",
+      "id": "way/1576222114",
+      "osm_type": "way",
+      "osm_numeric_id": 1576222114,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7983236&mlon=15.8967273#map=19/45.7983236/15.8967273",
+      "category": "stambene",
+      "lat": 45.7983236,
+      "lon": 15.8967273,
+      "tags": {
+        "building": "apartments",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:zgrada": "339318/3436"
       }
     }
   ]
