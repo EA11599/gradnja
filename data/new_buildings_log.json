@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08T09:51:38.901209+00:00",
+  "last_updated": "2026-11-09T10:53:55.174813+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -24293,6 +24293,250 @@
         "addr:postcode": "10109",
         "addr:street": "Selska cesta",
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "relation/21934948",
+      "osm_type": "relation",
+      "osm_numeric_id": 21934948,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8113091&mlon=15.9830858#map=19/45.8113091/15.9830858",
+      "category": "nepoznato",
+      "lat": 45.8113091,
+      "lon": 15.9830858,
+      "tags": {
+        "building": "yes",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "relation/21934949",
+      "osm_type": "relation",
+      "osm_numeric_id": 21934949,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8109271&mlon=15.9831163#map=19/45.8109271/15.9831163",
+      "category": "stambene",
+      "lat": 45.8109271,
+      "lon": 15.9831163,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:postcode": "10000",
+        "building": "apartments",
+        "mapillary": "184658650186940",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576733694",
+      "osm_type": "way",
+      "osm_numeric_id": 1576733694,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8104543&mlon=15.9820453#map=19/45.8104543/15.9820453",
+      "category": "stambene",
+      "lat": 45.8104543,
+      "lon": 15.9820453,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Palmotićeva ulica",
+        "building": "apartments",
+        "ref:HR:kucni_broj": "22079915",
+        "ref:HR:zgrada": "339164/2884"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576800375",
+      "osm_type": "way",
+      "osm_numeric_id": 1576800375,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8115763&mlon=15.9849117#map=19/45.8115763/15.9849117",
+      "category": "nepoznato",
+      "lat": 45.8115763,
+      "lon": 15.9849117,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "3",
+        "addr:postcode": "10000",
+        "addr:street": "Ulica Račkoga",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22081237"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576911043",
+      "osm_type": "way",
+      "osm_numeric_id": 1576911043,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8104304&mlon=15.9884573#map=19/45.8104304/15.9884573",
+      "category": "nepoznato",
+      "lat": 45.8104304,
+      "lon": 15.9884573,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576911044",
+      "osm_type": "way",
+      "osm_numeric_id": 1576911044,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8103277&mlon=15.9885415#map=19/45.8103277/15.9885415",
+      "category": "nepoznato",
+      "lat": 45.8103277,
+      "lon": 15.9885415,
+      "tags": {
+        "addr:housenumber": "1/1",
+        "addr:street": "Ulica kralja Zvonimira",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22079528"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576911045",
+      "osm_type": "way",
+      "osm_numeric_id": 1576911045,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8105592&mlon=15.9885534#map=19/45.8105592/15.9885534",
+      "category": "nepoznato",
+      "lat": 45.8105592,
+      "lon": 15.9885534,
+      "tags": {
+        "building": "yes",
+        "ref:HR:zgrada": "339164/7656"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576911046",
+      "osm_type": "way",
+      "osm_numeric_id": 1576911046,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8104027&mlon=15.9889272#map=19/45.8104027/15.9889272",
+      "category": "nepoznato",
+      "lat": 45.8104027,
+      "lon": 15.9889272,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918008",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918008,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8148817&mlon=15.9885914#map=19/45.8148817/15.9885914",
+      "category": "nepoznato",
+      "lat": 45.8148817,
+      "lon": 15.9885914,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918009",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918009,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.814232&mlon=15.9890584#map=19/45.814232/15.9890584",
+      "category": "nepoznato",
+      "lat": 45.814232,
+      "lon": 15.9890584,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918010",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918010,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8169266&mlon=15.9900522#map=19/45.8169266/15.9900522",
+      "category": "nepoznato",
+      "lat": 45.8169266,
+      "lon": 15.9900522,
+      "tags": {
+        "addr:housenumber": "6",
+        "addr:street": "Ulica Josipa Jurja Posilovića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22079261"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918011",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918011,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8168686&mlon=15.9896656#map=19/45.8168686/15.9896656",
+      "category": "nepoznato",
+      "lat": 45.8168686,
+      "lon": 15.9896656,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Ulica Josipa Jurja Posilovića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22079259"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918012",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918012,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.816572&mlon=15.9898505#map=19/45.816572/15.9898505",
+      "category": "nepoznato",
+      "lat": 45.816572,
+      "lon": 15.9898505,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Ulica Josipa Jurja Posilovića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22079264"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918013",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918013,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.816664&mlon=15.9902263#map=19/45.816664/15.9902263",
+      "category": "nepoznato",
+      "lat": 45.816664,
+      "lon": 15.9902263,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Ulica Josipa Jurja Posilovića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22079266"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918014",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918014,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8167268&mlon=15.9906201#map=19/45.8167268/15.9906201",
+      "category": "nepoznato",
+      "lat": 45.8167268,
+      "lon": 15.9906201,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Ulica Josipa Jurja Posilovića",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22080308"
+      }
+    },
+    {
+      "detected_at": "2026-11-09T10:53:55.174813+00:00",
+      "id": "way/1576918015",
+      "osm_type": "way",
+      "osm_numeric_id": 1576918015,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8171824&mlon=15.9902006#map=19/45.8171824/15.9902006",
+      "category": "nepoznato",
+      "lat": 45.8171824,
+      "lon": 15.9902006,
+      "tags": {
+        "addr:housenumber": "51",
+        "addr:street": "Voćarska cesta",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22081589"
       }
     }
   ]
