@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T10:53:55.174813+00:00",
+  "last_updated": "2026-11-10T10:45:58.355098+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -24537,6 +24537,53 @@
         "addr:street": "Voćarska cesta",
         "building": "yes",
         "ref:HR:kucni_broj": "22081589"
+      }
+    },
+    {
+      "detected_at": "2026-11-10T10:45:58.355098+00:00",
+      "id": "way/1577296129",
+      "osm_type": "way",
+      "osm_numeric_id": 1577296129,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8096103&mlon=15.9885012#map=19/45.8096103/15.9885012",
+      "category": "nepoznato",
+      "lat": 45.8096103,
+      "lon": 15.9885012,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-10T10:45:58.355098+00:00",
+      "id": "way/1577296130",
+      "osm_type": "way",
+      "osm_numeric_id": 1577296130,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8066727&mlon=15.9810089#map=19/45.8066727/15.9810089",
+      "category": "nepoznato",
+      "lat": 45.8066727,
+      "lon": 15.9810089,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "77/1",
+        "addr:postcode": "10000",
+        "addr:street": "Petrinjska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2127337273"
+      }
+    },
+    {
+      "detected_at": "2026-11-10T10:45:58.355098+00:00",
+      "id": "way/1577298117",
+      "osm_type": "way",
+      "osm_numeric_id": 1577298117,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8089702&mlon=15.979903#map=19/45.8089702/15.979903",
+      "category": "nepoznato",
+      "lat": 45.8089702,
+      "lon": 15.979903,
+      "tags": {
+        "addr:housenumber": "28A",
+        "addr:street": "Petrinjska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22079680"
       }
     }
   ]
