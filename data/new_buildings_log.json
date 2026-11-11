@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T10:45:58.355098+00:00",
+  "last_updated": "2026-11-11T10:18:13.965628+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -24584,6 +24584,189 @@
         "addr:street": "Petrinjska ulica",
         "building": "yes",
         "ref:HR:kucni_broj": "22079680"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577505275",
+      "osm_type": "way",
+      "osm_numeric_id": 1577505275,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8055854&mlon=16.034599#map=19/45.8055854/16.034599",
+      "category": "stambene",
+      "lat": 45.8055854,
+      "lon": 16.034599,
+      "tags": {
+        "addr:street": "Ulica Marijana Čavića",
+        "building": "apartments",
+        "building:levels": "8"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577529848",
+      "osm_type": "way",
+      "osm_numeric_id": 1577529848,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8117023&mlon=15.9860216#map=19/45.8117023/15.9860216",
+      "category": "ostalo",
+      "lat": 45.8117023,
+      "lon": 15.9860216,
+      "tags": {
+        "building": "roof"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577529988",
+      "osm_type": "way",
+      "osm_numeric_id": 1577529988,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8118064&mlon=15.9860141#map=19/45.8118064/15.9860141",
+      "category": "ostalo",
+      "lat": 45.8118064,
+      "lon": 15.9860141,
+      "tags": {
+        "building": "roof"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577531179",
+      "osm_type": "way",
+      "osm_numeric_id": 1577531179,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8112109&mlon=15.9861774#map=19/45.8112109/15.9861774",
+      "category": "nepoznato",
+      "lat": 45.8112109,
+      "lon": 15.9861774,
+      "tags": {
+        "building": "yes",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577535077",
+      "osm_type": "way",
+      "osm_numeric_id": 1577535077,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8119187&mlon=15.986969#map=19/45.8119187/15.986969",
+      "category": "garaze",
+      "lat": 45.8119187,
+      "lon": 15.986969,
+      "tags": {
+        "building": "garage"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577578487",
+      "osm_type": "way",
+      "osm_numeric_id": 1577578487,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8015854&mlon=15.907025#map=19/45.8015854/15.907025",
+      "category": "stambene",
+      "lat": 45.8015854,
+      "lon": 15.907025,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "Pavlenski put",
+        "building": "apartments",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "2134353975",
+        "ref:HR:zgrada": "339318/8412"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577578488",
+      "osm_type": "way",
+      "osm_numeric_id": 1577578488,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8016811&mlon=15.907441#map=19/45.8016811/15.907441",
+      "category": "stambene",
+      "lat": 45.8016811,
+      "lon": 15.907441,
+      "tags": {
+        "addr:housenumber": "18",
+        "addr:street": "Pavlenski put",
+        "building": "apartments",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "2134353963",
+        "ref:HR:zgrada": "339318/8417"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577580189",
+      "osm_type": "way",
+      "osm_numeric_id": 1577580189,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7994529&mlon=15.9149993#map=19/45.7994529/15.9149993",
+      "category": "nepoznato",
+      "lat": 45.7994529,
+      "lon": 15.9149993,
+      "tags": {
+        "addr:housenumber": "61",
+        "addr:street": "Ratarska ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22060419"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577580190",
+      "osm_type": "way",
+      "osm_numeric_id": 1577580190,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.799382&mlon=15.9145369#map=19/45.799382/15.9145369",
+      "category": "nepoznato",
+      "lat": 45.799382,
+      "lon": 15.9145369,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577580191",
+      "osm_type": "way",
+      "osm_numeric_id": 1577580191,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7996976&mlon=15.9145129#map=19/45.7996976/15.9145129",
+      "category": "kuce",
+      "lat": 45.7996976,
+      "lon": 15.9145129,
+      "tags": {
+        "addr:housenumber": "64",
+        "addr:street": "Ratarska ulica",
+        "building": "house",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:kucni_broj": "22061121",
+        "ref:HR:zgrada": "339318/7141"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577583540",
+      "osm_type": "way",
+      "osm_numeric_id": 1577583540,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8134618&mlon=15.9748616#map=19/45.8134618/15.9748616",
+      "category": "nepoznato",
+      "lat": 45.8134618,
+      "lon": 15.9748616,
+      "tags": {
+        "addr:housenumber": "8/2",
+        "addr:street": "Ilica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22073741"
+      }
+    },
+    {
+      "detected_at": "2026-11-11T10:18:13.965628+00:00",
+      "id": "way/1577583541",
+      "osm_type": "way",
+      "osm_numeric_id": 1577583541,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8133319&mlon=15.9748142#map=19/45.8133319/15.9748142",
+      "category": "nepoznato",
+      "lat": 45.8133319,
+      "lon": 15.9748142,
+      "tags": {
+        "addr:housenumber": "8/1",
+        "addr:street": "Ilica",
+        "building": "yes"
       }
     }
   ]
