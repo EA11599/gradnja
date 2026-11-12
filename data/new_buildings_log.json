@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T10:18:13.965628+00:00",
+  "last_updated": "2026-11-12T10:38:14.264935+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -24767,6 +24767,128 @@
         "addr:housenumber": "8/1",
         "addr:street": "Ilica",
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-12T10:38:14.264935+00:00",
+      "id": "way/1577717412",
+      "osm_type": "way",
+      "osm_numeric_id": 1577717412,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7928191&mlon=15.9326629#map=19/45.7928191/15.9326629",
+      "category": "kuce",
+      "lat": 45.7928191,
+      "lon": 15.9326629,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "3",
+        "addr:postcode": "10104",
+        "addr:street": "Sudovečka ulica",
+        "building": "house",
+        "building:levels": "2"
+      }
+    },
+    {
+      "detected_at": "2026-11-12T10:38:14.264935+00:00",
+      "id": "way/1577717413",
+      "osm_type": "way",
+      "osm_numeric_id": 1577717413,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7929114&mlon=15.932615#map=19/45.7929114/15.932615",
+      "category": "kuce",
+      "lat": 45.7929114,
+      "lon": 15.932615,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "5",
+        "addr:postcode": "10104",
+        "addr:street": "Sudovečka ulica",
+        "building": "house",
+        "building:levels": "1",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-11-12T10:38:14.264935+00:00",
+      "id": "way/1577717414",
+      "osm_type": "way",
+      "osm_numeric_id": 1577717414,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7931548&mlon=15.9325672#map=19/45.7931548/15.9325672",
+      "category": "kuce",
+      "lat": 45.7931548,
+      "lon": 15.9325672,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "9",
+        "addr:postcode": "10104",
+        "addr:street": "Sudovečka ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-12T10:38:14.264935+00:00",
+      "id": "way/1577717415",
+      "osm_type": "way",
+      "osm_numeric_id": 1577717415,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7928924&mlon=15.9329156#map=19/45.7928924/15.9329156",
+      "category": "kuce",
+      "lat": 45.7928924,
+      "lon": 15.9329156,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "4",
+        "addr:postcode": "10104",
+        "addr:street": "Sudovečka ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-12T10:38:14.264935+00:00",
+      "id": "way/1577717416",
+      "osm_type": "way",
+      "osm_numeric_id": 1577717416,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7929702&mlon=15.9328746#map=19/45.7929702/15.9328746",
+      "category": "kuce",
+      "lat": 45.7929702,
+      "lon": 15.9328746,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "6",
+        "addr:postcode": "10104",
+        "addr:street": "Sudovečka ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-12T10:38:14.264935+00:00",
+      "id": "way/1577717417",
+      "osm_type": "way",
+      "osm_numeric_id": 1577717417,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7930875&mlon=15.9328359#map=19/45.7930875/15.9328359",
+      "category": "kuce",
+      "lat": 45.7930875,
+      "lon": 15.9328359,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "8",
+        "addr:postcode": "10104",
+        "addr:street": "Sudovečka ulica",
+        "building": "house"
+      }
+    },
+    {
+      "detected_at": "2026-11-12T10:38:14.264935+00:00",
+      "id": "way/1577717418",
+      "osm_type": "way",
+      "osm_numeric_id": 1577717418,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7931608&mlon=15.9328077#map=19/45.7931608/15.9328077",
+      "category": "kuce",
+      "lat": 45.7931608,
+      "lon": 15.9328077,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "10",
+        "addr:postcode": "10104",
+        "addr:street": "Sudovečka ulica",
+        "building": "house"
       }
     }
   ]
