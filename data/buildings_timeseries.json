@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T10:30:20.983299+00:00",
+  "last_updated": "2026-11-14T09:48:24.419434+00:00",
   "source": "Overpass API (overpass-api.de i mirroru)",
   "area_bbox": [
     45.75,
@@ -2072,6 +2072,22 @@
       "new_by_category": {
         "nepoznato": 1
       }
+    },
+    {
+      "timestamp": "2026-11-14T09:48:24.419434+00:00",
+      "total": 119421,
+      "new_since_last": 0,
+      "by_category": {
+        "ostalo": 8770,
+        "nepoznato": 76983,
+        "poslovno": 1514,
+        "stambene_procjena": 310,
+        "stambene": 5666,
+        "kuce": 25216,
+        "garaze": 795,
+        "kuce_procjena": 167
+      },
+      "new_by_category": {}
     }
   ]
 }
