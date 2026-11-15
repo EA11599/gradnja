@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-13T10:30:20.983299+00:00",
+  "last_updated": "2026-11-15T10:23:17.298324+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -24905,6 +24905,90 @@
         "addr:street": "Ulica Nikole Tesle",
         "building": "yes",
         "ref:HR:kucni_broj": "22073354"
+      }
+    },
+    {
+      "detected_at": "2026-11-15T10:23:17.298324+00:00",
+      "id": "way/1005285812",
+      "osm_type": "way",
+      "osm_numeric_id": 1005285812,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8108939&mlon=15.9736301#map=19/45.8108939/15.9736301",
+      "category": "nepoznato",
+      "lat": 45.8108939,
+      "lon": 15.9736301,
+      "tags": {
+        "addr:city": "Zagreb",
+        "addr:housenumber": "5",
+        "addr:postcode": "10000",
+        "addr:street": "Masarykova ulica",
+        "building": "yes",
+        "clothes": "women;wedding;design",
+        "contact:facebook": "https://www.facebook.com/hippygardenofficial/",
+        "contact:instagram": "https://www.instagram.com/hippygarden/",
+        "name": "HIPPY GARDEN SHOWROOM",
+        "opening_hours": "Mo-Fr 09:00-20:00 Sat 09:00-15:00",
+        "operator": "HIPPY d.o.o.",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "ref:zagreb:building_id": "202830",
+        "shop": "clothes",
+        "source:geometry": "Aerofotogrametrijsko i LiDAR snimanje 2012.",
+        "source:geometry:date": "2012-03-26",
+        "website": "https://www.hippygarden.net/en_US/"
+      }
+    },
+    {
+      "detected_at": "2026-11-15T10:23:17.298324+00:00",
+      "id": "way/1579295845",
+      "osm_type": "way",
+      "osm_numeric_id": 1579295845,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.75229&mlon=15.9381126#map=19/45.75229/15.9381126",
+      "category": "ostalo",
+      "lat": 45.75229,
+      "lon": 15.9381126,
+      "tags": {
+        "building": "chapel"
+      }
+    },
+    {
+      "detected_at": "2026-11-15T10:23:17.298324+00:00",
+      "id": "way/1579295846",
+      "osm_type": "way",
+      "osm_numeric_id": 1579295846,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7515473&mlon=15.9368429#map=19/45.7515473/15.9368429",
+      "category": "ostalo",
+      "lat": 45.7515473,
+      "lon": 15.9368429,
+      "tags": {
+        "building": "construction"
+      }
+    },
+    {
+      "detected_at": "2026-11-15T10:23:17.298324+00:00",
+      "id": "way/1579295847",
+      "osm_type": "way",
+      "osm_numeric_id": 1579295847,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7521455&mlon=15.9376679#map=19/45.7521455/15.9376679",
+      "category": "ostalo",
+      "lat": 45.7521455,
+      "lon": 15.9376679,
+      "tags": {
+        "building": "construction"
+      }
+    },
+    {
+      "detected_at": "2026-11-15T10:23:17.298324+00:00",
+      "id": "way/1579295848",
+      "osm_type": "way",
+      "osm_numeric_id": 1579295848,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7525262&mlon=15.9381404#map=19/45.7525262/15.9381404",
+      "category": "ostalo",
+      "lat": 45.7525262,
+      "lon": 15.9381404,
+      "tags": {
+        "building": "construction"
       }
     }
   ]
