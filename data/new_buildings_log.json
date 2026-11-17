@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-15T10:23:17.298324+00:00",
+  "last_updated": "2026-11-17T11:28:37.470103+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -24989,6 +24989,21 @@
       "lon": 15.9381404,
       "tags": {
         "building": "construction"
+      }
+    },
+    {
+      "detected_at": "2026-11-17T11:28:37.470103+00:00",
+      "id": "way/1580390592",
+      "osm_type": "way",
+      "osm_numeric_id": 1580390592,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.808576&mlon=15.9689036#map=19/45.808576/15.9689036",
+      "category": "nepoznato",
+      "lat": 45.808576,
+      "lon": 15.9689036,
+      "tags": {
+        "addr:housenumber": "8/1",
+        "addr:street": "Trg Republike Hrvatske",
+        "building": "yes"
       }
     }
   ]
