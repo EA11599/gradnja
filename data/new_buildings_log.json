@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T11:28:37.470103+00:00",
+  "last_updated": "2026-11-22T10:41:56.940652+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -25004,6 +25004,188 @@
         "addr:housenumber": "8/1",
         "addr:street": "Trg Republike Hrvatske",
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857713",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857713,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8071999&mlon=16.1154858#map=19/45.8071999/16.1154858",
+      "category": "kuce",
+      "lat": 45.8071999,
+      "lon": 16.1154858,
+      "tags": {
+        "building": "house",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857714",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857714,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8070899&mlon=16.1155701#map=19/45.8070899/16.1155701",
+      "category": "kuce",
+      "lat": 45.8070899,
+      "lon": 16.1155701,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "6",
+        "addr:postcode": "10360",
+        "addr:street": "Savska cesta III. odvojak",
+        "building": "house",
+        "building:levels": "1",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857715",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857715,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8069589&mlon=16.1157125#map=19/45.8069589/16.1157125",
+      "category": "kuce",
+      "lat": 45.8069589,
+      "lon": 16.1157125,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "8",
+        "addr:postcode": "10360",
+        "addr:street": "Savska cesta III. odvojak",
+        "building": "house",
+        "building:levels": "2",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857716",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857716,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8068947&mlon=16.1158089#map=19/45.8068947/16.1158089",
+      "category": "kuce",
+      "lat": 45.8068947,
+      "lon": 16.1158089,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "8",
+        "addr:postcode": "10360",
+        "addr:street": "Savska cesta III. odvojak",
+        "building": "house",
+        "building:levels": "2",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857717",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857717,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8068076&mlon=16.1158852#map=19/45.8068076/16.1158852",
+      "category": "kuce",
+      "lat": 45.8068076,
+      "lon": 16.1158852,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "10",
+        "addr:postcode": "10360",
+        "addr:street": "Savska cesta III. odvojak",
+        "building": "house",
+        "building:levels": "1",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857718",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857718,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8066157&mlon=16.1162051#map=19/45.8066157/16.1162051",
+      "category": "kuce",
+      "lat": 45.8066157,
+      "lon": 16.1162051,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "12",
+        "addr:postcode": "10360",
+        "addr:street": "Savska cesta III. odvojak",
+        "building": "house",
+        "building:levels": "1",
+        "house": "detached"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857719",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857719,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8066477&mlon=16.1160856#map=19/45.8066477/16.1160856",
+      "category": "garaze",
+      "lat": 45.8066477,
+      "lon": 16.1160856,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "12",
+        "addr:postcode": "10360",
+        "addr:street": "Savska cesta III. odvojak",
+        "building": "garage",
+        "layer": "-1"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857720",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857720,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8067363&mlon=16.1146724#map=19/45.8067363/16.1146724",
+      "category": "poslovno",
+      "lat": 45.8067363,
+      "lon": 16.1146724,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "11F",
+        "addr:postcode": "10360",
+        "addr:street": "Rimski put",
+        "building": "warehouse",
+        "building:levels": "2",
+        "name": "Trutina građevinski strojevi"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857721",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857721,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8067117&mlon=16.1150084#map=19/45.8067117/16.1150084",
+      "category": "ostalo",
+      "lat": 45.8067117,
+      "lon": 16.1150084,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "11F",
+        "addr:postcode": "10360",
+        "addr:street": "Rimski put",
+        "building": "guardhouse",
+        "building:levels": "1"
+      }
+    },
+    {
+      "detected_at": "2026-11-22T10:41:56.940652+00:00",
+      "id": "way/1582857722",
+      "osm_type": "way",
+      "osm_numeric_id": 1582857722,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8067384&mlon=16.1142209#map=19/45.8067384/16.1142209",
+      "category": "ostalo",
+      "lat": 45.8067384,
+      "lon": 16.1142209,
+      "tags": {
+        "addr:city": "Sesvete",
+        "addr:housenumber": "11F",
+        "addr:postcode": "10360",
+        "addr:street": "Rimski put",
+        "building": "outbuilding",
+        "building:levels": "1"
       }
     }
   ]
