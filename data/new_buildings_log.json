@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-22T10:41:56.940652+00:00",
+  "last_updated": "2026-11-23T11:47:07.999569+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -25186,6 +25186,77 @@
         "addr:street": "Rimski put",
         "building": "outbuilding",
         "building:levels": "1"
+      }
+    },
+    {
+      "detected_at": "2026-11-23T11:47:07.999569+00:00",
+      "id": "relation/22227977",
+      "osm_type": "relation",
+      "osm_numeric_id": 22227977,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8159431&mlon=15.9750515#map=19/45.8159431/15.9750515",
+      "category": "kuce_procjena",
+      "lat": 45.8159431,
+      "lon": 15.9750515,
+      "tags": {
+        "architect:wikidata": "Q17432446",
+        "building": "yes",
+        "building:levels": "2",
+        "heritage": "3",
+        "heritage:operator": "uzkb",
+        "panoramax": "5df4649a-a3a6-455a-83d3-8eb0b24de416",
+        "ref:hr:uzkb": "Z-1012",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "start_date": "early C17",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "detected_at": "2026-11-23T11:47:07.999569+00:00",
+      "id": "way/1583397438",
+      "osm_type": "way",
+      "osm_numeric_id": 1583397438,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8253585&mlon=16.0460948#map=19/45.8253585/16.0460948",
+      "category": "kuce",
+      "lat": 45.8253585,
+      "lon": 16.0460948,
+      "tags": {
+        "addr:housenumber": "14",
+        "addr:street": "Kanarinska ulica",
+        "building": "house",
+        "ref:HR:kucni_broj": "22049052"
+      }
+    },
+    {
+      "detected_at": "2026-11-23T11:47:07.999569+00:00",
+      "id": "way/1583417291",
+      "osm_type": "way",
+      "osm_numeric_id": 1583417291,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8140071&mlon=15.9752132#map=19/45.8140071/15.9752132",
+      "category": "kuce",
+      "lat": 45.8140071,
+      "lon": 15.9752132,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Stube Ivana Zakmardija",
+        "building": "house",
+        "ref:HR:kucni_broj": "22074563"
+      }
+    },
+    {
+      "detected_at": "2026-11-23T11:47:07.999569+00:00",
+      "id": "way/1583417292",
+      "osm_type": "way",
+      "osm_numeric_id": 1583417292,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8156083&mlon=15.9753758#map=19/45.8156083/15.9753758",
+      "category": "kuce",
+      "lat": 45.8156083,
+      "lon": 15.9753758,
+      "tags": {
+        "addr:housenumber": "33",
+        "addr:street": "Ulica Pavla Radića",
+        "building": "house",
+        "ref:HR:kucni_broj": "22074022"
       }
     }
   ]
