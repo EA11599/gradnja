@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T11:47:07.999569+00:00",
+  "last_updated": "2026-11-24T13:16:19.435286+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -25257,6 +25257,51 @@
         "addr:street": "Ulica Pavla Radića",
         "building": "house",
         "ref:HR:kucni_broj": "22074022"
+      }
+    },
+    {
+      "detected_at": "2026-11-24T13:16:19.435286+00:00",
+      "id": "way/1583688743",
+      "osm_type": "way",
+      "osm_numeric_id": 1583688743,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8014895&mlon=15.9360688#map=19/45.8014895/15.9360688",
+      "category": "kuce",
+      "lat": 45.8014895,
+      "lon": 15.9360688,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "Harmička ulica",
+        "building": "house",
+        "panoramax": "d2901fba-6687-4f9e-81a5-9d4fb6fcc219"
+      }
+    },
+    {
+      "detected_at": "2026-11-24T13:16:19.435286+00:00",
+      "id": "way/1583805632",
+      "osm_type": "way",
+      "osm_numeric_id": 1583805632,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8107663&mlon=16.0170612#map=19/45.8107663/16.0170612",
+      "category": "poslovno",
+      "lat": 45.8107663,
+      "lon": 16.0170612,
+      "tags": {
+        "building": "commercial",
+        "fixme:building": "Provjeriti tip građevine jer DGU često griješi",
+        "ref:HR:zgrada": "335533/21251"
+      }
+    },
+    {
+      "detected_at": "2026-11-24T13:16:19.435286+00:00",
+      "id": "way/1583805638",
+      "osm_type": "way",
+      "osm_numeric_id": 1583805638,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8109369&mlon=16.0156131#map=19/45.8109369/16.0156131",
+      "category": "nepoznato",
+      "lat": 45.8109369,
+      "lon": 16.0156131,
+      "tags": {
+        "building": "yes",
+        "ref:HR:zgrada": "335533/2046"
       }
     }
   ]
