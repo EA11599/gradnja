@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T13:16:19.435286+00:00",
+  "last_updated": "2026-11-25T12:06:27.287885+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -25302,6 +25302,132 @@
       "tags": {
         "building": "yes",
         "ref:HR:zgrada": "335533/2046"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584234710",
+      "osm_type": "way",
+      "osm_numeric_id": 1584234710,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7957988&mlon=15.9360056#map=19/45.7957988/15.9360056",
+      "category": "nepoznato",
+      "lat": 45.7957988,
+      "lon": 15.9360056,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584234711",
+      "osm_type": "way",
+      "osm_numeric_id": 1584234711,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7943233&mlon=15.9360503#map=19/45.7943233/15.9360503",
+      "category": "nepoznato",
+      "lat": 45.7943233,
+      "lon": 15.9360503,
+      "tags": {
+        "addr:housenumber": "29",
+        "addr:street": "Đakovačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2164354392"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584234712",
+      "osm_type": "way",
+      "osm_numeric_id": 1584234712,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7949526&mlon=15.9351997#map=19/45.7949526/15.9351997",
+      "category": "ostalo",
+      "lat": 45.7949526,
+      "lon": 15.9351997,
+      "tags": {
+        "building": "maybe"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584234713",
+      "osm_type": "way",
+      "osm_numeric_id": 1584234713,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7950473&mlon=15.9352934#map=19/45.7950473/15.9352934",
+      "category": "nepoznato",
+      "lat": 45.7950473,
+      "lon": 15.9352934,
+      "tags": {
+        "addr:housenumber": "14/1",
+        "addr:street": "Đakovačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "2135469398"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584234714",
+      "osm_type": "way",
+      "osm_numeric_id": 1584234714,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7951483&mlon=15.935859#map=19/45.7951483/15.935859",
+      "category": "nepoznato",
+      "lat": 45.7951483,
+      "lon": 15.935859,
+      "tags": {
+        "addr:housenumber": "13",
+        "addr:street": "Đakovačka ulica",
+        "building": "yes",
+        "ref:HR:kucni_broj": "22097858"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584454793",
+      "osm_type": "way",
+      "osm_numeric_id": 1584454793,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8840974&mlon=15.8018347#map=19/45.8840974/15.8018347",
+      "category": "nepoznato",
+      "lat": 45.8840974,
+      "lon": 15.8018347,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584454794",
+      "osm_type": "way",
+      "osm_numeric_id": 1584454794,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8843895&mlon=15.802106#map=19/45.8843895/15.802106",
+      "category": "nepoznato",
+      "lat": 45.8843895,
+      "lon": 15.802106,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584454795",
+      "osm_type": "way",
+      "osm_numeric_id": 1584454795,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8846894&mlon=15.8020024#map=19/45.8846894/15.8020024",
+      "category": "nepoznato",
+      "lat": 45.8846894,
+      "lon": 15.8020024,
+      "tags": {
+        "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-25T12:06:27.287885+00:00",
+      "id": "way/1584454798",
+      "osm_type": "way",
+      "osm_numeric_id": 1584454798,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.8850553&mlon=15.8021986#map=19/45.8850553/15.8021986",
+      "category": "nepoznato",
+      "lat": 45.8850553,
+      "lon": 15.8021986,
+      "tags": {
+        "building": "yes"
       }
     }
   ]
