@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T12:06:27.287885+00:00",
+  "last_updated": "2026-11-26T11:53:42.220138+00:00",
   "category_labels": {
     "stambene": "Stambene zgrade",
     "kuce": "Kuće",
@@ -25428,6 +25428,88 @@
       "lon": 15.8021986,
       "tags": {
         "building": "yes"
+      }
+    },
+    {
+      "detected_at": "2026-11-26T11:53:42.220138+00:00",
+      "id": "way/1453172674",
+      "osm_type": "way",
+      "osm_numeric_id": 1453172674,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7906983&mlon=15.9470327#map=19/45.7906983/15.9470327",
+      "category": "poslovno",
+      "lat": 45.7906983,
+      "lon": 15.9470327,
+      "tags": {
+        "building": "commercial",
+        "building:levels": "1",
+        "height": "4",
+        "roof:shape": "flat"
+      }
+    },
+    {
+      "detected_at": "2026-11-26T11:53:42.220138+00:00",
+      "id": "way/295911004",
+      "osm_type": "way",
+      "osm_numeric_id": 295911004,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7905283&mlon=15.9467812#map=19/45.7905283/15.9467812",
+      "category": "stambene",
+      "lat": 45.7905283,
+      "lon": 15.9467812,
+      "tags": {
+        "building": "apartments",
+        "building:flats": "29",
+        "building:levels": "6",
+        "height": "16"
+      }
+    },
+    {
+      "detected_at": "2026-11-26T11:53:42.220138+00:00",
+      "id": "way/295911006",
+      "osm_type": "way",
+      "osm_numeric_id": 295911006,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7902472&mlon=15.9467774#map=19/45.7902472/15.9467774",
+      "category": "stambene",
+      "lat": 45.7902472,
+      "lon": 15.9467774,
+      "tags": {
+        "building": "apartments",
+        "building:flats": "29",
+        "building:levels": "6",
+        "height": "16"
+      }
+    },
+    {
+      "detected_at": "2026-11-26T11:53:42.220138+00:00",
+      "id": "way/295911007",
+      "osm_type": "way",
+      "osm_numeric_id": 295911007,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7908856&mlon=15.9467825#map=19/45.7908856/15.9467825",
+      "category": "stambene",
+      "lat": 45.7908856,
+      "lon": 15.9467825,
+      "tags": {
+        "building": "apartments",
+        "building:flats": "37",
+        "building:levels": "7",
+        "height": "21",
+        "roof:height": "3",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "detected_at": "2026-11-26T11:53:42.220138+00:00",
+      "id": "way/295911009",
+      "osm_type": "way",
+      "osm_numeric_id": 295911009,
+      "osm_url": "https://www.openstreetmap.org/?mlat=45.7911705&mlon=15.9467857#map=19/45.7911705/15.9467857",
+      "category": "stambene",
+      "lat": 45.7911705,
+      "lon": 15.9467857,
+      "tags": {
+        "building": "apartments",
+        "building:flats": "28",
+        "building:levels": "6",
+        "height": "16"
       }
     }
   ]
